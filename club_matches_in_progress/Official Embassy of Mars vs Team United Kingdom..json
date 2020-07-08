@@ -19,19 +19,20 @@
             "@id": "https://api.chess.com/pub/club/official-embassy-of-mars",
             "name": "Official Embassy of Mars",
             "url": "https://www.chess.com/club/official-embassy-of-mars",
-            "score": 13,
+            "score": 14.5,
             "players": [
                 {
                     "username": "aku895",
                     "stats": "https://api.chess.com/pub/player/aku895/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 1.12,
                     "status": "closed:fair_play_violations",
+                    "played_as_white": "timeout",
                     "board": "https://api.chess.com/pub/match/1140656/29"
                 },
                 {
                     "username": "amadeus68",
                     "stats": "https://api.chess.com/pub/player/amadeus68/stats",
-                    "timeout_percent": 5.91,
+                    "timeout_percent": 5.99,
                     "status": "premium",
                     "played_as_white": "win",
                     "played_as_black": "win",
@@ -40,7 +41,7 @@
                 {
                     "username": "anandfanpl",
                     "stats": "https://api.chess.com/pub/player/anandfanpl/stats",
-                    "timeout_percent": 1.64,
+                    "timeout_percent": 1.61,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1140656/5"
                 },
@@ -63,7 +64,7 @@
                 {
                     "username": "brunosantiago2",
                     "stats": "https://api.chess.com/pub/player/brunosantiago2/stats",
-                    "timeout_percent": 9.52,
+                    "timeout_percent": 9.38,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1140656/45"
                 },
@@ -84,14 +85,14 @@
                 {
                     "username": "chesspatzerpol",
                     "stats": "https://api.chess.com/pub/player/chesspatzerpol/stats",
-                    "timeout_percent": 1.35,
+                    "timeout_percent": 1.39,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1140656/28"
                 },
                 {
                     "username": "churchill5000",
                     "stats": "https://api.chess.com/pub/player/churchill5000/stats",
-                    "timeout_percent": 0.97,
+                    "timeout_percent": 0.96,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1140656/21"
                 },
@@ -105,7 +106,7 @@
                 {
                     "username": "dmitro74",
                     "stats": "https://api.chess.com/pub/player/dmitro74/stats",
-                    "timeout_percent": 2.88,
+                    "timeout_percent": 2.9,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1140656/2"
                 },
@@ -128,7 +129,7 @@
                 {
                     "username": "holasoyl",
                     "stats": "https://api.chess.com/pub/player/holasoyl/stats",
-                    "timeout_percent": 14.98,
+                    "timeout_percent": 9.05,
                     "status": "basic",
                     "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1140656/41"
@@ -136,14 +137,14 @@
                 {
                     "username": "jeanjuno",
                     "stats": "https://api.chess.com/pub/player/jeanjuno/stats",
-                    "timeout_percent": 2.7,
+                    "timeout_percent": 2.69,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1140656/19"
                 },
                 {
                     "username": "kaspichess1",
                     "stats": "https://api.chess.com/pub/player/kaspichess1/stats",
-                    "timeout_percent": 1.5,
+                    "timeout_percent": 1.49,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1140656/11"
                 },
@@ -186,7 +187,7 @@
                 {
                     "username": "mastermind9559",
                     "stats": "https://api.chess.com/pub/player/mastermind9559/stats",
-                    "timeout_percent": 3.05,
+                    "timeout_percent": 3.02,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1140656/42"
                 },
@@ -211,6 +212,7 @@
                     "stats": "https://api.chess.com/pub/player/nastyushechka/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_white": "repetition",
                     "board": "https://api.chess.com/pub/match/1140656/3"
                 },
                 {
@@ -230,14 +232,14 @@
                 {
                     "username": "onic92",
                     "stats": "https://api.chess.com/pub/player/onic92/stats",
-                    "timeout_percent": 6.28,
+                    "timeout_percent": 6.22,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1140656/36"
                 },
                 {
                     "username": "paulorenatomaciel",
                     "stats": "https://api.chess.com/pub/player/paulorenatomaciel/stats",
-                    "timeout_percent": 1.99,
+                    "timeout_percent": 2.03,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1140656/26"
                 },
@@ -258,21 +260,21 @@
                 {
                     "username": "rosenoire",
                     "stats": "https://api.chess.com/pub/player/rosenoire/stats",
-                    "timeout_percent": 2.88,
+                    "timeout_percent": 2.84,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1140656/37"
                 },
                 {
                     "username": "secretpenguin1550",
                     "stats": "https://api.chess.com/pub/player/secretpenguin1550/stats",
-                    "timeout_percent": 20.63,
+                    "timeout_percent": 20.5,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1140656/23"
                 },
                 {
                     "username": "silencjo",
                     "stats": "https://api.chess.com/pub/player/silencjo/stats",
-                    "timeout_percent": 5.15,
+                    "timeout_percent": 5.47,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1140656/34"
                 },
@@ -309,7 +311,7 @@
                 {
                     "username": "ufokosm777",
                     "stats": "https://api.chess.com/pub/player/ufokosm777/stats",
-                    "timeout_percent": 5.33,
+                    "timeout_percent": 5.23,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1140656/46"
                 },
@@ -332,7 +334,7 @@
                 {
                     "username": "yael_8",
                     "stats": "https://api.chess.com/pub/player/yael_8/stats",
-                    "timeout_percent": 8.33,
+                    "timeout_percent": 8.15,
                     "status": "basic",
                     "played_as_white": "win",
                     "played_as_black": "win",
@@ -350,6 +352,7 @@
                     "stats": "https://api.chess.com/pub/player/yuxuanchen/stats",
                     "timeout_percent": 0.43,
                     "status": "premium",
+                    "played_as_white": "win",
                     "played_as_black": "resigned",
                     "board": "https://api.chess.com/pub/match/1140656/40"
                 },
@@ -369,7 +372,7 @@
             "@id": "https://api.chess.com/pub/club/team-united-kingdom-1",
             "name": "Team United Kingdom.",
             "url": "https://www.chess.com/club/team-united-kingdom-1",
-            "score": 4,
+            "score": 5.5,
             "players": [
                 {
                     "username": "aj-read",
@@ -388,14 +391,14 @@
                 {
                     "username": "baspuk",
                     "stats": "https://api.chess.com/pub/player/baspuk/stats",
-                    "timeout_percent": 57.14,
+                    "timeout_percent": 56.1,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1140656/21"
                 },
                 {
                     "username": "bioinformagician",
                     "stats": "https://api.chess.com/pub/player/bioinformagician/stats",
-                    "timeout_percent": 0.54,
+                    "timeout_percent": 0.55,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1140656/20"
                 },
@@ -416,14 +419,14 @@
                 {
                     "username": "brianpeter",
                     "stats": "https://api.chess.com/pub/player/brianpeter/stats",
-                    "timeout_percent": 5.26,
+                    "timeout_percent": 5,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1140656/36"
                 },
                 {
                     "username": "chess92king",
                     "stats": "https://api.chess.com/pub/player/chess92king/stats",
-                    "timeout_percent": 71.88,
+                    "timeout_percent": 67.68,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1140656/46"
                 },
@@ -441,6 +444,7 @@
                     "stats": "https://api.chess.com/pub/player/ferrarifan27/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_black": "repetition",
                     "board": "https://api.chess.com/pub/match/1140656/3"
                 },
                 {
@@ -448,6 +452,7 @@
                     "stats": "https://api.chess.com/pub/player/gegsy/stats",
                     "timeout_percent": 0,
                     "status": "basic",
+                    "played_as_black": "win",
                     "board": "https://api.chess.com/pub/match/1140656/29"
                 },
                 {
@@ -468,7 +473,7 @@
                 {
                     "username": "horseychess",
                     "stats": "https://api.chess.com/pub/player/horseychess/stats",
-                    "timeout_percent": 2.35,
+                    "timeout_percent": 2.3,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1140656/2"
                 },
@@ -530,6 +535,7 @@
                     "stats": "https://api.chess.com/pub/player/novicet808/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_black": "checkmated",
                     "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1140656/40"
                 },
@@ -573,7 +579,7 @@
                 {
                     "username": "receptiveking",
                     "stats": "https://api.chess.com/pub/player/receptiveking/stats",
-                    "timeout_percent": 3.23,
+                    "timeout_percent": 3.13,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1140656/42"
                 },
@@ -605,7 +611,7 @@
                 {
                     "username": "seitz134",
                     "stats": "https://api.chess.com/pub/player/seitz134/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 1.3,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1140656/39"
                 },
@@ -633,7 +639,7 @@
                 {
                     "username": "strangemover",
                     "stats": "https://api.chess.com/pub/player/strangemover/stats",
-                    "timeout_percent": 0.63,
+                    "timeout_percent": 0.64,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1140656/4"
                 },
@@ -655,7 +661,7 @@
                 {
                     "username": "tdale95",
                     "stats": "https://api.chess.com/pub/player/tdale95/stats",
-                    "timeout_percent": 0.5,
+                    "timeout_percent": 0.49,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1140656/30"
                 },
@@ -683,7 +689,7 @@
                 {
                     "username": "vicountvonjames",
                     "stats": "https://api.chess.com/pub/player/vicountvonjames/stats",
-                    "timeout_percent": 4.35,
+                    "timeout_percent": 4.29,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1140656/37"
                 },

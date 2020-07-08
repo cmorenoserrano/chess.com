@@ -134,19 +134,11 @@ def generateLeagueTable(results, start_date, end_date):
     #components = final
     header = ['Position','Member','Points']
     data = []
-    '''for component in components:
-            if component["packageUrl"]["packageUrl"] is not None:
-                    current = component["packageUrl"]["packageUrl"]
-                    if component["recommendation"] is not None:
-                            no_violations = component["recommendation"]["remediation"]["versionChanges"][0]["data"]["component"]["packageUrl"]
-                            #non_failing = component["recommendation"]["remediation"]["versionChanges"][1]["data"]["component"]["packageUrl"]
-                    else:
-                            no_violations = "No recommendation available"
-                    aux = [current,no_violations]
-                    #aux = [current,no_violations,non_failing]
-                    data.append(aux)
-                    #print(data)
-    '''
+    for i in range(1,len(results)+1):
+        if results[i-1][1] > 0:
+            aux = [str(i),results[i-1][0],str(results[i-1][1])]
+            data.append(aux)
+    #print(data)
     pdf.print_chapter('League Table for Club Daily Matches',"")
     pdf.set_font('Times','',12)
     pdf.set_text_color(0,0,0)
@@ -154,7 +146,7 @@ def generateLeagueTable(results, start_date, end_date):
     pdf.multi_cell(0,7,instructions,0)
     pdf.ln(5)
     pdf.set_font('Times','',12)
-    pdf.dynamic_table(header,data)
+    pdf.fancy_table(header,data)
     pdf.output('./leagueTable.pdf', 'F')
     print("PDF generated -> leagueTable.pdf")
 

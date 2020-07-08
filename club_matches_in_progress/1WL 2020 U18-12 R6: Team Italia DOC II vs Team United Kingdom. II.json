@@ -52,7 +52,7 @@
                 {
                     "username": "garkysh",
                     "stats": "https://api.chess.com/pub/player/garkysh/stats",
-                    "timeout_percent": 28.04,
+                    "timeout_percent": 28.97,
                     "status": "closed:fair_play_violations",
                     "played_as_black": "win",
                     "played_as_white": "win",
@@ -97,7 +97,7 @@
                 {
                     "username": "napoli67",
                     "stats": "https://api.chess.com/pub/player/napoli67/stats",
-                    "timeout_percent": 15.38,
+                    "timeout_percent": 15,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1110828/8"
                 },
@@ -122,7 +122,7 @@
                 {
                     "username": "savi-xa",
                     "stats": "https://api.chess.com/pub/player/savi-xa/stats",
-                    "timeout_percent": 0.99,
+                    "timeout_percent": 0.98,
                     "status": "basic",
                     "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1110828/11"
@@ -170,7 +170,7 @@
                 {
                     "username": "bassybas",
                     "stats": "https://api.chess.com/pub/player/bassybas/stats",
-                    "timeout_percent": 8.33,
+                    "timeout_percent": 9.09,
                     "status": "basic",
                     "played_as_white": "resigned",
                     "played_as_black": "resigned",
@@ -179,7 +179,7 @@
                 {
                     "username": "crowded_house",
                     "stats": "https://api.chess.com/pub/player/crowded_house/stats",
-                    "timeout_percent": 3.57,
+                    "timeout_percent": 4,
                     "status": "basic",
                     "played_as_black": "agreed",
                     "played_as_white": "agreed",
@@ -206,7 +206,7 @@
                 {
                     "username": "joels188",
                     "stats": "https://api.chess.com/pub/player/joels188/stats",
-                    "timeout_percent": 11.43,
+                    "timeout_percent": 11.11,
                     "status": "basic",
                     "played_as_white": "agreed",
                     "played_as_black": "win",

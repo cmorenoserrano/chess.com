@@ -50,7 +50,7 @@
                 {
                     "username": "bioinformagician",
                     "stats": "https://api.chess.com/pub/player/bioinformagician/stats",
-                    "timeout_percent": 0.53,
+                    "timeout_percent": 0.55,
                     "status": "premium",
                     "played_as_black": "stalemate",
                     "played_as_white": "win",
@@ -68,7 +68,7 @@
                 {
                     "username": "joels188",
                     "stats": "https://api.chess.com/pub/player/joels188/stats",
-                    "timeout_percent": 11.43,
+                    "timeout_percent": 11.11,
                     "status": "basic",
                     "played_as_white": "agreed",
                     "played_as_black": "resigned",
@@ -140,7 +140,7 @@
                     "username": "albertwifi",
                     "stats": "https://api.chess.com/pub/player/albertwifi/stats",
                     "timeout_percent": 0,
-                    "status": "premium",
+                    "status": "basic",
                     "played_as_black": "resigned",
                     "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1106480/10"
@@ -182,7 +182,7 @@
                 {
                     "username": "mrcastells",
                     "stats": "https://api.chess.com/pub/player/mrcastells/stats",
-                    "timeout_percent": 5.15,
+                    "timeout_percent": 5.26,
                     "status": "basic",
                     "played_as_white": "stalemate",
                     "played_as_black": "resigned",
@@ -200,7 +200,7 @@
                 {
                     "username": "notspain",
                     "stats": "https://api.chess.com/pub/player/notspain/stats",
-                    "timeout_percent": 2.38,
+                    "timeout_percent": 2.27,
                     "status": "basic",
                     "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1106480/1"
@@ -208,7 +208,7 @@
                 {
                     "username": "olimpiadescat",
                     "stats": "https://api.chess.com/pub/player/olimpiadescat/stats",
-                    "timeout_percent": 9.09,
+                    "timeout_percent": 9.26,
                     "status": "closed:abuse",
                     "played_as_black": "win",
                     "played_as_white": "win",
@@ -217,7 +217,7 @@
                 {
                     "username": "psicologiacat",
                     "stats": "https://api.chess.com/pub/player/psicologiacat/stats",
-                    "timeout_percent": 17.65,
+                    "timeout_percent": 16.67,
                     "status": "basic",
                     "played_as_black": "win",
                     "played_as_white": "timeout",

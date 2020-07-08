@@ -39,7 +39,7 @@
                 {
                     "username": "bioinformagician",
                     "stats": "https://api.chess.com/pub/player/bioinformagician/stats",
-                    "timeout_percent": 0.53,
+                    "timeout_percent": 0.55,
                     "status": "premium",
                     "played_as_black": "stalemate",
                     "played_as_white": "resigned",
@@ -48,7 +48,7 @@
                 {
                     "username": "counor",
                     "stats": "https://api.chess.com/pub/player/counor/stats",
-                    "timeout_percent": 12.12,
+                    "timeout_percent": 12.9,
                     "status": "premium",
                     "played_as_black": "resigned",
                     "played_as_white": "win",
@@ -83,7 +83,7 @@
                 {
                     "username": "rb57",
                     "stats": "https://api.chess.com/pub/player/rb57/stats",
-                    "timeout_percent": 54.55,
+                    "timeout_percent": 58.06,
                     "status": "closed",
                     "played_as_black": "timeout",
                     "played_as_white": "win",
@@ -153,7 +153,7 @@
                 {
                     "username": "dtmajesty",
                     "stats": "https://api.chess.com/pub/player/dtmajesty/stats",
-                    "timeout_percent": 29.69,
+                    "timeout_percent": 30.16,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1106370/12"
                 },
@@ -212,7 +212,7 @@
                 {
                     "username": "pawnstormer2012",
                     "stats": "https://api.chess.com/pub/player/pawnstormer2012/stats",
-                    "timeout_percent": 0.7,
+                    "timeout_percent": 0.69,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1106370/1"
                 },
