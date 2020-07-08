@@ -20,7 +20,7 @@
             "@id": "https://api.chess.com/pub/club/team-birmingham",
             "name": "Team Birmingham",
             "url": "https://www.chess.com/club/team-birmingham",
-            "score": 8.5,
+            "score": 9,
             "players": [
                 {
                     "username": "danjones1729",
@@ -34,7 +34,7 @@
                 {
                     "username": "folkie",
                     "stats": "https://api.chess.com/pub/player/folkie/stats",
-                    "timeout_percent": 6.73,
+                    "timeout_percent": 6.67,
                     "status": "premium",
                     "played_as_white": "resigned",
                     "played_as_black": "resigned",
@@ -68,8 +68,9 @@
                 {
                     "username": "rimsky33",
                     "stats": "https://api.chess.com/pub/player/rimsky33/stats",
-                    "timeout_percent": 10.53,
+                    "timeout_percent": 10.26,
                     "status": "basic",
+                    "played_as_black": "stalemate",
                     "played_as_white": "checkmated",
                     "board": "https://api.chess.com/pub/match/1110830/6"
                 },
@@ -134,13 +135,14 @@
             "@id": "https://api.chess.com/pub/club/team-united-kingdom-1",
             "name": "Team United Kingdom.",
             "url": "https://www.chess.com/club/team-united-kingdom-1",
-            "score": 12.5,
+            "score": 13,
             "players": [
                 {
                     "username": "aj-read",
                     "stats": "https://api.chess.com/pub/player/aj-read/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_white": "stalemate",
                     "played_as_black": "win",
                     "board": "https://api.chess.com/pub/match/1110830/6"
                 },

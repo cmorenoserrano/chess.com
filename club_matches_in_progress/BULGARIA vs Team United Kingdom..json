@@ -18,7 +18,7 @@
             "@id": "https://api.chess.com/pub/club/bulgaria",
             "name": "BULGARIA",
             "url": "https://www.chess.com/club/bulgaria",
-            "score": 51.5,
+            "score": 52.5,
             "players": [
                 {
                     "username": "alcoh00l",
@@ -127,8 +127,8 @@
                     "stats": "https://api.chess.com/pub/player/dib16/stats",
                     "timeout_percent": 49.4,
                     "status": "basic",
-                    "played_as_black": "timeout",
                     "played_as_white": "timeout",
+                    "played_as_black": "timeout",
                     "board": "https://api.chess.com/pub/match/1134776/30"
                 },
                 {
@@ -698,6 +698,7 @@
                     "stats": "https://api.chess.com/pub/player/wshadow/stats",
                     "timeout_percent": 0,
                     "status": "basic",
+                    "played_as_white": "win",
                     "played_as_black": "win",
                     "board": "https://api.chess.com/pub/match/1134776/38"
                 },
@@ -1431,6 +1432,7 @@
                     "stats": "https://api.chess.com/pub/player/zweckmaessigkeit/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_black": "resigned",
                     "played_as_white": "resigned",
                     "board": "https://api.chess.com/pub/match/1134776/38"
                 },

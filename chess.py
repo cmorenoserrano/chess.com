@@ -132,11 +132,11 @@ def generateLeagueTable(results, start_date, end_date):
     pdf = PDF()
     pdf.alias_nb_pages()
     #components = final
-    header = ['Position','Member','Points']
+    header = ['Position','Member','Daily rating','Points']
     data = []
     for i in range(1,len(results)+1):
         if results[i-1][1] > 0:
-            aux = [str(i),results[i-1][0],str(results[i-1][1])]
+            aux = [str(i),results[i-1][0],str(getPlayerStats(results[i-1][0])["chess_daily"]["last"]["rating"]),str(results[i-1][1])]
             data.append(aux)
     #print(data)
     pdf.print_chapter('League Table for Club Daily Matches',"")
