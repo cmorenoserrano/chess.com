@@ -1,0 +1,74 @@
+{
+    "@id": "https://api.chess.com/pub/match/1113666",
+    "name": "Chess For The Best vs Team United Kingdom.",
+    "url": "https://www.chess.com/club/matches/1113666",
+    "description": "Please accept this offer, I wish you good luck. (PS. I am from the UK myself)",
+    "start_time": 1587539047,
+    "end_time": 1589042112,
+    "status": "finished",
+    "boards": 2,
+    "settings": {
+        "rules": "chess",
+        "time_class": "daily",
+        "time_control": "1/259200",
+        "min_team_players": 1,
+        "max_team_players": 12,
+        "max_rating": 1199,
+        "min_required_games": 0,
+        "autostart": true
+    },
+    "teams": {
+        "team1": {
+            "@id": "https://api.chess.com/pub/club/chess-for-the-best-1",
+            "name": "Chess For The Best",
+            "url": "https://www.chess.com/club/chess-for-the-best-1",
+            "score": 0,
+            "result": "lose",
+            "players": [
+                {
+                    "username": "k_simonson",
+                    "stats": "https://api.chess.com/pub/player/k_simonson/stats",
+                    "status": "basic",
+                    "played_as_white": "checkmated",
+                    "played_as_black": "checkmated",
+                    "board": "https://api.chess.com/pub/match/1113666/2"
+                },
+                {
+                    "username": "r_yuan",
+                    "stats": "https://api.chess.com/pub/player/r_yuan/stats",
+                    "status": "premium",
+                    "played_as_white": "checkmated",
+                    "played_as_black": "resigned",
+                    "board": "https://api.chess.com/pub/match/1113666/1"
+                }
+            ],
+            "fair_play_removals": []
+        },
+        "team2": {
+            "@id": "https://api.chess.com/pub/club/team-united-kingdom-1",
+            "name": "Team United Kingdom.",
+            "url": "https://www.chess.com/club/team-united-kingdom-1",
+            "score": 4,
+            "result": "win",
+            "players": [
+                {
+                    "username": "kidcharlamegne",
+                    "stats": "https://api.chess.com/pub/player/kidcharlamegne/stats",
+                    "status": "premium",
+                    "played_as_black": "win",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1113666/2"
+                },
+                {
+                    "username": "novicet808",
+                    "stats": "https://api.chess.com/pub/player/novicet808/stats",
+                    "status": "premium",
+                    "played_as_black": "win",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1113666/1"
+                }
+            ],
+            "fair_play_removals": []
+        }
+    }
+}

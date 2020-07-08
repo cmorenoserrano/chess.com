@@ -1,0 +1,264 @@
+{
+    "@id": "https://api.chess.com/pub/match/1085770",
+    "name": "1WL 2020 STC R4: BLACK KNIGHT CHESS vs Team United Kingdom.",
+    "url": "https://www.chess.com/club/matches/1085770",
+    "start_time": 1580630675,
+    "end_time": 1587558132,
+    "status": "finished",
+    "boards": 14,
+    "settings": {
+        "rules": "chess",
+        "time_class": "daily",
+        "time_control": "1/259200",
+        "min_team_players": 10,
+        "max_team_players": 30,
+        "min_required_games": 0,
+        "autostart": false
+    },
+    "teams": {
+        "team1": {
+            "@id": "https://api.chess.com/pub/club/black-knight-chess",
+            "name": "BLACK KNIGHT CHESS",
+            "url": "https://www.chess.com/club/black-knight-chess",
+            "score": 13,
+            "result": "lose",
+            "players": [
+                {
+                    "username": "dangli",
+                    "stats": "https://api.chess.com/pub/player/dangli/stats",
+                    "status": "basic",
+                    "played_as_white": "checkmated",
+                    "played_as_black": "checkmated",
+                    "board": "https://api.chess.com/pub/match/1085770/12"
+                },
+                {
+                    "username": "darckang3l",
+                    "stats": "https://api.chess.com/pub/player/darckang3l/stats",
+                    "status": "basic",
+                    "played_as_black": "win",
+                    "played_as_white": "resigned",
+                    "board": "https://api.chess.com/pub/match/1085770/14"
+                },
+                {
+                    "username": "eltorreador",
+                    "stats": "https://api.chess.com/pub/player/eltorreador/stats",
+                    "status": "basic",
+                    "played_as_white": "resigned",
+                    "played_as_black": "resigned",
+                    "board": "https://api.chess.com/pub/match/1085770/2"
+                },
+                {
+                    "username": "innobo",
+                    "stats": "https://api.chess.com/pub/player/innobo/stats",
+                    "status": "basic",
+                    "played_as_white": "win",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1085770/8"
+                },
+                {
+                    "username": "lvali40",
+                    "stats": "https://api.chess.com/pub/player/lvali40/stats",
+                    "status": "basic",
+                    "played_as_white": "win",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1085770/4"
+                },
+                {
+                    "username": "mircea_1956",
+                    "stats": "https://api.chess.com/pub/player/mircea_1956/stats",
+                    "status": "premium",
+                    "played_as_black": "win",
+                    "played_as_white": "resigned",
+                    "board": "https://api.chess.com/pub/match/1085770/7"
+                },
+                {
+                    "username": "munval2002",
+                    "stats": "https://api.chess.com/pub/player/munval2002/stats",
+                    "status": "basic",
+                    "played_as_white": "resigned",
+                    "played_as_black": "agreed",
+                    "board": "https://api.chess.com/pub/match/1085770/3"
+                },
+                {
+                    "username": "qqpk",
+                    "stats": "https://api.chess.com/pub/player/qqpk/stats",
+                    "status": "basic",
+                    "played_as_black": "win",
+                    "played_as_white": "resigned",
+                    "board": "https://api.chess.com/pub/match/1085770/5"
+                },
+                {
+                    "username": "razvanai",
+                    "stats": "https://api.chess.com/pub/player/razvanai/stats",
+                    "status": "basic",
+                    "played_as_white": "checkmated",
+                    "played_as_black": "repetition",
+                    "board": "https://api.chess.com/pub/match/1085770/11"
+                },
+                {
+                    "username": "sadicus",
+                    "stats": "https://api.chess.com/pub/player/sadicus/stats",
+                    "status": "basic",
+                    "played_as_white": "win",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1085770/1"
+                },
+                {
+                    "username": "skylos_",
+                    "stats": "https://api.chess.com/pub/player/skylos_/stats",
+                    "status": "basic",
+                    "played_as_black": "resigned",
+                    "played_as_white": "resigned",
+                    "board": "https://api.chess.com/pub/match/1085770/6"
+                },
+                {
+                    "username": "sovata76",
+                    "stats": "https://api.chess.com/pub/player/sovata76/stats",
+                    "status": "premium",
+                    "played_as_white": "win",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1085770/10"
+                },
+                {
+                    "username": "tuiu77",
+                    "stats": "https://api.chess.com/pub/player/tuiu77/stats",
+                    "status": "basic",
+                    "played_as_white": "win",
+                    "played_as_black": "checkmated",
+                    "board": "https://api.chess.com/pub/match/1085770/13"
+                },
+                {
+                    "username": "vulpegrigore2014",
+                    "stats": "https://api.chess.com/pub/player/vulpegrigore2014/stats",
+                    "status": "premium",
+                    "played_as_black": "resigned",
+                    "played_as_white": "resigned",
+                    "board": "https://api.chess.com/pub/match/1085770/9"
+                }
+            ],
+            "fair_play_removals": []
+        },
+        "team2": {
+            "@id": "https://api.chess.com/pub/club/team-united-kingdom-1",
+            "name": "Team United Kingdom.",
+            "url": "https://www.chess.com/club/team-united-kingdom-1",
+            "score": 15,
+            "result": "win",
+            "players": [
+                {
+                    "username": "antoniobinoni",
+                    "stats": "https://api.chess.com/pub/player/antoniobinoni/stats",
+                    "status": "premium",
+                    "played_as_black": "win",
+                    "played_as_white": "repetition",
+                    "board": "https://api.chess.com/pub/match/1085770/11"
+                },
+                {
+                    "username": "gaborhorvath",
+                    "stats": "https://api.chess.com/pub/player/gaborhorvath/stats",
+                    "status": "premium",
+                    "played_as_black": "win",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1085770/2"
+                },
+                {
+                    "username": "grahama",
+                    "stats": "https://api.chess.com/pub/player/grahama/stats",
+                    "status": "premium",
+                    "played_as_black": "checkmated",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1085770/13"
+                },
+                {
+                    "username": "mattspry",
+                    "stats": "https://api.chess.com/pub/player/mattspry/stats",
+                    "status": "premium",
+                    "played_as_black": "resigned",
+                    "played_as_white": "checkmated",
+                    "board": "https://api.chess.com/pub/match/1085770/8"
+                },
+                {
+                    "username": "messmilligan",
+                    "stats": "https://api.chess.com/pub/player/messmilligan/stats",
+                    "status": "premium",
+                    "played_as_white": "resigned",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1085770/5"
+                },
+                {
+                    "username": "pannalman",
+                    "stats": "https://api.chess.com/pub/player/pannalman/stats",
+                    "status": "premium",
+                    "played_as_black": "resigned",
+                    "played_as_white": "resigned",
+                    "board": "https://api.chess.com/pub/match/1085770/1"
+                },
+                {
+                    "username": "strangemover",
+                    "stats": "https://api.chess.com/pub/player/strangemover/stats",
+                    "status": "premium",
+                    "played_as_black": "win",
+                    "played_as_white": "agreed",
+                    "board": "https://api.chess.com/pub/match/1085770/3"
+                },
+                {
+                    "username": "thehock",
+                    "stats": "https://api.chess.com/pub/player/thehock/stats",
+                    "status": "premium",
+                    "played_as_white": "win",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1085770/9"
+                },
+                {
+                    "username": "the_vicar_1",
+                    "stats": "https://api.chess.com/pub/player/the_vicar_1/stats",
+                    "status": "premium",
+                    "played_as_white": "resigned",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1085770/7"
+                },
+                {
+                    "username": "tomberesford",
+                    "stats": "https://api.chess.com/pub/player/tomberesford/stats",
+                    "status": "basic",
+                    "played_as_black": "win",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1085770/12"
+                },
+                {
+                    "username": "tubbstattsyrup",
+                    "stats": "https://api.chess.com/pub/player/tubbstattsyrup/stats",
+                    "status": "closed",
+                    "played_as_black": "timeout",
+                    "played_as_white": "timeout",
+                    "board": "https://api.chess.com/pub/match/1085770/4"
+                },
+                {
+                    "username": "uxb_steve",
+                    "stats": "https://api.chess.com/pub/player/uxb_steve/stats",
+                    "status": "premium",
+                    "played_as_white": "win",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1085770/6"
+                },
+                {
+                    "username": "wildgander",
+                    "stats": "https://api.chess.com/pub/player/wildgander/stats",
+                    "status": "premium",
+                    "played_as_white": "resigned",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1085770/14"
+                },
+                {
+                    "username": "zachess14",
+                    "stats": "https://api.chess.com/pub/player/zachess14/stats",
+                    "status": "premium",
+                    "played_as_black": "checkmated",
+                    "played_as_white": "resigned",
+                    "board": "https://api.chess.com/pub/match/1085770/10"
+                }
+            ],
+            "fair_play_removals": []
+        }
+    }
+}

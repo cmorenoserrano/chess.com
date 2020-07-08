@@ -1,0 +1,121 @@
+{
+    "@id": "https://api.chess.com/pub/match/1097650",
+    "name": "chess rogues vs Team United Kingdom.",
+    "url": "https://www.chess.com/club/matches/1097650",
+    "start_time": 1582465771,
+    "end_time": 1590595863,
+    "status": "finished",
+    "boards": 5,
+    "settings": {
+        "rules": "chess",
+        "time_class": "daily",
+        "time_control": "1/259200",
+        "min_team_players": 1,
+        "max_team_players": 5,
+        "max_rating": 1200,
+        "min_required_games": 0,
+        "autostart": true
+    },
+    "teams": {
+        "team1": {
+            "@id": "https://api.chess.com/pub/club/chess-rogues",
+            "name": "chess rogues",
+            "url": "https://www.chess.com/club/chess-rogues",
+            "score": 3.5,
+            "result": "lose",
+            "players": [
+                {
+                    "username": "givemeadraw",
+                    "stats": "https://api.chess.com/pub/player/givemeadraw/stats",
+                    "status": "premium",
+                    "played_as_white": "agreed",
+                    "played_as_black": "agreed",
+                    "board": "https://api.chess.com/pub/match/1097650/1"
+                },
+                {
+                    "username": "husmeister01",
+                    "stats": "https://api.chess.com/pub/player/husmeister01/stats",
+                    "status": "premium",
+                    "played_as_white": "resigned",
+                    "played_as_black": "resigned",
+                    "board": "https://api.chess.com/pub/match/1097650/3"
+                },
+                {
+                    "username": "ididada",
+                    "stats": "https://api.chess.com/pub/player/ididada/stats",
+                    "status": "basic",
+                    "played_as_white": "checkmated",
+                    "played_as_black": "checkmated",
+                    "board": "https://api.chess.com/pub/match/1097650/2"
+                },
+                {
+                    "username": "muhammadtalented",
+                    "stats": "https://api.chess.com/pub/player/muhammadtalented/stats",
+                    "status": "basic",
+                    "played_as_white": "win",
+                    "played_as_black": "agreed",
+                    "board": "https://api.chess.com/pub/match/1097650/5"
+                },
+                {
+                    "username": "peter1251",
+                    "stats": "https://api.chess.com/pub/player/peter1251/stats",
+                    "status": "premium",
+                    "played_as_white": "resigned",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1097650/4"
+                }
+            ],
+            "fair_play_removals": []
+        },
+        "team2": {
+            "@id": "https://api.chess.com/pub/club/team-united-kingdom-1",
+            "name": "Team United Kingdom.",
+            "url": "https://www.chess.com/club/team-united-kingdom-1",
+            "score": 6.5,
+            "result": "win",
+            "players": [
+                {
+                    "username": "aknightslayer",
+                    "stats": "https://api.chess.com/pub/player/aknightslayer/stats",
+                    "status": "premium",
+                    "played_as_black": "win",
+                    "played_as_white": "checkmated",
+                    "board": "https://api.chess.com/pub/match/1097650/4"
+                },
+                {
+                    "username": "frankcold",
+                    "stats": "https://api.chess.com/pub/player/frankcold/stats",
+                    "status": "premium",
+                    "played_as_black": "win",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1097650/2"
+                },
+                {
+                    "username": "jamo555",
+                    "stats": "https://api.chess.com/pub/player/jamo555/stats",
+                    "status": "basic",
+                    "played_as_black": "resigned",
+                    "played_as_white": "agreed",
+                    "board": "https://api.chess.com/pub/match/1097650/5"
+                },
+                {
+                    "username": "minitealspot",
+                    "stats": "https://api.chess.com/pub/player/minitealspot/stats",
+                    "status": "closed",
+                    "played_as_black": "agreed",
+                    "played_as_white": "agreed",
+                    "board": "https://api.chess.com/pub/match/1097650/1"
+                },
+                {
+                    "username": "novicet808",
+                    "stats": "https://api.chess.com/pub/player/novicet808/stats",
+                    "status": "premium",
+                    "played_as_black": "win",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1097650/3"
+                }
+            ],
+            "fair_play_removals": []
+        }
+    }
+}

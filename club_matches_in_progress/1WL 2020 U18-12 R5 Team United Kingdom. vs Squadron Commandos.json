@@ -1,0 +1,240 @@
+{
+    "@id": "https://api.chess.com/pub/match/1106370",
+    "name": "1WL 2020 U18-12 R5 Team United Kingdom. vs Squadron Commandos",
+    "url": "https://www.chess.com/club/matches/1106370",
+    "start_time": 1586675007,
+    "status": "in_progress",
+    "boards": 12,
+    "settings": {
+        "rules": "chess",
+        "time_class": "daily",
+        "time_control": "1/259200",
+        "min_team_players": 11,
+        "max_team_players": 12,
+        "max_rating": 1800,
+        "min_required_games": 0,
+        "autostart": false
+    },
+    "teams": {
+        "team1": {
+            "@id": "https://api.chess.com/pub/club/team-united-kingdom-1",
+            "name": "Team United Kingdom.",
+            "url": "https://www.chess.com/club/team-united-kingdom-1",
+            "score": 7.5,
+            "players": [
+                {
+                    "username": "aj-read",
+                    "stats": "https://api.chess.com/pub/player/aj-read/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "board": "https://api.chess.com/pub/match/1106370/12"
+                },
+                {
+                    "username": "antoniobinoni",
+                    "stats": "https://api.chess.com/pub/player/antoniobinoni/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "board": "https://api.chess.com/pub/match/1106370/2"
+                },
+                {
+                    "username": "bioinformagician",
+                    "stats": "https://api.chess.com/pub/player/bioinformagician/stats",
+                    "timeout_percent": 0.53,
+                    "status": "premium",
+                    "played_as_black": "stalemate",
+                    "played_as_white": "resigned",
+                    "board": "https://api.chess.com/pub/match/1106370/11"
+                },
+                {
+                    "username": "counor",
+                    "stats": "https://api.chess.com/pub/player/counor/stats",
+                    "timeout_percent": 12.12,
+                    "status": "premium",
+                    "played_as_black": "resigned",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1106370/3"
+                },
+                {
+                    "username": "grahama",
+                    "stats": "https://api.chess.com/pub/player/grahama/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "played_as_black": "resigned",
+                    "played_as_white": "agreed",
+                    "board": "https://api.chess.com/pub/match/1106370/10"
+                },
+                {
+                    "username": "kmchess20",
+                    "stats": "https://api.chess.com/pub/player/kmchess20/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "played_as_white": "win",
+                    "played_as_black": "resigned",
+                    "board": "https://api.chess.com/pub/match/1106370/9"
+                },
+                {
+                    "username": "rash54",
+                    "stats": "https://api.chess.com/pub/player/rash54/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "played_as_white": "agreed",
+                    "board": "https://api.chess.com/pub/match/1106370/4"
+                },
+                {
+                    "username": "rb57",
+                    "stats": "https://api.chess.com/pub/player/rb57/stats",
+                    "timeout_percent": 54.55,
+                    "status": "closed",
+                    "played_as_black": "timeout",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1106370/6"
+                },
+                {
+                    "username": "thehock",
+                    "stats": "https://api.chess.com/pub/player/thehock/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "played_as_black": "resigned",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1106370/5"
+                },
+                {
+                    "username": "tnt_says_mate",
+                    "stats": "https://api.chess.com/pub/player/tnt_says_mate/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "played_as_white": "win",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1106370/7"
+                },
+                {
+                    "username": "uxb_steve",
+                    "stats": "https://api.chess.com/pub/player/uxb_steve/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "board": "https://api.chess.com/pub/match/1106370/1"
+                },
+                {
+                    "username": "wildgander",
+                    "stats": "https://api.chess.com/pub/player/wildgander/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "played_as_white": "resigned",
+                    "played_as_black": "resigned",
+                    "board": "https://api.chess.com/pub/match/1106370/8"
+                }
+            ],
+            "fair_play_removals": []
+        },
+        "team2": {
+            "@id": "https://api.chess.com/pub/club/squadron-commandos",
+            "name": "Squadron Commandos",
+            "url": "https://www.chess.com/club/squadron-commandos",
+            "score": 9.5,
+            "players": [
+                {
+                    "username": "bishoppair00",
+                    "stats": "https://api.chess.com/pub/player/bishoppair00/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "played_as_white": "win",
+                    "played_as_black": "resigned",
+                    "board": "https://api.chess.com/pub/match/1106370/5"
+                },
+                {
+                    "username": "blundering_hippo",
+                    "stats": "https://api.chess.com/pub/player/blundering_hippo/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "played_as_black": "win",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1106370/8"
+                },
+                {
+                    "username": "dtmajesty",
+                    "stats": "https://api.chess.com/pub/player/dtmajesty/stats",
+                    "timeout_percent": 29.69,
+                    "status": "premium",
+                    "board": "https://api.chess.com/pub/match/1106370/12"
+                },
+                {
+                    "username": "dukeofearle",
+                    "stats": "https://api.chess.com/pub/player/dukeofearle/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "played_as_white": "stalemate",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1106370/11"
+                },
+                {
+                    "username": "jager69",
+                    "stats": "https://api.chess.com/pub/player/jager69/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "played_as_black": "resigned",
+                    "played_as_white": "resigned",
+                    "board": "https://api.chess.com/pub/match/1106370/7"
+                },
+                {
+                    "username": "jgbgame",
+                    "stats": "https://api.chess.com/pub/player/jgbgame/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "played_as_black": "resigned",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1106370/9"
+                },
+                {
+                    "username": "llthomasll",
+                    "stats": "https://api.chess.com/pub/player/llthomasll/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "board": "https://api.chess.com/pub/match/1106370/2"
+                },
+                {
+                    "username": "nastyushechka",
+                    "stats": "https://api.chess.com/pub/player/nastyushechka/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "played_as_white": "win",
+                    "played_as_black": "resigned",
+                    "board": "https://api.chess.com/pub/match/1106370/3"
+                },
+                {
+                    "username": "onegr8r",
+                    "stats": "https://api.chess.com/pub/player/onegr8r/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "played_as_white": "win",
+                    "played_as_black": "checkmated",
+                    "board": "https://api.chess.com/pub/match/1106370/6"
+                },
+                {
+                    "username": "pawnstormer2012",
+                    "stats": "https://api.chess.com/pub/player/pawnstormer2012/stats",
+                    "timeout_percent": 0.7,
+                    "status": "premium",
+                    "board": "https://api.chess.com/pub/match/1106370/1"
+                },
+                {
+                    "username": "sankoff_64",
+                    "stats": "https://api.chess.com/pub/player/sankoff_64/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "played_as_black": "agreed",
+                    "board": "https://api.chess.com/pub/match/1106370/4"
+                },
+                {
+                    "username": "vicente9999",
+                    "stats": "https://api.chess.com/pub/player/vicente9999/stats",
+                    "timeout_percent": 9.09,
+                    "status": "premium",
+                    "played_as_white": "win",
+                    "played_as_black": "agreed",
+                    "board": "https://api.chess.com/pub/match/1106370/10"
+                }
+            ],
+            "fair_play_removals": []
+        }
+    }
+}
