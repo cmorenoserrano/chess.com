@@ -20,7 +20,7 @@
             "@id": "https://api.chess.com/pub/club/the-arizonians",
             "name": "The Arizonians",
             "url": "https://www.chess.com/club/the-arizonians",
-            "score": 3,
+            "score": 4,
             "players": [
                 {
                     "username": "anita76",
@@ -39,7 +39,7 @@
                 {
                     "username": "bumerang1968",
                     "stats": "https://api.chess.com/pub/player/bumerang1968/stats",
-                    "timeout_percent": 23.68,
+                    "timeout_percent": 23.53,
                     "status": "basic",
                     "played_as_white": "win",
                     "played_as_black": "win",
@@ -59,6 +59,7 @@
                     "stats": "https://api.chess.com/pub/player/fiela/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_black": "win",
                     "board": "https://api.chess.com/pub/match/1135786/12"
                 },
                 {
@@ -107,7 +108,7 @@
                 {
                     "username": "shayan55555",
                     "stats": "https://api.chess.com/pub/player/shayan55555/stats",
-                    "timeout_percent": 3.64,
+                    "timeout_percent": 3.6,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1135786/7"
                 }
@@ -155,6 +156,7 @@
                     "stats": "https://api.chess.com/pub/player/owlyowl/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_white": "resigned",
                     "board": "https://api.chess.com/pub/match/1135786/12"
                 },
                 {

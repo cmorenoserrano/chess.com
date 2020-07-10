@@ -4,6 +4,7 @@
 import os
 from copy import deepcopy
 import datetime
+import time
 import urllib
 import urllib.request
 import requests
@@ -12,6 +13,14 @@ from fpdf import FPDF
 
 ## ----------------------------------------------------------------------------
 session = requests.Session()
+
+def getPlayerDetails(username):
+    baseUrl = "https://api.chess.com/pub/player/" + username
+
+    response = session.get(baseUrl)
+    details = response.json()
+    #print(stats)
+    return details
 
 def getUserGames(username):
     #username = "sprocket314"
@@ -127,7 +136,28 @@ def getResults(club,members,scope_finished,scope_in_progress):
     results = ranking
     dumps(results,file_name='results.json')
     return results
-        
+
+# Print iterations progress
+def printProgressBar (
+        iteration, 
+        total, 
+        prefix = 'Progress:', 
+        suffix = 'Complete', 
+        decimals = 1, 
+        length = 50, 
+        fill = '█'):
+
+    time.sleep(0.1)
+    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
+    filledLength = int(length * iteration // total)
+    bar = fill * filledLength + '-' * (length - filledLength)
+    print('\r%s |%s| %s%% %s' % (prefix, bar, percent, suffix), end = '\r')
+    # Print New Line on Complete
+    if iteration == total: 
+        print()
+
+#---------------------------------
+
 def generateLeagueTable(results, start_date, end_date):
     pdf = PDF()
     pdf.alias_nb_pages()
@@ -147,8 +177,70 @@ def generateLeagueTable(results, start_date, end_date):
     pdf.ln(5)
     pdf.set_font('Times','',12)
     pdf.fancy_table(header,data)
+
+
+    details = getPlayerDetails(data[0][1])
+    #print(details)
+    stats = getPlayerStats(data[0][1])
+
+    pdf.print_chapter('Player of the Month',"")
+    pdf.set_font('Times','B',24)
+    pdf.set_text_color(0,0,0)
+    content1 = "This month's Player of the Month was: "+str(data[0][1])
+    pdf.multi_cell(0,7,content1,0)
+    pdf.ln(5)
+    #pdf.image(details["avatar"], 10, 70, 33, type='jpeg')
+    pdf.image('playerOfTheMonth.jpeg', 230, 40, 33)
+    pdf.set_font('Times','B',18)
+    content2 = str(data[0][1])+" achieved "+str(data[0][3])+" points in Daily Matches representing our club"
+    pdf.multi_cell(0,7,content2,0)
+    pdf.ln(10)
+    content3 = "Getting to know "+details["username"]+ " better:"
+    pdf.multi_cell(0,7,content3,0)
+    pdf.ln(5)
+    content4 = "Name: "+details["name"]
+    pdf.multi_cell(0,7,content4,0)
+    pdf.ln(5)
+    content5 = "Joined on "+ time.strftime('%d-%b-%Y', time.localtime(details["joined"]))
+    pdf.multi_cell(0,7,content5,0)
+    pdf.ln(5)
+    content6 = "Daily rating: "+str(stats["chess_daily"]["last"]["rating"])+" (current), "+str(stats["chess_daily"]["best"]["rating"])+ " (best)"
+    pdf.multi_cell(0,7,content6,0)
+    pdf.ln(5)
+    if "chess960_daily" in stats:
+        content7 = "Daily 960 rating: "+str(stats["chess960_daily"]["last"]["rating"])+" (current), "+str(stats["chess960_daily"]["best"]["rating"])+ " (best)"
+        pdf.multi_cell(0,7,content7,0)
+        pdf.ln(5)
+    if "chess_rapid" in stats:
+        content8 = "Rapid rating: "+str(stats["chess_rapid"]["last"]["rating"])+" (current), "+str(stats["chess_rapid"]["best"]["rating"])+ " (best)"
+        pdf.multi_cell(0,7,content8,0)
+        pdf.ln(5)
+    if "chess_blitz" in stats:
+        content9 = "Blitz rating: "+str(stats["chess_blitz"]["last"]["rating"])+" (current), "+str(stats["chess_blitz"]["best"]["rating"])+ " (best)"
+        pdf.multi_cell(0,7,content9,0)
+        pdf.ln(5)
+    if "chess_bullet" in stats:
+        content10 = "Bullet rating: "+str(stats["chess_bullet"]["last"]["rating"])+" (current), "+str(stats["chess_bullet"]["best"]["rating"])+ " (best)"
+        pdf.multi_cell(0,7,content10,0)
+        pdf.ln(5)
+    if "tactics" in stats:
+        content11 = "Tactics rating: "+str(stats["tactics"]["highest"]["rating"])+" (highest)"
+        pdf.multi_cell(0,7,content11,0)
+        pdf.ln(5)
+    if "puzzle_rush" in stats:
+        content6 = "Puzzle Rush score: "+str(stats["puzzle_rush"]["best"]["score"])+" (record)"
+        pdf.multi_cell(0,7,content6,0)
+        pdf.ln(5)
+    
+
+
+    pdf.set_font('Times','',12)
+    pdf.set_text_color(0,0,0)
+    #insert avatar
+    #insert ratings
+    
     pdf.output('./leagueTable.pdf', 'F')
-    print("PDF generated -> leagueTable.pdf")
+    #print("PDF generated -> leagueTable.pdf")
 
 
 
@@ -317,6 +409,8 @@ def output_pdf(pages, filename):
 
 #-----------------------------------------------------------------------------
 def main():
+    t, graphNo = 0, 8
+    printProgressBar(t,graphNo)
     username = ""
     club = ""
     scope_finished = {}
@@ -333,7 +427,8 @@ def main():
         end_date = dateRange[1]
         end_epoch = round(datetime.datetime(int(last[2]),int(last[1]),int(last[0])).timestamp())
         #print(end_epoch)
-
+    t +=1
+    printProgressBar(t,graphNo)
 
     
     if args["username"]:
@@ -357,11 +452,14 @@ def main():
                 #scope_in_progress = list(filter(lambda match: (match["start_time"] >= start_epoch) and (match["start_time"] <= end_epoch), matches["in_progress"]))
                 #print(len(scope_in_progress))
                 scope_in_progress = matches["in_progress"]
+    t +=1
+    printProgressBar(t,graphNo)
     if args["playerMatches"]:
         if args["username"]:
             playerMatches = getPlayerMatches(username)
-            print(playerMatches)
-
+            #print(playerMatches)
+    t +=1
+    printProgressBar(t,graphNo)
     if args["report"]:
         if args["club"]:
             if args["dateRange"]:
@@ -378,10 +476,29 @@ def main():
                     members.update({member["username"] : 0})
                 #print(members)
                 matches = getClubMatches(club)
+
+                t +=1
+                printProgressBar(t,graphNo)
+
                 scope_finished = list(filter(lambda match: (match["start_time"] >= start_epoch) and (match["start_time"] <= end_epoch), matches["finished"]))
+
+                t +=1
+                printProgressBar(t,graphNo)
+                
                 scope_in_progress = matches["in_progress"]
+
+                t +=1
+                printProgressBar(t,graphNo)
+
                 results = getResults(club,members,scope_finished,scope_in_progress)
+
+                t +=1
+                printProgressBar(t,graphNo)
+                
                 generateLeagueTable(results,start_date,end_date)
+
+                t +=1
+                printProgressBar(t,graphNo)
 
 
   
