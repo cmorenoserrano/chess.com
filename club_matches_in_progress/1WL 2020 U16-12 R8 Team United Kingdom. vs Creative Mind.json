@@ -34,7 +34,7 @@
                 {
                     "username": "bioinformagician",
                     "stats": "https://api.chess.com/pub/player/bioinformagician/stats",
-                    "timeout_percent": 0.55,
+                    "timeout_percent": 0.57,
                     "status": "premium",
                     "played_as_black": "win",
                     "played_as_white": "resigned",
@@ -164,7 +164,7 @@
                 {
                     "username": "gdallaglio",
                     "stats": "https://api.chess.com/pub/player/gdallaglio/stats",
-                    "timeout_percent": 18.18,
+                    "timeout_percent": 21.43,
                     "status": "closed:fair_play_violations",
                     "played_as_white": "resigned",
                     "played_as_black": "resigned",
@@ -173,7 +173,7 @@
                 {
                     "username": "giantodchess",
                     "stats": "https://api.chess.com/pub/player/giantodchess/stats",
-                    "timeout_percent": 6.9,
+                    "timeout_percent": 6.67,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1123194/5"
                 },
@@ -231,7 +231,7 @@
                 {
                     "username": "stefaniastella",
                     "stats": "https://api.chess.com/pub/player/stefaniastella/stats",
-                    "timeout_percent": 12.2,
+                    "timeout_percent": 8,
                     "status": "premium",
                     "played_as_black": "resigned",
                     "played_as_white": "win",

@@ -19,7 +19,7 @@
             "@id": "https://api.chess.com/pub/club/stargate-universe",
             "name": "Stargate Universe",
             "url": "https://www.chess.com/club/stargate-universe",
-            "score": 15,
+            "score": 16,
             "players": [
                 {
                     "username": "alancrlsn",
@@ -42,7 +42,7 @@
                 {
                     "username": "anangelofmidnite",
                     "stats": "https://api.chess.com/pub/player/anangelofmidnite/stats",
-                    "timeout_percent": 38.5,
+                    "timeout_percent": 26.18,
                     "status": "basic",
                     "played_as_black": "win",
                     "played_as_white": "resigned",
@@ -107,13 +107,14 @@
                     "stats": "https://api.chess.com/pub/player/lincolnheights/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_white": "win",
                     "played_as_black": "checkmated",
                     "board": "https://api.chess.com/pub/match/1123136/3"
                 },
                 {
                     "username": "michael85w",
                     "stats": "https://api.chess.com/pub/player/michael85w/stats",
-                    "timeout_percent": 0.72,
+                    "timeout_percent": 0.77,
                     "status": "basic",
                     "played_as_black": "checkmated",
                     "played_as_white": "win",
@@ -122,14 +123,14 @@
                 {
                     "username": "sleeper61",
                     "stats": "https://api.chess.com/pub/player/sleeper61/stats",
-                    "timeout_percent": 4.76,
+                    "timeout_percent": 10.1,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1123136/7"
                 },
                 {
                     "username": "texasbadger1954",
                     "stats": "https://api.chess.com/pub/player/texasbadger1954/stats",
-                    "timeout_percent": 1.63,
+                    "timeout_percent": 1.75,
                     "status": "premium",
                     "played_as_black": "win",
                     "played_as_white": "win",
@@ -192,7 +193,7 @@
                 {
                     "username": "chickentikamosalah11",
                     "stats": "https://api.chess.com/pub/player/chickentikamosalah11/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 1.74,
                     "status": "basic",
                     "played_as_white": "resigned",
                     "played_as_black": "win",
@@ -210,7 +211,7 @@
                 {
                     "username": "golu1309",
                     "stats": "https://api.chess.com/pub/player/golu1309/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 0.78,
                     "status": "basic",
                     "played_as_white": "win",
                     "played_as_black": "win",
@@ -219,7 +220,7 @@
                 {
                     "username": "knightscape007",
                     "stats": "https://api.chess.com/pub/player/knightscape007/stats",
-                    "timeout_percent": 82.76,
+                    "timeout_percent": 87.1,
                     "status": "basic",
                     "played_as_white": "timeout",
                     "played_as_black": "timeout",
@@ -237,8 +238,9 @@
                 {
                     "username": "receptiveking",
                     "stats": "https://api.chess.com/pub/player/receptiveking/stats",
-                    "timeout_percent": 3.13,
+                    "timeout_percent": 3.45,
                     "status": "basic",
+                    "played_as_black": "checkmated",
                     "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1123136/3"
                 },
@@ -272,7 +274,7 @@
                 {
                     "username": "stefkerz",
                     "stats": "https://api.chess.com/pub/player/stefkerz/stats",
-                    "timeout_percent": 58.74,
+                    "timeout_percent": 60.09,
                     "status": "premium",
                     "played_as_white": "timeout",
                     "played_as_black": "timeout",
@@ -281,7 +283,7 @@
                 {
                     "username": "superdrewe53",
                     "stats": "https://api.chess.com/pub/player/superdrewe53/stats",
-                    "timeout_percent": 3.03,
+                    "timeout_percent": 2.83,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1123136/7"
                 },

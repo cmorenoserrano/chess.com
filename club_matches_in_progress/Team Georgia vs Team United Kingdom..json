@@ -86,7 +86,7 @@
                 {
                     "username": "giorgi_ghvaladze",
                     "stats": "https://api.chess.com/pub/player/giorgi_ghvaladze/stats",
-                    "timeout_percent": 37.5,
+                    "timeout_percent": 30,
                     "status": "basic",
                     "played_as_black": "timeout",
                     "played_as_white": "agreed",
@@ -103,7 +103,7 @@
                 {
                     "username": "krasno123",
                     "stats": "https://api.chess.com/pub/player/krasno123/stats",
-                    "timeout_percent": 33.33,
+                    "timeout_percent": 35.71,
                     "status": "basic",
                     "played_as_white": "resigned",
                     "played_as_black": "resigned",
@@ -121,7 +121,7 @@
                 {
                     "username": "p33kab00",
                     "stats": "https://api.chess.com/pub/player/p33kab00/stats",
-                    "timeout_percent": 2.08,
+                    "timeout_percent": 2.04,
                     "status": "basic",
                     "played_as_white": "checkmated",
                     "played_as_black": "win",
@@ -139,7 +139,7 @@
                 {
                     "username": "sani2709",
                     "stats": "https://api.chess.com/pub/player/sani2709/stats",
-                    "timeout_percent": 85.71,
+                    "timeout_percent": 86.36,
                     "status": "basic",
                     "played_as_black": "timeout",
                     "played_as_white": "resigned",
@@ -177,7 +177,7 @@
                 {
                     "username": "anarchic",
                     "stats": "https://api.chess.com/pub/player/anarchic/stats",
-                    "timeout_percent": 21.82,
+                    "timeout_percent": 22.64,
                     "status": "basic",
                     "played_as_black": "win",
                     "played_as_white": "win",
@@ -213,7 +213,7 @@
                 {
                     "username": "bioinformagician",
                     "stats": "https://api.chess.com/pub/player/bioinformagician/stats",
-                    "timeout_percent": 0.55,
+                    "timeout_percent": 0.57,
                     "status": "premium",
                     "played_as_white": "resigned",
                     "board": "https://api.chess.com/pub/match/1120462/15"
@@ -266,7 +266,7 @@
                 {
                     "username": "malcolm1957",
                     "stats": "https://api.chess.com/pub/player/malcolm1957/stats",
-                    "timeout_percent": 6.02,
+                    "timeout_percent": 3.8,
                     "status": "premium",
                     "played_as_black": "win",
                     "played_as_white": "win",
@@ -293,7 +293,7 @@
                 {
                     "username": "strangemover",
                     "stats": "https://api.chess.com/pub/player/strangemover/stats",
-                    "timeout_percent": 0.64,
+                    "timeout_percent": 0.65,
                     "status": "premium",
                     "played_as_white": "win",
                     "played_as_black": "win",

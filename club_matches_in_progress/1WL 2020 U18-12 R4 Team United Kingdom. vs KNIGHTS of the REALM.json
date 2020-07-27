@@ -20,19 +20,20 @@
             "@id": "https://api.chess.com/pub/club/team-united-kingdom-1",
             "name": "Team United Kingdom.",
             "url": "https://www.chess.com/club/team-united-kingdom-1",
-            "score": 8.5,
+            "score": 9.5,
             "players": [
                 {
                     "username": "aj-read",
                     "stats": "https://api.chess.com/pub/player/aj-read/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1100768/5"
                 },
                 {
                     "username": "anarchic",
                     "stats": "https://api.chess.com/pub/player/anarchic/stats",
-                    "timeout_percent": 21.82,
+                    "timeout_percent": 22.64,
                     "status": "basic",
                     "played_as_black": "timeout",
                     "played_as_white": "resigned",
@@ -113,7 +114,7 @@
                 {
                     "username": "the_vicar_1",
                     "stats": "https://api.chess.com/pub/player/the_vicar_1/stats",
-                    "timeout_percent": 20,
+                    "timeout_percent": 6.52,
                     "status": "premium",
                     "played_as_white": "resigned",
                     "played_as_black": "resigned",
@@ -140,7 +141,7 @@
                 {
                     "username": "basem_zahran",
                     "stats": "https://api.chess.com/pub/player/basem_zahran/stats",
-                    "timeout_percent": 5.84,
+                    "timeout_percent": 6.44,
                     "status": "basic",
                     "played_as_white": "checkmated",
                     "played_as_black": "resigned",
@@ -158,7 +159,7 @@
                 {
                     "username": "dwz1700",
                     "stats": "https://api.chess.com/pub/player/dwz1700/stats",
-                    "timeout_percent": 20.51,
+                    "timeout_percent": 20.25,
                     "status": "basic",
                     "played_as_white": "win",
                     "played_as_black": "win",
@@ -167,7 +168,7 @@
                 {
                     "username": "mantovski",
                     "stats": "https://api.chess.com/pub/player/mantovski/stats",
-                    "timeout_percent": 4.04,
+                    "timeout_percent": 4.12,
                     "status": "premium",
                     "played_as_black": "win",
                     "played_as_white": "win",
@@ -212,7 +213,7 @@
                 {
                     "username": "sternschnee",
                     "stats": "https://api.chess.com/pub/player/sternschnee/stats",
-                    "timeout_percent": 9.62,
+                    "timeout_percent": 10.64,
                     "status": "basic",
                     "played_as_black": "timeout",
                     "played_as_white": "timeout",
@@ -221,8 +222,9 @@
                 {
                     "username": "supersven15",
                     "stats": "https://api.chess.com/pub/player/supersven15/stats",
-                    "timeout_percent": 18.46,
+                    "timeout_percent": 16,
                     "status": "basic",
+                    "played_as_black": "resigned",
                     "board": "https://api.chess.com/pub/match/1100768/5"
                 },
                 {

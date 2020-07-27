@@ -36,7 +36,7 @@
                 {
                     "username": "dmo2004",
                     "stats": "https://api.chess.com/pub/player/dmo2004/stats",
-                    "timeout_percent": 23.08,
+                    "timeout_percent": 27.27,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1140814/2"
                 },
