@@ -294,11 +294,8 @@ def getArguments():
     global baseUrl
     parser = argparse.ArgumentParser(description='Chess.com API data handling script')
     parser.add_argument('-u','--username', help='Specific username', required=False)
-    parser.add_argument('-c','--club', help='Specific club', required=False)
     parser.add_argument('-ug','--userGames', help='Download all archived games for a specified user', action='store_true', required=False)
-    parser.add_argument('-m','--clubMembers', help='Download all the members of a club',action='store_true', required=False)
-    parser.add_argument('-cm','--clubMatches', help='Download all the club matches', action='store_true', required=False)
-    parser.add_argument('-pm','--playerMatches', help='Download all the player matches', action='store_true', required=False)
+    parser.add_argument('-c','--club', help='Specific club', required=False)
     parser.add_argument('-d','--dateRange',help='Specify a date range: dd-mm-yyyy:dd-mm-yyyy',required=False)
     parser.add_argument('-r','--report',help='Generate League table report',action='store_true',required=False)
     
@@ -445,7 +442,7 @@ def output_pdf(pages, filename):
 
 #-----------------------------------------------------------------------------
 def main():
-    t, graphNo = 0, 3
+    t, graphNo = 0, 4
     printProgressBar(t,graphNo)
     username = ""
     club = ""
@@ -460,6 +457,7 @@ def main():
         start_epoch = round(datetime.datetime(int(first[2]),int(first[1]),int(first[0])).timestamp())
         end_date = dateRange[1]
         end_epoch = round(datetime.datetime(int(last[2]),int(last[1]),int(last[0])).timestamp())
+
     t +=1
     printProgressBar(t,graphNo)
 
@@ -471,37 +469,32 @@ def main():
         getPlayerDetails(username)
         getPlayerMatches(username)
         getPlayerStats(username)
-            
+
+    t +=1
+    printProgressBar(t,graphNo)
+
+    if args["userGames"]:
+        if args["username"]:
+            getUserGames(username)
+
+    t +=1
+    printProgressBar(t,graphNo)
+
     if args["club"]:
         club = args["club"]
         if not os.path.exists(club):
             os.mkdir(club)
         clubDetails = getClubDetails(club)
         clubLogo = getClubLogo(club)
-            
-    if args["userGames"]:
-        if args["username"]:
-            getUserGames(username)
+        members = getClubMembers(club)
+        matches = getClubMatches(club)
+        if args["dateRange"]:
+            scope_finished = list(filter(lambda match: (match["start_time"] >= start_epoch) and (match["start_time"] <= end_epoch), matches["finished"]))
+            scope_in_progress = matches["in_progress"]
 
-    if args["clubMembers"]:
-        if args["club"]:
-            members = getClubMembers(club)
-                
-    if args["clubMatches"]:
-        if args["club"]:
-            matches = getClubMatches(club)
-            if args["dateRange"]:
-                scope_finished = list(filter(lambda match: (match["start_time"] >= start_epoch) and (match["start_time"] <= end_epoch), matches["finished"]))
-                scope_in_progress = matches["in_progress"]
-    t +=1
-    printProgressBar(t,graphNo)
-    if args["playerMatches"]:
-        if args["username"]:
-            playerMatches = getPlayerMatches(username)
     t +=1
     printProgressBar(t,graphNo)
 
-    
     if args["report"]:
         if args["club"]:
             if args["dateRange"]:
