@@ -1,0 +1,188 @@
+{
+    "@id": "https://api.chess.com/pub/match/1143316",
+    "name": "WL2020 R7: Team Malta vs Team Zambia",
+    "url": "https://www.chess.com/club/matches/1143316",
+    "start_time": 1594829047,
+    "status": "in_progress",
+    "boards": 9,
+    "settings": {
+        "rules": "chess",
+        "time_class": "daily",
+        "time_control": "1/259200",
+        "min_team_players": 3,
+        "min_required_games": 10,
+        "autostart": false
+    },
+    "teams": {
+        "team1": {
+            "@id": "https://api.chess.com/pub/club/team-malta",
+            "name": "Team Malta",
+            "url": "https://www.chess.com/club/team-malta",
+            "score": 5,
+            "players": [
+                {
+                    "username": "alessandra11111",
+                    "stats": "https://api.chess.com/pub/player/alessandra11111/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "played_as_black": "checkmated",
+                    "played_as_white": "checkmated",
+                    "board": "https://api.chess.com/pub/match/1143316/9"
+                },
+                {
+                    "username": "ctatictik",
+                    "stats": "https://api.chess.com/pub/player/ctatictik/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "played_as_black": "win",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1143316/1"
+                },
+                {
+                    "username": "kavall",
+                    "stats": "https://api.chess.com/pub/player/kavall/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "played_as_black": "repetition",
+                    "played_as_white": "resigned",
+                    "board": "https://api.chess.com/pub/match/1143316/4"
+                },
+                {
+                    "username": "kidexxx",
+                    "stats": "https://api.chess.com/pub/player/kidexxx/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "board": "https://api.chess.com/pub/match/1143316/2"
+                },
+                {
+                    "username": "maltamover",
+                    "stats": "https://api.chess.com/pub/player/maltamover/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1143316/6"
+                },
+                {
+                    "username": "musmaniq",
+                    "stats": "https://api.chess.com/pub/player/musmaniq/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "played_as_black": "resigned",
+                    "board": "https://api.chess.com/pub/match/1143316/8"
+                },
+                {
+                    "username": "vitaliikalugin",
+                    "stats": "https://api.chess.com/pub/player/vitaliikalugin/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "played_as_white": "stalemate",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1143316/3"
+                },
+                {
+                    "username": "vvv227",
+                    "stats": "https://api.chess.com/pub/player/vvv227/stats",
+                    "timeout_percent": 5.56,
+                    "status": "premium",
+                    "played_as_white": "resigned",
+                    "played_as_black": "resigned",
+                    "board": "https://api.chess.com/pub/match/1143316/7"
+                },
+                {
+                    "username": "zarbianite",
+                    "stats": "https://api.chess.com/pub/player/zarbianite/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "played_as_black": "checkmated",
+                    "board": "https://api.chess.com/pub/match/1143316/5"
+                }
+            ],
+            "fair_play_removals": []
+        },
+        "team2": {
+            "@id": "https://api.chess.com/pub/club/team-zambia",
+            "name": "Team Zambia",
+            "url": "https://www.chess.com/club/team-zambia",
+            "score": 8,
+            "players": [
+                {
+                    "username": "aimz12",
+                    "stats": "https://api.chess.com/pub/player/aimz12/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1143316/8"
+                },
+                {
+                    "username": "badtrouble",
+                    "stats": "https://api.chess.com/pub/player/badtrouble/stats",
+                    "timeout_percent": 26.97,
+                    "status": "basic",
+                    "board": "https://api.chess.com/pub/match/1143316/2"
+                },
+                {
+                    "username": "chilu95",
+                    "stats": "https://api.chess.com/pub/player/chilu95/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "played_as_white": "repetition",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1143316/4"
+                },
+                {
+                    "username": "chinfs",
+                    "stats": "https://api.chess.com/pub/player/chinfs/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "played_as_black": "win",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1143316/7"
+                },
+                {
+                    "username": "danielkumbusobanda78",
+                    "stats": "https://api.chess.com/pub/player/danielkumbusobanda78/stats",
+                    "timeout_percent": 26.92,
+                    "status": "basic",
+                    "played_as_white": "timeout",
+                    "played_as_black": "timeout",
+                    "board": "https://api.chess.com/pub/match/1143316/1"
+                },
+                {
+                    "username": "davido360",
+                    "stats": "https://api.chess.com/pub/player/davido360/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "played_as_black": "stalemate",
+                    "played_as_white": "resigned",
+                    "board": "https://api.chess.com/pub/match/1143316/3"
+                },
+                {
+                    "username": "miltonsimukoko",
+                    "stats": "https://api.chess.com/pub/player/miltonsimukoko/stats",
+                    "timeout_percent": 3.77,
+                    "status": "premium",
+                    "played_as_black": "resigned",
+                    "board": "https://api.chess.com/pub/match/1143316/6"
+                },
+                {
+                    "username": "phiri_john",
+                    "stats": "https://api.chess.com/pub/player/phiri_john/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1143316/5"
+                },
+                {
+                    "username": "uncletbest",
+                    "stats": "https://api.chess.com/pub/player/uncletbest/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "played_as_white": "win",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1143316/9"
+                }
+            ],
+            "fair_play_removals": []
+        }
+    }
+}

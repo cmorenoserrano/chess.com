@@ -10,6 +10,7 @@ import urllib.request
 import requests
 import json, argparse
 from fpdf import FPDF
+import shutil
 
 ## ----------------------------------------------------------------------------
 session = requests.Session()
@@ -59,6 +60,39 @@ def getPlayerStats(username):
     stats = response.json()
     #print(stats)
     return stats
+
+def getClubDetails(clubname):
+    baseUrl = "https://api.chess.com/pub/club/" + clubname
+
+    response = session.get(baseUrl)
+    clubDetails = response.json()
+    #print(members)
+    return clubDetails
+
+def getClubLogo(clubname):
+    baseUrl = "https://api.chess.com/pub/club/" + clubname
+
+    response = session.get(baseUrl)
+    clubDetails = response.json()
+    clubLogo = clubDetails["icon"]
+    filename = clubLogo.split(".")
+    extension = filename[-1]
+
+    r = requests.get(clubLogo,stream=True)
+    if r.status_code == 200:
+        r.raw.decode_content = True
+        logo = clubname+"."+str(extension)
+        #print(logo)
+        with open(logo,'wb') as f:
+            shutil.copyfileobj(r.raw,f)
+            clubLogo = logo
+    else:
+        print("\nError downloading the club's logo. Replacing it with default")
+        clubLogo = 'defaultLogo.jpeg'
+    
+    #print(clubLogo)
+    return clubLogo
+
 
 def getClubMembers(clubname):
     baseUrl = "https://api.chess.com/pub/club/" + clubname + "/members"
@@ -158,7 +192,7 @@ def printProgressBar (
 
 #---------------------------------
 
-def generateLeagueTable(results, start_date, end_date):
+def generateLeagueTable(results, start_date, end_date,logo):
     pdf = PDF()
     pdf.alias_nb_pages()
     #components = final
@@ -169,7 +203,7 @@ def generateLeagueTable(results, start_date, end_date):
             aux = [str(i),results[i-1][0],str(getPlayerStats(results[i-1][0])["chess_daily"]["last"]["rating"]),str(results[i-1][1])]
             data.append(aux)
     #print(data)
-    pdf.print_chapter('League Table for Club Daily Matches',"")
+    pdf.print_chapter('League Table for Club Daily Matches',"",logo)
     pdf.set_font('Times','',12)
     pdf.set_text_color(0,0,0)
     instructions = "Current standings from "+str(start_date)+" to "+str(end_date)
@@ -178,19 +212,21 @@ def generateLeagueTable(results, start_date, end_date):
     pdf.set_font('Times','',12)
     pdf.fancy_table(header,data)
 
-
+    if not data:
+        print("\nThere was no data available")
+        raise SystemExit
     details = getPlayerDetails(data[0][1])
     #print(details)
     stats = getPlayerStats(data[0][1])
 
-    pdf.print_chapter('Player of the Month',"")
+    pdf.print_chapter('Player of the Month',"",logo)
     pdf.set_font('Times','B',24)
     pdf.set_text_color(0,0,0)
     content1 = "This month's Player of the Month was: "+str(data[0][1])
     pdf.multi_cell(0,7,content1,0)
     pdf.ln(5)
-    #pdf.image(details["avatar"], 10, 70, 33, type='jpeg')
-    pdf.image('playerOfTheMonth.jpeg', 230, 40, 33)
+    pdf.image(details["avatar"], 230, 40, 33, type='jpeg')
+    #pdf.image('playerOfTheMonth.jpeg', 230, 40, 33)
     pdf.set_font('Times','B',18)
     content2 = str(data[0][1])+" achieved "+str(data[0][3])+" points in Daily Matches representing our club"
     pdf.multi_cell(0,7,content2,0)
@@ -198,9 +234,10 @@ def generateLeagueTable(results, start_date, end_date):
     content3 = "Getting to know "+details["username"]+ " better:"
     pdf.multi_cell(0,7,content3,0)
     pdf.ln(5)
-    content4 = "Name: "+details["name"]
-    pdf.multi_cell(0,7,content4,0)
-    pdf.ln(5)
+    if "name" in details:
+        content4 = "Name: "+details["name"]
+        pdf.multi_cell(0,7,content4,0)
+        pdf.ln(5)
     content5 = "Joined on "+ time.strftime('%d-%b-%Y', time.localtime(details["joined"]))
     pdf.multi_cell(0,7,content5,0)
     pdf.ln(5)
@@ -264,9 +301,10 @@ def getArguments():
 #---------------------------------
 
 class PDF(FPDF):
-    def header(self):
+    def header(self,logo):
         # Logo
-        self.image('team_uk_logo.jpeg', 10, 8, 33)
+        self.image(logo, 10, 8, 33)
+        #self.image('team_uk_logo.jpeg', 10, 8, 33)
         # Times bold 15
         self.set_font('Times', 'B', 15)
         # Move to the right
@@ -291,6 +329,8 @@ class PDF(FPDF):
         self.set_font('Times', 'B', 12)
         # Background color
         self.set_fill_color(200, 220, 255)
+        # Line break
+        self.ln(10)
         # Title
         self.cell(0, 6, '%s' % (title), 0, 1, 'L', 1)
         # Line break
@@ -308,8 +348,8 @@ class PDF(FPDF):
         self.ln()
 
         #Print chapter
-    def print_chapter(self, title, content):
-        self.add_page('L')
+    def print_chapter(self, title, content, logo):
+        self.add_page('L', format = 'a4', logo = logo)
         self.chapter_title(title)
         self.chapter_body(content)
 
@@ -435,6 +475,8 @@ def main():
         username = args["username"]
     if args["club"]:
         club = args["club"]
+        clubDetails = getClubDetails(club)
+        clubLogo = getClubLogo(club)
     if args["userGames"]:
         getUserGames(username)
     if args["clubMembers"]:
@@ -495,7 +537,7 @@ def main():
                 t +=1
                 printProgressBar(t,graphNo)
                 
-                generateLeagueTable(results,start_date,end_date)
+                generateLeagueTable(results,start_date,end_date,getClubLogo(club))
 
                 t +=1
                 printProgressBar(t,graphNo)

@@ -24,7 +24,7 @@
                 {
                     "username": "babyangel10",
                     "stats": "https://api.chess.com/pub/player/babyangel10/stats",
-                    "timeout_percent": 4.62,
+                    "timeout_percent": 6.14,
                     "status": "basic",
                     "played_as_white": "win",
                     "played_as_black": "resigned",
@@ -33,7 +33,7 @@
                 {
                     "username": "buggyguy",
                     "stats": "https://api.chess.com/pub/player/buggyguy/stats",
-                    "timeout_percent": 11.32,
+                    "timeout_percent": 7.84,
                     "status": "basic",
                     "played_as_black": "resigned",
                     "played_as_white": "resigned",
@@ -60,7 +60,7 @@
                 {
                     "username": "daniel20100824",
                     "stats": "https://api.chess.com/pub/player/daniel20100824/stats",
-                    "timeout_percent": 39.13,
+                    "timeout_percent": 45,
                     "status": "premium",
                     "played_as_white": "timeout",
                     "played_as_black": "win",
@@ -78,7 +78,7 @@
                 {
                     "username": "ebecaylas",
                     "stats": "https://api.chess.com/pub/player/ebecaylas/stats",
-                    "timeout_percent": 88.64,
+                    "timeout_percent": 89.74,
                     "status": "basic",
                     "played_as_black": "timeout",
                     "played_as_white": "timeout",
@@ -114,7 +114,7 @@
                 {
                     "username": "javier_pina2",
                     "stats": "https://api.chess.com/pub/player/javier_pina2/stats",
-                    "timeout_percent": 6.09,
+                    "timeout_percent": 5.22,
                     "status": "basic",
                     "played_as_black": "timeout",
                     "played_as_white": "timeout",
@@ -123,7 +123,7 @@
                 {
                     "username": "kaidranzer112",
                     "stats": "https://api.chess.com/pub/player/kaidranzer112/stats",
-                    "timeout_percent": 24.39,
+                    "timeout_percent": 52.63,
                     "status": "basic",
                     "played_as_black": "resigned",
                     "played_as_white": "resigned",
@@ -141,7 +141,7 @@
                 {
                     "username": "meggaman",
                     "stats": "https://api.chess.com/pub/player/meggaman/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 1.92,
                     "status": "basic",
                     "played_as_black": "win",
                     "played_as_white": "resigned",
@@ -150,7 +150,7 @@
                 {
                     "username": "modern_mouse",
                     "stats": "https://api.chess.com/pub/player/modern_mouse/stats",
-                    "timeout_percent": 14.71,
+                    "timeout_percent": 42.86,
                     "status": "basic",
                     "played_as_white": "agreed",
                     "played_as_black": "win",
@@ -168,7 +168,7 @@
                 {
                     "username": "paulcrapsi",
                     "stats": "https://api.chess.com/pub/player/paulcrapsi/stats",
-                    "timeout_percent": 2.04,
+                    "timeout_percent": 1.9,
                     "status": "basic",
                     "played_as_black": "checkmated",
                     "played_as_white": "checkmated",
@@ -177,7 +177,7 @@
                 {
                     "username": "pawnrook4",
                     "stats": "https://api.chess.com/pub/player/pawnrook4/stats",
-                    "timeout_percent": 9.79,
+                    "timeout_percent": 28.85,
                     "status": "basic",
                     "played_as_black": "resigned",
                     "played_as_white": "resigned",
@@ -204,7 +204,7 @@
                 {
                     "username": "romanpakosh",
                     "stats": "https://api.chess.com/pub/player/romanpakosh/stats",
-                    "timeout_percent": 1.59,
+                    "timeout_percent": 0,
                     "status": "basic",
                     "played_as_white": "win",
                     "played_as_black": "win",
@@ -213,7 +213,7 @@
                 {
                     "username": "sashast007",
                     "stats": "https://api.chess.com/pub/player/sashast007/stats",
-                    "timeout_percent": 5.57,
+                    "timeout_percent": 5.96,
                     "status": "basic",
                     "played_as_white": "checkmated",
                     "played_as_black": "checkmated",
@@ -222,7 +222,7 @@
                 {
                     "username": "sleeper61",
                     "stats": "https://api.chess.com/pub/player/sleeper61/stats",
-                    "timeout_percent": 10.1,
+                    "timeout_percent": 26.44,
                     "status": "basic",
                     "played_as_black": "checkmated",
                     "board": "https://api.chess.com/pub/match/1055850/24"
@@ -230,7 +230,7 @@
                 {
                     "username": "spiridon_ghita",
                     "stats": "https://api.chess.com/pub/player/spiridon_ghita/stats",
-                    "timeout_percent": 2.43,
+                    "timeout_percent": 1.51,
                     "status": "basic",
                     "played_as_white": "checkmated",
                     "played_as_black": "win",
@@ -257,7 +257,7 @@
                 {
                     "username": "vuminhtri",
                     "stats": "https://api.chess.com/pub/player/vuminhtri/stats",
-                    "timeout_percent": 47.54,
+                    "timeout_percent": 54.39,
                     "status": "basic",
                     "played_as_black": "win",
                     "played_as_white": "win",
@@ -275,7 +275,7 @@
                 {
                     "username": "zolko24",
                     "stats": "https://api.chess.com/pub/player/zolko24/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 0.48,
                     "status": "basic",
                     "played_as_white": "resigned",
                     "played_as_black": "resigned",
@@ -332,7 +332,7 @@
                 {
                     "username": "david05",
                     "stats": "https://api.chess.com/pub/player/david05/stats",
-                    "timeout_percent": 6.49,
+                    "timeout_percent": 9.52,
                     "status": "premium",
                     "played_as_black": "win",
                     "played_as_white": "checkmated",
@@ -350,7 +350,7 @@
                 {
                     "username": "fmr26",
                     "stats": "https://api.chess.com/pub/player/fmr26/stats",
-                    "timeout_percent": 19.21,
+                    "timeout_percent": 13.64,
                     "status": "premium",
                     "played_as_black": "agreed",
                     "played_as_white": "checkmated",
@@ -359,7 +359,7 @@
                 {
                     "username": "frankcold",
                     "stats": "https://api.chess.com/pub/player/frankcold/stats",
-                    "timeout_percent": 2.07,
+                    "timeout_percent": 0.57,
                     "status": "premium",
                     "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1055850/24"
@@ -385,7 +385,7 @@
                 {
                     "username": "jford18",
                     "stats": "https://api.chess.com/pub/player/jford18/stats",
-                    "timeout_percent": 35.71,
+                    "timeout_percent": 38.46,
                     "status": "basic",
                     "played_as_black": "win",
                     "played_as_white": "win",
@@ -394,7 +394,7 @@
                 {
                     "username": "juiceboy007",
                     "stats": "https://api.chess.com/pub/player/juiceboy007/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 2.7,
                     "status": "premium",
                     "played_as_black": "win",
                     "played_as_white": "win",
@@ -403,7 +403,7 @@
                 {
                     "username": "lil_skitch",
                     "stats": "https://api.chess.com/pub/player/lil_skitch/stats",
-                    "timeout_percent": 3.85,
+                    "timeout_percent": 17.86,
                     "status": "basic",
                     "played_as_black": "timeout",
                     "played_as_white": "timeout",
@@ -412,15 +412,15 @@
                 {
                     "username": "malcolm1957",
                     "stats": "https://api.chess.com/pub/player/malcolm1957/stats",
-                    "timeout_percent": 3.8,
+                    "timeout_percent": 3.61,
                     "status": "premium",
                     "played_as_white": "win",
                     "played_as_black": "win",
                     "board": "https://api.chess.com/pub/match/1055850/11"
                 },
                 {
-                    "username": "mattsher03",
-                    "stats": "https://api.chess.com/pub/player/mattsher03/stats",
+                    "username": "mattsher100",
+                    "stats": "https://api.chess.com/pub/player/mattsher100/stats",
                     "timeout_percent": 0,
                     "status": "basic",
                     "played_as_black": "win",
@@ -475,7 +475,7 @@
                 {
                     "username": "rapscallion247",
                     "stats": "https://api.chess.com/pub/player/rapscallion247/stats",
-                    "timeout_percent": 15.44,
+                    "timeout_percent": 19.44,
                     "status": "premium",
                     "played_as_black": "resigned",
                     "played_as_white": "win",
@@ -484,7 +484,7 @@
                 {
                     "username": "runner5",
                     "stats": "https://api.chess.com/pub/player/runner5/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 12.5,
                     "status": "basic",
                     "played_as_black": "timeout",
                     "played_as_white": "timeout",
@@ -493,7 +493,7 @@
                 {
                     "username": "strangemover",
                     "stats": "https://api.chess.com/pub/player/strangemover/stats",
-                    "timeout_percent": 0.65,
+                    "timeout_percent": 0.64,
                     "status": "premium",
                     "played_as_white": "win",
                     "played_as_black": "win",
@@ -502,7 +502,7 @@
                 {
                     "username": "superdrewe53",
                     "stats": "https://api.chess.com/pub/player/superdrewe53/stats",
-                    "timeout_percent": 2.83,
+                    "timeout_percent": 3.7,
                     "status": "premium",
                     "played_as_white": "win",
                     "played_as_black": "win",

@@ -1,0 +1,94 @@
+{
+    "@id": "https://api.chess.com/pub/match/1148008",
+    "name": "Team Cyprus vs Team Malta",
+    "url": "https://www.chess.com/club/matches/1148008",
+    "start_time": 1595239249,
+    "status": "in_progress",
+    "boards": 4,
+    "settings": {
+        "rules": "chess",
+        "time_class": "daily",
+        "time_control": "1/259200",
+        "min_team_players": 1,
+        "min_required_games": 0,
+        "autostart": false
+    },
+    "teams": {
+        "team1": {
+            "@id": "https://api.chess.com/pub/club/team-cyprus",
+            "name": "Team Cyprus",
+            "url": "https://www.chess.com/club/team-cyprus",
+            "score": 1,
+            "players": [
+                {
+                    "username": "evisnp",
+                    "stats": "https://api.chess.com/pub/player/evisnp/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "board": "https://api.chess.com/pub/match/1148008/1"
+                },
+                {
+                    "username": "ioannisbek",
+                    "stats": "https://api.chess.com/pub/player/ioannisbek/stats",
+                    "timeout_percent": 10,
+                    "status": "premium",
+                    "board": "https://api.chess.com/pub/match/1148008/2"
+                },
+                {
+                    "username": "marinos_98",
+                    "stats": "https://api.chess.com/pub/player/marinos_98/stats",
+                    "timeout_percent": 19.35,
+                    "status": "basic",
+                    "board": "https://api.chess.com/pub/match/1148008/4"
+                },
+                {
+                    "username": "thehallucinatedandy",
+                    "stats": "https://api.chess.com/pub/player/thehallucinatedandy/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1148008/3"
+                }
+            ],
+            "fair_play_removals": []
+        },
+        "team2": {
+            "@id": "https://api.chess.com/pub/club/team-malta",
+            "name": "Team Malta",
+            "url": "https://www.chess.com/club/team-malta",
+            "score": 0,
+            "players": [
+                {
+                    "username": "kavall",
+                    "stats": "https://api.chess.com/pub/player/kavall/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "played_as_white": "resigned",
+                    "board": "https://api.chess.com/pub/match/1148008/3"
+                },
+                {
+                    "username": "kidexxx",
+                    "stats": "https://api.chess.com/pub/player/kidexxx/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "board": "https://api.chess.com/pub/match/1148008/1"
+                },
+                {
+                    "username": "vitaliikalugin",
+                    "stats": "https://api.chess.com/pub/player/vitaliikalugin/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "board": "https://api.chess.com/pub/match/1148008/2"
+                },
+                {
+                    "username": "zarbianite",
+                    "stats": "https://api.chess.com/pub/player/zarbianite/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "board": "https://api.chess.com/pub/match/1148008/4"
+                }
+            ],
+            "fair_play_removals": []
+        }
+    }
+}

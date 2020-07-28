@@ -20,13 +20,14 @@
             "@id": "https://api.chess.com/pub/club/team-united-kingdom-1",
             "name": "Team United Kingdom.",
             "url": "https://www.chess.com/club/team-united-kingdom-1",
-            "score": 7.5,
+            "score": 8.5,
             "players": [
                 {
                     "username": "aj-read",
                     "stats": "https://api.chess.com/pub/player/aj-read/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_white": "win",
                     "played_as_black": "checkmated",
                     "board": "https://api.chess.com/pub/match/1116436/10"
                 },
@@ -51,7 +52,7 @@
                 {
                     "username": "joels188",
                     "stats": "https://api.chess.com/pub/player/joels188/stats",
-                    "timeout_percent": 11.76,
+                    "timeout_percent": 17.95,
                     "status": "basic",
                     "played_as_white": "checkmated",
                     "played_as_black": "timeout",
@@ -78,7 +79,7 @@
                 {
                     "username": "malcolm1957",
                     "stats": "https://api.chess.com/pub/player/malcolm1957/stats",
-                    "timeout_percent": 3.8,
+                    "timeout_percent": 3.61,
                     "status": "premium",
                     "played_as_black": "resigned",
                     "played_as_white": "win",
@@ -96,7 +97,7 @@
                 {
                     "username": "tdale95",
                     "stats": "https://api.chess.com/pub/player/tdale95/stats",
-                    "timeout_percent": 0.49,
+                    "timeout_percent": 0.46,
                     "status": "premium",
                     "played_as_black": "win",
                     "played_as_white": "checkmated",
@@ -105,7 +106,7 @@
                 {
                     "username": "theblackcats",
                     "stats": "https://api.chess.com/pub/player/theblackcats/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 0.56,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1116436/8"
                 },
@@ -137,15 +138,16 @@
                 {
                     "username": "borochess",
                     "stats": "https://api.chess.com/pub/player/borochess/stats",
-                    "timeout_percent": 2.35,
+                    "timeout_percent": 2.04,
                     "status": "basic",
+                    "played_as_black": "resigned",
                     "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1116436/10"
                 },
                 {
                     "username": "brko56",
                     "stats": "https://api.chess.com/pub/player/brko56/stats",
-                    "timeout_percent": 14.9,
+                    "timeout_percent": 14.96,
                     "status": "basic",
                     "played_as_black": "timeout",
                     "played_as_white": "agreed",
@@ -154,7 +156,7 @@
                 {
                     "username": "bungurovic",
                     "stats": "https://api.chess.com/pub/player/bungurovic/stats",
-                    "timeout_percent": 11.11,
+                    "timeout_percent": 9.09,
                     "status": "basic",
                     "played_as_black": "resigned",
                     "played_as_white": "repetition",
@@ -179,7 +181,7 @@
                 {
                     "username": "goldwater",
                     "stats": "https://api.chess.com/pub/player/goldwater/stats",
-                    "timeout_percent": 0.72,
+                    "timeout_percent": 0.7,
                     "status": "basic",
                     "played_as_black": "resigned",
                     "played_as_white": "win",
@@ -233,7 +235,7 @@
                 {
                     "username": "zagonetan",
                     "stats": "https://api.chess.com/pub/player/zagonetan/stats",
-                    "timeout_percent": 0.55,
+                    "timeout_percent": 0.57,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1116436/8"
                 }

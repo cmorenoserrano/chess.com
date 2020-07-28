@@ -39,7 +39,7 @@
                 {
                     "username": "bioinformagician",
                     "stats": "https://api.chess.com/pub/player/bioinformagician/stats",
-                    "timeout_percent": 0.57,
+                    "timeout_percent": 0.63,
                     "status": "premium",
                     "played_as_black": "stalemate",
                     "played_as_white": "resigned",
@@ -48,7 +48,7 @@
                 {
                     "username": "counor",
                     "stats": "https://api.chess.com/pub/player/counor/stats",
-                    "timeout_percent": 14.81,
+                    "timeout_percent": 17.39,
                     "status": "premium",
                     "played_as_black": "resigned",
                     "played_as_white": "win",
@@ -83,7 +83,7 @@
                 {
                     "username": "rb57",
                     "stats": "https://api.chess.com/pub/player/rb57/stats",
-                    "timeout_percent": 72,
+                    "timeout_percent": 0,
                     "status": "closed",
                     "played_as_black": "timeout",
                     "played_as_white": "win",
@@ -154,7 +154,7 @@
                 {
                     "username": "dtmajesty",
                     "stats": "https://api.chess.com/pub/player/dtmajesty/stats",
-                    "timeout_percent": 30.65,
+                    "timeout_percent": 48.72,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1106370/12"
                 },
@@ -213,7 +213,7 @@
                 {
                     "username": "pawnstormer2012",
                     "stats": "https://api.chess.com/pub/player/pawnstormer2012/stats",
-                    "timeout_percent": 1.39,
+                    "timeout_percent": 3.68,
                     "status": "premium",
                     "played_as_white": "resigned",
                     "board": "https://api.chess.com/pub/match/1106370/1"
@@ -221,7 +221,7 @@
                 {
                     "username": "sankoff_64",
                     "stats": "https://api.chess.com/pub/player/sankoff_64/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 1.21,
                     "status": "premium",
                     "played_as_black": "agreed",
                     "board": "https://api.chess.com/pub/match/1106370/4"
@@ -229,7 +229,7 @@
                 {
                     "username": "vicente9999",
                     "stats": "https://api.chess.com/pub/player/vicente9999/stats",
-                    "timeout_percent": 9.3,
+                    "timeout_percent": 4.55,
                     "status": "premium",
                     "played_as_white": "win",
                     "played_as_black": "agreed",

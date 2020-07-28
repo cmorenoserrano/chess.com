@@ -25,15 +25,16 @@
                 {
                     "username": "crankinhaus",
                     "stats": "https://api.chess.com/pub/player/crankinhaus/stats",
-                    "timeout_percent": 6.12,
+                    "timeout_percent": 8.77,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1134742/2"
                 },
                 {
                     "username": "elbsr48",
                     "stats": "https://api.chess.com/pub/player/elbsr48/stats",
-                    "timeout_percent": 14.58,
+                    "timeout_percent": 14,
                     "status": "basic",
+                    "played_as_white": "checkmated",
                     "played_as_black": "resigned",
                     "board": "https://api.chess.com/pub/match/1134742/4"
                 },
@@ -47,14 +48,14 @@
                 {
                     "username": "meowkarin",
                     "stats": "https://api.chess.com/pub/player/meowkarin/stats",
-                    "timeout_percent": 15.25,
+                    "timeout_percent": 17.2,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1134742/3"
                 },
                 {
                     "username": "ufokosm777",
                     "stats": "https://api.chess.com/pub/player/ufokosm777/stats",
-                    "timeout_percent": 5.02,
+                    "timeout_percent": 3.99,
                     "status": "premium",
                     "played_as_black": "checkmated",
                     "played_as_white": "checkmated",
@@ -67,12 +68,12 @@
             "@id": "https://api.chess.com/pub/club/team-united-kingdom-1",
             "name": "Team United Kingdom.",
             "url": "https://www.chess.com/club/team-united-kingdom-1",
-            "score": 3,
+            "score": 4,
             "players": [
                 {
                     "username": "horseychess",
                     "stats": "https://api.chess.com/pub/player/horseychess/stats",
-                    "timeout_percent": 2.25,
+                    "timeout_percent": 1.09,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1134742/1"
                 },
@@ -88,13 +89,14 @@
                     "stats": "https://api.chess.com/pub/player/plascornel/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_black": "win",
                     "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1134742/4"
                 },
                 {
                     "username": "strangemover",
                     "stats": "https://api.chess.com/pub/player/strangemover/stats",
-                    "timeout_percent": 0.65,
+                    "timeout_percent": 0.64,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1134742/2"
                 },

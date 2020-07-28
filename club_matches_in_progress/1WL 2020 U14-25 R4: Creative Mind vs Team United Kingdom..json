@@ -53,7 +53,7 @@
                 {
                     "username": "armiga",
                     "stats": "https://api.chess.com/pub/player/armiga/stats",
-                    "timeout_percent": 14.29,
+                    "timeout_percent": 14.38,
                     "status": "premium",
                     "played_as_black": "resigned",
                     "played_as_white": "resigned",
@@ -80,7 +80,7 @@
                 {
                     "username": "corint",
                     "stats": "https://api.chess.com/pub/player/corint/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 3.23,
                     "status": "basic",
                     "played_as_black": "resigned",
                     "board": "https://api.chess.com/pub/match/1116430/18"
@@ -88,7 +88,7 @@
                 {
                     "username": "gremistalibertador",
                     "stats": "https://api.chess.com/pub/player/gremistalibertador/stats",
-                    "timeout_percent": 0.92,
+                    "timeout_percent": 0.99,
                     "status": "basic",
                     "played_as_black": "resigned",
                     "board": "https://api.chess.com/pub/match/1116430/6"
@@ -105,7 +105,7 @@
                 {
                     "username": "hugdepayens",
                     "stats": "https://api.chess.com/pub/player/hugdepayens/stats",
-                    "timeout_percent": 0.63,
+                    "timeout_percent": 0.61,
                     "status": "basic",
                     "played_as_black": "checkmated",
                     "played_as_white": "insufficient",
@@ -150,7 +150,7 @@
                 {
                     "username": "lorenzoallegri",
                     "stats": "https://api.chess.com/pub/player/lorenzoallegri/stats",
-                    "timeout_percent": 15.79,
+                    "timeout_percent": 15,
                     "status": "basic",
                     "played_as_black": "win",
                     "played_as_white": "win",
@@ -159,7 +159,7 @@
                 {
                     "username": "maryhanna",
                     "stats": "https://api.chess.com/pub/player/maryhanna/stats",
-                    "timeout_percent": 1.56,
+                    "timeout_percent": 0,
                     "status": "basic",
                     "played_as_white": "resigned",
                     "played_as_black": "resigned",
@@ -177,7 +177,7 @@
                 {
                     "username": "nuno_piedade",
                     "stats": "https://api.chess.com/pub/player/nuno_piedade/stats",
-                    "timeout_percent": 10.87,
+                    "timeout_percent": 14.71,
                     "status": "basic",
                     "played_as_black": "checkmated",
                     "played_as_white": "win",
@@ -204,7 +204,7 @@
                 {
                     "username": "stefaniastella",
                     "stats": "https://api.chess.com/pub/player/stefaniastella/stats",
-                    "timeout_percent": 8,
+                    "timeout_percent": 7.27,
                     "status": "premium",
                     "played_as_black": "checkmated",
                     "played_as_white": "resigned",
@@ -222,7 +222,7 @@
                 {
                     "username": "thexchris",
                     "stats": "https://api.chess.com/pub/player/thexchris/stats",
-                    "timeout_percent": 47.37,
+                    "timeout_percent": 60,
                     "status": "basic",
                     "played_as_black": "timeout",
                     "played_as_white": "timeout",
@@ -231,7 +231,7 @@
                 {
                     "username": "timotey23f",
                     "stats": "https://api.chess.com/pub/player/timotey23f/stats",
-                    "timeout_percent": 60,
+                    "timeout_percent": 54.26,
                     "status": "basic",
                     "played_as_white": "win",
                     "played_as_black": "checkmated",
@@ -240,7 +240,7 @@
                 {
                     "username": "wmuller",
                     "stats": "https://api.chess.com/pub/player/wmuller/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 4.17,
                     "status": "premium",
                     "played_as_black": "win",
                     "played_as_white": "win",
@@ -258,7 +258,7 @@
                 {
                     "username": "aknightslayer",
                     "stats": "https://api.chess.com/pub/player/aknightslayer/stats",
-                    "timeout_percent": 4.48,
+                    "timeout_percent": 4.92,
                     "status": "premium",
                     "played_as_white": "win",
                     "played_as_black": "win",
@@ -294,7 +294,7 @@
                 {
                     "username": "azflo",
                     "stats": "https://api.chess.com/pub/player/azflo/stats",
-                    "timeout_percent": 30,
+                    "timeout_percent": 50,
                     "status": "basic",
                     "played_as_white": "win",
                     "played_as_black": "win",
@@ -312,8 +312,8 @@
                 {
                     "username": "chickentikamosalah11",
                     "stats": "https://api.chess.com/pub/player/chickentikamosalah11/stats",
-                    "timeout_percent": 1.74,
-                    "status": "basic",
+                    "timeout_percent": 12,
+                    "status": "closed:abuse",
                     "played_as_white": "resigned",
                     "played_as_black": "resigned",
                     "board": "https://api.chess.com/pub/match/1116430/24"
@@ -330,7 +330,7 @@
                 {
                     "username": "david05",
                     "stats": "https://api.chess.com/pub/player/david05/stats",
-                    "timeout_percent": 6.49,
+                    "timeout_percent": 9.52,
                     "status": "premium",
                     "played_as_black": "win",
                     "played_as_white": "win",
@@ -339,7 +339,7 @@
                 {
                     "username": "finarfin",
                     "stats": "https://api.chess.com/pub/player/finarfin/stats",
-                    "timeout_percent": 3.17,
+                    "timeout_percent": 2.63,
                     "status": "basic",
                     "played_as_white": "win",
                     "played_as_black": "win",
@@ -410,7 +410,7 @@
                 {
                     "username": "receptiveking",
                     "stats": "https://api.chess.com/pub/player/receptiveking/stats",
-                    "timeout_percent": 3.45,
+                    "timeout_percent": 3.08,
                     "status": "basic",
                     "played_as_white": "win",
                     "played_as_black": "insufficient",
@@ -437,7 +437,7 @@
                 {
                     "username": "superdrewe53",
                     "stats": "https://api.chess.com/pub/player/superdrewe53/stats",
-                    "timeout_percent": 2.83,
+                    "timeout_percent": 3.7,
                     "status": "premium",
                     "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1116430/18"
@@ -472,7 +472,7 @@
                 {
                     "username": "wicked_mickey",
                     "stats": "https://api.chess.com/pub/player/wicked_mickey/stats",
-                    "timeout_percent": 5.56,
+                    "timeout_percent": 14.29,
                     "status": "premium",
                     "played_as_black": "win",
                     "played_as_white": "win",

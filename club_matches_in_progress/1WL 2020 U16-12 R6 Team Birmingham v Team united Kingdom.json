@@ -34,7 +34,7 @@
                 {
                     "username": "folkie",
                     "stats": "https://api.chess.com/pub/player/folkie/stats",
-                    "timeout_percent": 6.67,
+                    "timeout_percent": 6.86,
                     "status": "premium",
                     "played_as_white": "resigned",
                     "played_as_black": "resigned",
@@ -43,7 +43,7 @@
                 {
                     "username": "hihan",
                     "stats": "https://api.chess.com/pub/player/hihan/stats",
-                    "timeout_percent": 8.7,
+                    "timeout_percent": 7.89,
                     "status": "basic",
                     "played_as_black": "timeout",
                     "played_as_white": "timeout",
@@ -68,7 +68,7 @@
                 {
                     "username": "rimsky33",
                     "stats": "https://api.chess.com/pub/player/rimsky33/stats",
-                    "timeout_percent": 10.81,
+                    "timeout_percent": 12.5,
                     "status": "basic",
                     "played_as_black": "stalemate",
                     "played_as_white": "checkmated",
@@ -158,7 +158,7 @@
                 {
                     "username": "bioinformagician",
                     "stats": "https://api.chess.com/pub/player/bioinformagician/stats",
-                    "timeout_percent": 0.57,
+                    "timeout_percent": 0.63,
                     "status": "premium",
                     "played_as_white": "resigned",
                     "played_as_black": "resigned",
@@ -176,7 +176,7 @@
                 {
                     "username": "joels188",
                     "stats": "https://api.chess.com/pub/player/joels188/stats",
-                    "timeout_percent": 11.76,
+                    "timeout_percent": 17.95,
                     "status": "basic",
                     "played_as_white": "checkmated",
                     "played_as_black": "win",
@@ -212,7 +212,7 @@
                 {
                     "username": "tdale95",
                     "stats": "https://api.chess.com/pub/player/tdale95/stats",
-                    "timeout_percent": 0.49,
+                    "timeout_percent": 0.46,
                     "status": "premium",
                     "played_as_white": "win",
                     "played_as_black": "resigned",

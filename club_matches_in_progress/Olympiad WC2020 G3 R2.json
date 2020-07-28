@@ -20,13 +20,15 @@
             "@id": "https://api.chess.com/pub/club/team-united-kingdom-1",
             "name": "Team United Kingdom.",
             "url": "https://www.chess.com/club/team-united-kingdom-1",
-            "score": 14,
+            "score": 18,
             "players": [
                 {
                     "username": "andydiff67",
                     "stats": "https://api.chess.com/pub/player/andydiff67/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_white": "win",
+                    "played_as_black": "win",
                     "board": "https://api.chess.com/pub/match/1119994/20"
                 },
                 {
@@ -49,7 +51,7 @@
                 {
                     "username": "cuths16",
                     "stats": "https://api.chess.com/pub/player/cuths16/stats",
-                    "timeout_percent": 7.69,
+                    "timeout_percent": 0,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1119994/8"
                 },
@@ -92,6 +94,7 @@
                     "stats": "https://api.chess.com/pub/player/holl75/stats",
                     "timeout_percent": 0,
                     "status": "basic",
+                    "played_as_black": "agreed",
                     "board": "https://api.chess.com/pub/match/1119994/11"
                 },
                 {
@@ -106,7 +109,7 @@
                 {
                     "username": "horseychess",
                     "stats": "https://api.chess.com/pub/player/horseychess/stats",
-                    "timeout_percent": 2.25,
+                    "timeout_percent": 1.09,
                     "status": "premium",
                     "played_as_white": "win",
                     "played_as_black": "win",
@@ -124,7 +127,7 @@
                 {
                     "username": "m1chael11",
                     "stats": "https://api.chess.com/pub/player/m1chael11/stats",
-                    "timeout_percent": 24.32,
+                    "timeout_percent": 27.27,
                     "status": "premium",
                     "played_as_black": "resigned",
                     "played_as_white": "timeout",
@@ -167,7 +170,7 @@
                 {
                     "username": "reddersn",
                     "stats": "https://api.chess.com/pub/player/reddersn/stats",
-                    "timeout_percent": 1.05,
+                    "timeout_percent": 1.11,
                     "status": "premium",
                     "played_as_black": "win",
                     "played_as_white": "resigned",
@@ -185,7 +188,7 @@
                 {
                     "username": "strangemover",
                     "stats": "https://api.chess.com/pub/player/strangemover/stats",
-                    "timeout_percent": 0.65,
+                    "timeout_percent": 0.64,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1119994/7"
                 },
@@ -203,6 +206,8 @@
                     "stats": "https://api.chess.com/pub/player/uxb_steve/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_black": "resigned",
+                    "played_as_white": "resigned",
                     "board": "https://api.chess.com/pub/match/1119994/12"
                 },
                 {
@@ -219,12 +224,12 @@
             "@id": "https://api.chess.com/pub/club/chess-club-classic-brilliant-combinations",
             "name": "Chess club Classic Brilliant Combinations",
             "url": "https://www.chess.com/club/chess-club-classic-brilliant-combinations",
-            "score": 15,
+            "score": 16,
             "players": [
                 {
                     "username": "allanandersen",
                     "stats": "https://api.chess.com/pub/player/allanandersen/stats",
-                    "timeout_percent": 14.29,
+                    "timeout_percent": 29.41,
                     "status": "closed:fair_play_violations",
                     "played_as_black": "timeout",
                     "played_as_white": "timeout",
@@ -258,7 +263,7 @@
                 {
                     "username": "garkysh",
                     "stats": "https://api.chess.com/pub/player/garkysh/stats",
-                    "timeout_percent": 31.59,
+                    "timeout_percent": 34.97,
                     "status": "closed:fair_play_violations",
                     "played_as_black": "timeout",
                     "played_as_white": "timeout",
@@ -292,7 +297,7 @@
                 {
                     "username": "kuocinyu",
                     "stats": "https://api.chess.com/pub/player/kuocinyu/stats",
-                    "timeout_percent": 40.3,
+                    "timeout_percent": 45.76,
                     "status": "closed:fair_play_violations",
                     "played_as_white": "timeout",
                     "played_as_black": "timeout",
@@ -301,8 +306,10 @@
                 {
                     "username": "mario_mate",
                     "stats": "https://api.chess.com/pub/player/mario_mate/stats",
-                    "timeout_percent": 0,
-                    "status": "premium",
+                    "timeout_percent": 32,
+                    "status": "basic",
+                    "played_as_black": "timeout",
+                    "played_as_white": "timeout",
                     "board": "https://api.chess.com/pub/match/1119994/20"
                 },
                 {
@@ -317,8 +324,8 @@
                 {
                     "username": "ovidd",
                     "stats": "https://api.chess.com/pub/player/ovidd/stats",
-                    "timeout_percent": 0,
-                    "status": "premium",
+                    "timeout_percent": 4.76,
+                    "status": "closed:fair_play_violations",
                     "played_as_black": "win",
                     "played_as_white": "agreed",
                     "board": "https://api.chess.com/pub/match/1119994/4"
@@ -326,7 +333,7 @@
                 {
                     "username": "prachthauser_a",
                     "stats": "https://api.chess.com/pub/player/prachthauser_a/stats",
-                    "timeout_percent": 18.31,
+                    "timeout_percent": 18.01,
                     "status": "premium",
                     "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1119994/22"
@@ -334,7 +341,7 @@
                 {
                     "username": "rusoiler",
                     "stats": "https://api.chess.com/pub/player/rusoiler/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 0.76,
                     "status": "basic",
                     "played_as_black": "win",
                     "played_as_white": "resigned",
@@ -344,7 +351,7 @@
                     "username": "scotmaster",
                     "stats": "https://api.chess.com/pub/player/scotmaster/stats",
                     "timeout_percent": 0,
-                    "status": "premium",
+                    "status": "closed",
                     "played_as_white": "agreed",
                     "played_as_black": "agreed",
                     "board": "https://api.chess.com/pub/match/1119994/15"
@@ -352,7 +359,7 @@
                 {
                     "username": "skyfney",
                     "stats": "https://api.chess.com/pub/player/skyfney/stats",
-                    "timeout_percent": 1.38,
+                    "timeout_percent": 1.43,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1119994/14"
                 },
@@ -384,6 +391,7 @@
                     "stats": "https://api.chess.com/pub/player/valeksk/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_white": "agreed",
                     "board": "https://api.chess.com/pub/match/1119994/11"
                 },
                 {
@@ -391,6 +399,8 @@
                     "stats": "https://api.chess.com/pub/player/viktor_boev/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_white": "win",
+                    "played_as_black": "win",
                     "board": "https://api.chess.com/pub/match/1119994/12"
                 },
                 {
@@ -416,7 +426,8 @@
                 "AllanAndersen",
                 "GABORchessFM",
                 "garkysh",
-                "KuoCinyu"
+                "KuoCinyu",
+                "Ovidd"
             ]
         }
     }

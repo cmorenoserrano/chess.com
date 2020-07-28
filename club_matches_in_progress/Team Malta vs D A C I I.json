@@ -1,0 +1,148 @@
+{
+    "@id": "https://api.chess.com/pub/match/1143616",
+    "name": "Team Malta vs D A C I I",
+    "url": "https://www.chess.com/club/matches/1143616",
+    "start_time": 1595746347,
+    "status": "in_progress",
+    "boards": 8,
+    "settings": {
+        "rules": "chess",
+        "time_class": "daily",
+        "time_control": "1/259200",
+        "min_team_players": 1,
+        "min_required_games": 0,
+        "autostart": false
+    },
+    "teams": {
+        "team1": {
+            "@id": "https://api.chess.com/pub/club/team-malta",
+            "name": "Team Malta",
+            "url": "https://www.chess.com/club/team-malta",
+            "score": 0,
+            "players": [
+                {
+                    "username": "alessandra11111",
+                    "stats": "https://api.chess.com/pub/player/alessandra11111/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "board": "https://api.chess.com/pub/match/1143616/7"
+                },
+                {
+                    "username": "kavall",
+                    "stats": "https://api.chess.com/pub/player/kavall/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "board": "https://api.chess.com/pub/match/1143616/4"
+                },
+                {
+                    "username": "kidexxx",
+                    "stats": "https://api.chess.com/pub/player/kidexxx/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "board": "https://api.chess.com/pub/match/1143616/1"
+                },
+                {
+                    "username": "minamo99",
+                    "stats": "https://api.chess.com/pub/player/minamo99/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "board": "https://api.chess.com/pub/match/1143616/8"
+                },
+                {
+                    "username": "sigarru",
+                    "stats": "https://api.chess.com/pub/player/sigarru/stats",
+                    "timeout_percent": 6.98,
+                    "status": "premium",
+                    "board": "https://api.chess.com/pub/match/1143616/2"
+                },
+                {
+                    "username": "terro003",
+                    "stats": "https://api.chess.com/pub/player/terro003/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "board": "https://api.chess.com/pub/match/1143616/6"
+                },
+                {
+                    "username": "vitaliikalugin",
+                    "stats": "https://api.chess.com/pub/player/vitaliikalugin/stats",
+                    "timeout_percent": 0,
+                    "status": "premium",
+                    "board": "https://api.chess.com/pub/match/1143616/3"
+                },
+                {
+                    "username": "zarbianite",
+                    "stats": "https://api.chess.com/pub/player/zarbianite/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "board": "https://api.chess.com/pub/match/1143616/5"
+                }
+            ],
+            "fair_play_removals": []
+        },
+        "team2": {
+            "@id": "https://api.chess.com/pub/club/d-a-c-i-i",
+            "name": "D A C I I",
+            "url": "https://www.chess.com/club/d-a-c-i-i",
+            "score": 0,
+            "players": [
+                {
+                    "username": "danoit",
+                    "stats": "https://api.chess.com/pub/player/danoit/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "board": "https://api.chess.com/pub/match/1143616/8"
+                },
+                {
+                    "username": "dany1963",
+                    "stats": "https://api.chess.com/pub/player/dany1963/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "board": "https://api.chess.com/pub/match/1143616/7"
+                },
+                {
+                    "username": "leromain23",
+                    "stats": "https://api.chess.com/pub/player/leromain23/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "board": "https://api.chess.com/pub/match/1143616/1"
+                },
+                {
+                    "username": "luciantm",
+                    "stats": "https://api.chess.com/pub/player/luciantm/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "board": "https://api.chess.com/pub/match/1143616/6"
+                },
+                {
+                    "username": "lulucami",
+                    "stats": "https://api.chess.com/pub/player/lulucami/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "board": "https://api.chess.com/pub/match/1143616/5"
+                },
+                {
+                    "username": "panaionel",
+                    "stats": "https://api.chess.com/pub/player/panaionel/stats",
+                    "timeout_percent": 58.82,
+                    "status": "basic",
+                    "board": "https://api.chess.com/pub/match/1143616/2"
+                },
+                {
+                    "username": "predadan79",
+                    "stats": "https://api.chess.com/pub/player/predadan79/stats",
+                    "timeout_percent": 0.44,
+                    "status": "basic",
+                    "board": "https://api.chess.com/pub/match/1143616/4"
+                },
+                {
+                    "username": "valib03",
+                    "stats": "https://api.chess.com/pub/player/valib03/stats",
+                    "timeout_percent": 0,
+                    "status": "basic",
+                    "board": "https://api.chess.com/pub/match/1143616/3"
+                }
+            ],
+            "fair_play_removals": []
+        }
+    }
+}
