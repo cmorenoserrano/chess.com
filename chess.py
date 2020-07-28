@@ -449,7 +449,7 @@ def output_pdf(pages, filename):
 
 #-----------------------------------------------------------------------------
 def main():
-    t, graphNo = 0, 8
+    t, graphNo = 0, 3
     printProgressBar(t,graphNo)
     username = ""
     club = ""
@@ -502,9 +502,13 @@ def main():
             #print(playerMatches)
     t +=1
     printProgressBar(t,graphNo)
+
+    
     if args["report"]:
         if args["club"]:
             if args["dateRange"]:
+                t, graphNo = 0, 5
+                printProgressBar(t,graphNo)
                 members = {}
                 clubMembers = getClubMembers(club)
                 for member in clubMembers["weekly"]:
