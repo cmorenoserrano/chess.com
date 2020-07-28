@@ -2,7 +2,7 @@
 
 ## Usage
 
-This script uses Python 3.7 so the sample commands follow the `python3` pattern instead of the usual `python` because I also programme in Python 2. If you only use Python 3, please replace `python3` with `python`.
+This script uses Python 3.7 so the sample commands follow the `python3` pattern instead of the usual `python` because I also program in Python 2. If you only use Python 3, please replace `python3` with `python`.
 
 You can get started with the following help command to display all available options:
 
@@ -40,3 +40,6 @@ Just calling the script with the `-u` switch will create a folder for that user 
 
 Calling the script just with the `-c` switch will create a folder for that club, json files containing the club's details, members, matches and the club's logo.
 
+`python3 chess.py -c clubname -d 01-01-2020:31-01-2020 -r`
+
+If we add the `-r` switch, the script will generate a PDF report for that club for the specified date range in `-d dd-mm-yyyy:dd-mm-yyyy`. In the example, the report will be produced for the month of January 2020 and it will include a Player of the Month feature for that month.
