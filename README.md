@@ -48,3 +48,28 @@ Calling the script just with the `-c` switch will create a folder for that club,
 
 If we add the `-r` switch, the script will generate a PDF report for that club for the specified date range in `-d dd-mm-yyyy:dd-mm-yyyy`. In the example, the report will be produced for the month of January 2020 and it will include a Player of the Month feature for that month.
 
+## Docker version
+
+In order to make it easier to use the script without the need of installing Python, or its dependencies, or updating the fpdf libraries with the modified ones, a Docker image gets built automatically with every release with all of that done for you. This docker image is hosted in Docker Hub here: https://hub.docker.com/repository/docker/cmorenoserrano/chess/
+
+First, you must install Docker in your computer (https://docs.docker.com/get-docker/).
+
+Then, you pull the image from the Docker repo:
+
+`docker pull cmorenoserrano/chess:latest`
+
+Then you can run the usual script commands from above, but with docker:
+
+`docker run --name chess --rm -it -v /tmp/chess:/usr/src/app cmorenoserrano/chess:latest chess.py -u sprocket314 -c team-united-kingdom-1 -d 01-06-2020:30-06-2020 -r`
+
+This docker command will use the `cmorenoserrano/chess:latest` image that you pulled from the repo with the docker pull command and run a single Python command, which is to run the chess.py Python script for user sprocket314 (to get all of its details) and then get all of the details for club team-united-kingdom-1 and in addition, run a league table report (with player of the month) for the month of June. This will generate a PDF for this club and time period.
+
+All of the data will be generated inside the container and because we mounted the /tmp/chess folder, all of the data will also be replicated in your local machine inside /tmp/chess. Feel free to update the folder location from /tmp/chess to any other location in your machine.
+
+### Windows users
+
+Windows users will have to update the command with Windows-style path instead:
+
+`docker run --name chess --rm -it -v c:\temp\chess:/usr/src/app cmorenoserrano/chess:latest chess.py -u sprocket314 -c team-united-kingdom-1 -d 01-06-2020:30-06-2020 -r`
+
+Then, all of your data will appear inside c:\temp\chess\. Feel free to update the folder location from c:\temp\chess\ to any other location in your machine.
