@@ -28,6 +28,8 @@ RUN apt-get update && \
     rm orca-1.2.1-x86_64.AppImage && \
     printf '#!/bin/bash \nxvfb-run --auto-servernum --server-args "-screen 0 640x480x24" /opt/orca/squashfs-root/app/orca "$@"' > /usr/bin/orca && \
     chmod +x /usr/bin/orca
+
+COPY ./fpdf/ /usr/local/lib/python3.8/site-packages/fpdf/
     
 ENTRYPOINT ["python3"]
 
