@@ -1,0 +1,197 @@
+{
+    "finished": [],
+    "in_progress": [
+        {
+            "name": "600 - 1200 ELO  -   World Chess Federation vs GM Ben Finegold Club",
+            "url": "https://www.chess.com/club/matches/1107628",
+            "@id": "https://api.chess.com/pub/match/1107628",
+            "club": "https://api.chess.com/pub/club/gm-ben-finegold-club",
+            "results": {
+                "played_as_white": "resigned",
+                "played_as_black": "checkmated"
+            },
+            "board": "https://api.chess.com/pub/match/1107628/21"
+        },
+        {
+            "name": "BULGARIA vs Team United Kingdom.",
+            "url": "https://www.chess.com/club/matches/1134776",
+            "@id": "https://api.chess.com/pub/match/1134776",
+            "club": "https://api.chess.com/pub/club/team-united-kingdom-1",
+            "board": "https://api.chess.com/pub/match/1134776/51"
+        },
+        {
+            "name": "CCT League S1 L2a R9",
+            "url": "https://www.chess.com/club/matches/1128916",
+            "@id": "https://api.chess.com/pub/match/1128916",
+            "club": "https://api.chess.com/pub/club/team-united-kingdom-1",
+            "results": {
+                "played_as_white": "win",
+                "played_as_black": "win"
+            },
+            "board": "https://api.chess.com/pub/match/1128916/30"
+        },
+        {
+            "name": "Chess club Classic Brilliant Combinations vs Team United Kingdom.",
+            "url": "https://www.chess.com/club/matches/1109034",
+            "@id": "https://api.chess.com/pub/match/1109034",
+            "club": "https://api.chess.com/pub/club/team-united-kingdom-1",
+            "results": {
+                "played_as_white": "resigned",
+                "played_as_black": "resigned"
+            },
+            "board": "https://api.chess.com/pub/match/1109034/44"
+        },
+        {
+            "name": "Chess club Classic Brilliant Combinations vs Team United Kingdom.",
+            "url": "https://www.chess.com/club/matches/1114640",
+            "@id": "https://api.chess.com/pub/match/1114640",
+            "club": "https://api.chess.com/pub/club/team-united-kingdom-1",
+            "results": {
+                "played_as_white": "insufficient",
+                "played_as_black": "resigned"
+            },
+            "board": "https://api.chess.com/pub/match/1114640/47"
+        },
+        {
+            "name": "Chess School vs GM Ben Finegold Club",
+            "url": "https://www.chess.com/club/matches/1112770",
+            "@id": "https://api.chess.com/pub/match/1112770",
+            "club": "https://api.chess.com/pub/club/gm-ben-finegold-club",
+            "results": {
+                "played_as_white": "win",
+                "played_as_black": "win"
+            },
+            "board": "https://api.chess.com/pub/match/1112770/74"
+        },
+        {
+            "name": "Chess School vs GM Ben Finegold Club",
+            "url": "https://www.chess.com/club/matches/1119150",
+            "@id": "https://api.chess.com/pub/match/1119150",
+            "club": "https://api.chess.com/pub/club/gm-ben-finegold-club",
+            "results": {
+                "played_as_white": "agreed",
+                "played_as_black": "agreed"
+            },
+            "board": "https://api.chess.com/pub/match/1119150/78"
+        },
+        {
+            "name": "Chess960 Players Group vs GM Ben Finegold Club",
+            "url": "https://www.chess.com/club/matches/1107940",
+            "@id": "https://api.chess.com/pub/match/1107940",
+            "club": "https://api.chess.com/pub/club/gm-ben-finegold-club",
+            "results": {
+                "played_as_white": "resigned",
+                "played_as_black": "resigned"
+            },
+            "board": "https://api.chess.com/pub/match/1107940/33"
+        },
+        {
+            "name": "CHESSBRAHS vs GM Ben Finegold",
+            "url": "https://www.chess.com/club/matches/1128466",
+            "@id": "https://api.chess.com/pub/match/1128466",
+            "club": "https://api.chess.com/pub/club/gm-ben-finegold-club",
+            "results": {
+                "played_as_white": "agreed",
+                "played_as_black": "win"
+            },
+            "board": "https://api.chess.com/pub/match/1128466/95"
+        },
+        {
+            "name": "Covid-19 Lockdown Chess Series Round 1: Special Encounter",
+            "url": "https://www.chess.com/club/matches/1129922",
+            "@id": "https://api.chess.com/pub/match/1129922",
+            "club": "https://api.chess.com/pub/club/team-united-kingdom-1",
+            "results": {
+                "played_as_white": "win",
+                "played_as_black": "resigned"
+            },
+            "board": "https://api.chess.com/pub/match/1129922/32"
+        },
+        {
+            "name": "Hello UK",
+            "url": "https://www.chess.com/club/matches/1112306",
+            "@id": "https://api.chess.com/pub/match/1112306",
+            "club": "https://api.chess.com/pub/club/team-united-kingdom-1",
+            "results": {
+                "played_as_white": "win",
+                "played_as_black": "resigned"
+            },
+            "board": "https://api.chess.com/pub/match/1112306/76"
+        },
+        {
+            "name": "Hello!!!!",
+            "url": "https://www.chess.com/club/matches/1133338",
+            "@id": "https://api.chess.com/pub/match/1133338",
+            "club": "https://api.chess.com/pub/club/universal-chess-com",
+            "board": "https://api.chess.com/pub/match/1133338/1"
+        },
+        {
+            "name": "June 2020",
+            "url": "https://www.chess.com/club/matches/1134657",
+            "@id": "https://api.chess.com/pub/match/1134657",
+            "club": "https://api.chess.com/pub/club/gm-ben-finegold-club",
+            "results": {
+                "played_as_white": "win",
+                "played_as_black": "win"
+            },
+            "board": "https://api.chess.com/pub/match/1134657/46"
+        },
+        {
+            "name": "NWL2020 D1 R5: The Chess Club vs Team United Kingdom: Open.",
+            "url": "https://www.chess.com/club/matches/1120622",
+            "@id": "https://api.chess.com/pub/match/1120622",
+            "club": "https://api.chess.com/pub/club/team-united-kingdom-1",
+            "board": "https://api.chess.com/pub/match/1120622/49"
+        },
+        {
+            "name": "NWL2020 D1 R6",
+            "url": "https://www.chess.com/club/matches/1133926",
+            "@id": "https://api.chess.com/pub/match/1133926",
+            "club": "https://api.chess.com/pub/club/team-united-kingdom-1",
+            "results": {
+                "played_as_black": "resigned"
+            },
+            "board": "https://api.chess.com/pub/match/1133926/37"
+        },
+        {
+            "name": "Olympiad TC2020 G2 R2",
+            "url": "https://www.chess.com/club/matches/1122668",
+            "@id": "https://api.chess.com/pub/match/1122668",
+            "club": "https://api.chess.com/pub/club/team-united-kingdom-1",
+            "results": {
+                "played_as_white": "resigned"
+            },
+            "board": "https://api.chess.com/pub/match/1122668/36"
+        },
+        {
+            "name": "Team Match June Edition 2020",
+            "url": "https://www.chess.com/club/matches/1131756",
+            "@id": "https://api.chess.com/pub/match/1131756",
+            "club": "https://api.chess.com/pub/club/gm-ben-finegold-club",
+            "results": {
+                "played_as_white": "win",
+                "played_as_black": "win"
+            },
+            "board": "https://api.chess.com/pub/match/1131756/48"
+        },
+        {
+            "name": "Thematic MC2020 G1 R1",
+            "url": "https://www.chess.com/club/matches/1140576",
+            "@id": "https://api.chess.com/pub/match/1140576",
+            "club": "https://api.chess.com/pub/club/team-united-kingdom-1",
+            "board": "https://api.chess.com/pub/match/1140576/11"
+        },
+        {
+            "name": "U-1500",
+            "url": "https://www.chess.com/club/matches/1126782",
+            "@id": "https://api.chess.com/pub/match/1126782",
+            "club": "https://api.chess.com/pub/club/gm-ben-finegold-club",
+            "results": {
+                "played_as_white": "win",
+                "played_as_black": "win"
+            },
+            "board": "https://api.chess.com/pub/match/1126782/58"
+        }
+    ],
+    "registered": []
+}

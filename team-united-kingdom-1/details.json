@@ -1,0 +1,24 @@
+{
+    "@id": "https://api.chess.com/pub/club/team-united-kingdom-1",
+    "name": "Team United Kingdom.",
+    "club_id": 26516,
+    "country": "https://api.chess.com/pub/country/GB",
+    "location": "Chesscom",
+    "average_daily_rating": 1234,
+    "members_count": 1455,
+    "created": 1388834016,
+    "last_activity": 1594805922,
+    "admin": [
+        "https://api.chess.com/pub/player/stickman13",
+        "https://api.chess.com/pub/player/superdrewe53",
+        "https://api.chess.com/pub/player/aknightslayer",
+        "https://api.chess.com/pub/player/aj-read",
+        "https://api.chess.com/pub/player/pannalman",
+        "https://api.chess.com/pub/player/ispacechess"
+    ],
+    "visibility": "private",
+    "join_request": "https://www.chess.com/club/join/26516",
+    "icon": "https://images.chesscomfiles.com/uploads/v1/group/26516.db9618e6.50x50o.b13199986f75.gif",
+    "description": "<p>We are the official team that represents the United Kingdom on chess.com! We are a team of honesty, integrity, humility and sportsmanship! We welcome everyone from the UK, whether you\u2019re relatively new to chess or are a GM. <span style=\"color:#0000ff;\"><strong>The Team has a policy of asking prospective new members wishing to join us to have been active on Chess.com for at least 3 months and to have completed 10 daily games,We value all requests to join\u00a0us so if you do not qualify now please try again when you do.\u00a0</strong></span></p>\n<p>We are a team that will not back away from a challenge, be it vote chess or team matches. We also share each other's knowledge to improve all of our play. We accept players from England, Wales, Scotland, British Ireland, Isle Of Man, Guernsey, Jersey and any British overseas territories! People in other countries with UK heritage (or of course foreigners who live in the UK) are also welcome to join our group! We also have a junior team called United Kingdom Juniors which is for 21 year olds and under 21 year olds.</p>\n<p><span style=\"color:#0000ff;\"><strong>Join us so we can become the best national team in the history of chess.com. Thank you.\u00a0<br /></strong></span></p>",
+    "url": "https://www.chess.com/club/team-united-kingdom-1"
+}

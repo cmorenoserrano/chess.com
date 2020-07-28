@@ -20,6 +20,7 @@ def getPlayerDetails(username):
 
     response = session.get(baseUrl)
     details = response.json()
+    dumps(details,file_name=username+'/details.json')
     #print(stats)
     return details
 
@@ -39,9 +40,9 @@ def getUserGames(username):
     for i in range(len(archivesList)-1):
         url = baseUrl + archivesList[i+1] + "/pgn"
         filename = archivesList[i+1].replace("/", "-")
-        if not os.path.exists("chess_games"):
-            os.mkdir("chess_games")
-        urllib.request.urlretrieve(url, "chess_games/" + filename + ".pgn") #change
+        if not os.path.exists(username+"/chess_games"):
+            os.mkdir(username+"/chess_games")
+        urllib.request.urlretrieve(url, username+"/chess_games/" + filename + ".pgn") #change
         print(filename + ".pgn has been downloaded.")
     print ("All files have been downloaded.")
 
@@ -50,6 +51,7 @@ def getPlayerMatches(username):
 
     response = session.get(baseUrl)
     matches = response.json()
+    dumps(matches,file_name=username+'/matches.json')
     #print(matches)
     return matches
 
@@ -58,6 +60,7 @@ def getPlayerStats(username):
 
     response = session.get(baseUrl)
     stats = response.json()
+    dumps(stats,file_name=username+'/stats.json')
     #print(stats)
     return stats
 
@@ -66,6 +69,7 @@ def getClubDetails(clubname):
 
     response = session.get(baseUrl)
     clubDetails = response.json()
+    dumps(clubDetails,file_name=clubname+'/details.json')
     #print(members)
     return clubDetails
 
@@ -81,7 +85,7 @@ def getClubLogo(clubname):
     r = requests.get(clubLogo,stream=True)
     if r.status_code == 200:
         r.raw.decode_content = True
-        logo = clubname+"."+str(extension)
+        logo = clubname+"/"+clubname+"."+str(extension)
         #print(logo)
         with open(logo,'wb') as f:
             shutil.copyfileobj(r.raw,f)
@@ -99,6 +103,7 @@ def getClubMembers(clubname):
 
     response = session.get(baseUrl)
     members = response.json()
+    dumps(members,file_name=clubname+'/members.json')
     #print(members)
     return members
 
@@ -107,21 +112,22 @@ def getClubMatches(clubname):
 
     response = session.get(baseUrl)
     matches = response.json()
+    dumps(matches,file_name=clubname+'/matches.json')
     #print(matches)
     return matches
 
-def getResults(club,members,scope_finished,scope_in_progress):
+def getResults(clubname,members,scope_finished,scope_in_progress):
     #print(scope_finished)
-    clubUrl = "https://api.chess.com/pub/club/" + club
+    clubUrl = "https://api.chess.com/pub/club/" + clubname
     results = {}
     
     for match in scope_finished:
         baseUrl = match["@id"]
         response = session.get(baseUrl)
         team_match = response.json()
-        if not os.path.exists("club_matches_finished"):
-            os.mkdir("club_matches_finished")
-        dumps(team_match,file_name='club_matches_finished/'+match["name"]+'.json')
+        if not os.path.exists(clubname+"/club_matches_finished"):
+            os.mkdir(clubname+"/club_matches_finished")
+        dumps(team_match,file_name=clubname+'/club_matches_finished/'+match["name"]+'.json')
         for team in team_match["teams"]:
             if team_match["teams"][team]["@id"] == clubUrl:
                 for player in team_match["teams"][team]["players"]:
@@ -141,9 +147,9 @@ def getResults(club,members,scope_finished,scope_in_progress):
         baseUrl = match["@id"]
         response = session.get(baseUrl)
         team_match = response.json()
-        if not os.path.exists("club_matches_in_progress"):
-            os.mkdir("club_matches_in_progress")
-        dumps(team_match,file_name='club_matches_in_progress/'+match["name"]+'.json')
+        if not os.path.exists(clubname+"/club_matches_in_progress"):
+            os.mkdir(clubname+"/club_matches_in_progress")
+        dumps(team_match,file_name=clubname+'/club_matches_in_progress/'+match["name"]+'.json')
         for team in team_match["teams"]:
             if team_match["teams"][team]["@id"] == clubUrl:
                 for player in team_match["teams"][team]["players"]:
@@ -168,7 +174,7 @@ def getResults(club,members,scope_finished,scope_in_progress):
     #print(ranking)
                             
     results = ranking
-    dumps(results,file_name='results.json')
+    dumps(results,file_name=clubname+'/results.json')
     return results
 
 # Print iterations progress
@@ -192,7 +198,7 @@ def printProgressBar (
 
 #---------------------------------
 
-def generateLeagueTable(results, start_date, end_date,logo):
+def generateLeagueTable(clubname,results, start_date, end_date,logo):
     pdf = PDF()
     pdf.alias_nb_pages()
     #components = final
@@ -203,7 +209,7 @@ def generateLeagueTable(results, start_date, end_date,logo):
             aux = [str(i),results[i-1][0],str(getPlayerStats(results[i-1][0])["chess_daily"]["last"]["rating"]),str(results[i-1][1])]
             data.append(aux)
     #print(data)
-    pdf.print_chapter('League Table for Club Daily Matches',"",logo)
+    pdf.print_chapter("League Table for "+clubname+"'s Club Daily Matches","",logo)
     pdf.set_font('Times','',12)
     pdf.set_text_color(0,0,0)
     instructions = "Current standings from "+str(start_date)+" to "+str(end_date)
@@ -225,8 +231,10 @@ def generateLeagueTable(results, start_date, end_date,logo):
     content1 = "This month's Player of the Month was: "+str(data[0][1])
     pdf.multi_cell(0,7,content1,0)
     pdf.ln(5)
-    pdf.image(details["avatar"], 230, 40, 33, type='jpeg')
-    #pdf.image('playerOfTheMonth.jpeg', 230, 40, 33)
+    if "avatar" in details:
+        pdf.image(details["avatar"], 230, 50, 33, type='jpeg')
+    else:
+        pdf.image("defaultLogo.jpeg",230,50,33, type='jpeg')
     pdf.set_font('Times','B',18)
     content2 = str(data[0][1])+" achieved "+str(data[0][3])+" points in Daily Matches representing our club"
     pdf.multi_cell(0,7,content2,0)
@@ -276,7 +284,7 @@ def generateLeagueTable(results, start_date, end_date,logo):
     #insert avatar
     #insert ratings
     
-    pdf.output('./leagueTable.pdf', 'F')
+    pdf.output(clubname+'/leagueTable.pdf', 'F')
     #print("PDF generated -> leagueTable.pdf")
 
 
@@ -341,7 +349,6 @@ class PDF(FPDF):
         # Times 12
         self.set_font('Times', '', 12)
         # Output justified text
-        #self.multi_cell(0, 5, content)
         for field in content_dict:
             self.cell(0, 5, field+": "+content_dict[field], 1, 1)
         # Line break
@@ -379,10 +386,6 @@ class PDF(FPDF):
         this.set_font('Times')
         #Data
         fill=0
-        #print("This data: ")
-        #print(len(data))
-        #print(len(w))
-        #print(column_no)
         for row in data:
             for i in range(0,column_no):
                 this.cell(w[i],6,row[i],'LR',0,'C',fill)
@@ -414,19 +417,12 @@ class PDF(FPDF):
         this.set_font('Times')
         #Data
         fill=0
-        #print("This data: ")
-        #print(len(data))
-        #print(len(w))
-        #print(column_no)
         for row in data:
             for i in range(0,column_no):
                 this.multi_cell(w[i],6,row[i],1,'L',fill)
                 fill=not fill
                 this.multi_cell(w[i],6,row[i+1],1,'L',fill)
                 fill=not fill
-                #this.multi_cell(w[i],6,row[i],0,'C',fill)
-                #this.cell(w[i],6,row[i],'LR',0,'C',fill)
-                #print(row[i])
                 this.ln()
         this.cell(sum(w),0,'','T')
         return
@@ -459,47 +455,49 @@ def main():
     if args["dateRange"]:
         dateRange = args["dateRange"].split(":",1)
         first = dateRange[0].split("-",2)
-        #print(first)
         last = dateRange[1].split("-",2)
         start_date = dateRange[0]
         start_epoch = round(datetime.datetime(int(first[2]),int(first[1]),int(first[0])).timestamp())
-        #print(start_epoch)
         end_date = dateRange[1]
         end_epoch = round(datetime.datetime(int(last[2]),int(last[1]),int(last[0])).timestamp())
-        #print(end_epoch)
     t +=1
     printProgressBar(t,graphNo)
 
     
     if args["username"]:
         username = args["username"]
+        if not os.path.exists(username):
+            os.mkdir(username)
+        getPlayerDetails(username)
+        getPlayerMatches(username)
+        getPlayerStats(username)
+            
     if args["club"]:
         club = args["club"]
+        if not os.path.exists(club):
+            os.mkdir(club)
         clubDetails = getClubDetails(club)
         clubLogo = getClubLogo(club)
+            
     if args["userGames"]:
-        getUserGames(username)
+        if args["username"]:
+            getUserGames(username)
+
     if args["clubMembers"]:
         if args["club"]:
             members = getClubMembers(club)
+                
     if args["clubMatches"]:
         if args["club"]:
             matches = getClubMatches(club)
-            #print(matches["finished"])
             if args["dateRange"]:
-                #print(len(matches["finished"]))
                 scope_finished = list(filter(lambda match: (match["start_time"] >= start_epoch) and (match["start_time"] <= end_epoch), matches["finished"]))
-                #print(len(scope_finished))
-                #print(len(matches["in_progress"]))
-                #scope_in_progress = list(filter(lambda match: (match["start_time"] >= start_epoch) and (match["start_time"] <= end_epoch), matches["in_progress"]))
-                #print(len(scope_in_progress))
                 scope_in_progress = matches["in_progress"]
     t +=1
     printProgressBar(t,graphNo)
     if args["playerMatches"]:
         if args["username"]:
             playerMatches = getPlayerMatches(username)
-            #print(playerMatches)
     t +=1
     printProgressBar(t,graphNo)
 
@@ -512,15 +510,11 @@ def main():
                 members = {}
                 clubMembers = getClubMembers(club)
                 for member in clubMembers["weekly"]:
-                    #print(member)
                     members.update({member["username"] : 0})
                 for member in clubMembers["monthly"]:
-                    #print(member)
                     members.update({member["username"] : 0})
                 for member in clubMembers["all_time"]:
-                    #print(member)
                     members.update({member["username"] : 0})
-                #print(members)
                 matches = getClubMatches(club)
 
                 t +=1
@@ -541,7 +535,7 @@ def main():
                 t +=1
                 printProgressBar(t,graphNo)
                 
-                generateLeagueTable(results,start_date,end_date,getClubLogo(club))
+                generateLeagueTable(club,results,start_date,end_date,getClubLogo(club))
 
                 t +=1
                 printProgressBar(t,graphNo)

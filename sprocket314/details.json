@@ -1,0 +1,14 @@
+{
+    "avatar": "https://images.chesscomfiles.com/uploads/v1/user/68854054.8d1152dd.200x200o.9520bdb6e784.jpeg",
+    "player_id": 68854054,
+    "@id": "https://api.chess.com/pub/player/sprocket314",
+    "url": "https://www.chess.com/member/sprocket314",
+    "name": "Carlos Moreno Serrano",
+    "username": "sprocket314",
+    "followers": 9,
+    "country": "https://api.chess.com/pub/country/GB",
+    "last_online": 1595924297,
+    "joined": 1575474102,
+    "status": "basic",
+    "is_streamer": false
+}

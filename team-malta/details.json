@@ -1,0 +1,22 @@
+{
+    "@id": "https://api.chess.com/pub/club/team-malta",
+    "name": "Team Malta",
+    "club_id": 4922,
+    "country": "https://api.chess.com/pub/country/MT",
+    "average_daily_rating": 1208,
+    "members_count": 247,
+    "created": 1234385483,
+    "last_activity": 1547278249,
+    "admin": [
+        "https://api.chess.com/pub/player/kavall",
+        "https://api.chess.com/pub/player/puledrina",
+        "https://api.chess.com/pub/player/malti",
+        "https://api.chess.com/pub/player/dvella",
+        "https://api.chess.com/pub/player/kidexxx"
+    ],
+    "visibility": "private",
+    "join_request": "https://www.chess.com/club/join/4922",
+    "icon": "https://images.chesscomfiles.com/uploads/v1/group/4922.682ff9f4.50x50o.313f5d40268a.png",
+    "description": "<p>Team Malta is the group representing Malta in the Chess.com World League and European League. Here we play serious chess to have good fun. We play team and vote chess matches as well as participate in forum discussions of diverse interests. We only have two prerequisites: you must be flying the Maltese flag, and you must be available from time to time to join in our matches. Have fun! f/Admin. Team Malta</p>",
+    "url": "https://www.chess.com/club/team-malta"
+}

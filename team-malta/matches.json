@@ -1,0 +1,2107 @@
+{
+    "finished": [
+        {
+            "name": "Battle of the Mediterranean",
+            "@id": "https://api.chess.com/pub/match/3818",
+            "opponent": "https://api.chess.com/pub/club/team-cyprus",
+            "start_time": 1235642828,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "May the best Team win",
+            "@id": "https://api.chess.com/pub/match/3836",
+            "opponent": "https://api.chess.com/pub/club/team-moldova",
+            "start_time": 1236634872,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Faroe Islands vs Malta",
+            "@id": "https://api.chess.com/pub/match/5112",
+            "opponent": "https://api.chess.com/pub/club/team-faroe-islands",
+            "start_time": 1237499070,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team Azerbaijan vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/5713",
+            "opponent": "https://api.chess.com/pub/club/team-azerbaijan",
+            "start_time": 1238864567,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "TEAM WALES V TEAM MALTA",
+            "@id": "https://api.chess.com/pub/match/6257",
+            "opponent": "https://api.chess.com/pub/club/team-wales",
+            "start_time": 1239735115,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "BIH vs MALTA",
+            "@id": "https://api.chess.com/pub/match/7225",
+            "opponent": "https://api.chess.com/pub/club/team-bosnia-and-herzegovina",
+            "start_time": 1240766965,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "European League 2009 Round 1: Luxembourg vs. Malta",
+            "@id": "https://api.chess.com/pub/match/8993",
+            "opponent": "https://api.chess.com/pub/club/team-luxembourg",
+            "start_time": 1243881107,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Malta vs Ecuador",
+            "@id": "https://api.chess.com/pub/match/9646",
+            "opponent": "https://api.chess.com/pub/club/ecuador",
+            "start_time": 1244550552,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "European League 2009 Round 2: Team Belarus vs. Team Malta",
+            "@id": "https://api.chess.com/pub/match/18227",
+            "opponent": "https://api.chess.com/pub/club/team-belarus",
+            "start_time": 1253041975,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Somalia vs Malta",
+            "@id": "https://api.chess.com/pub/match/18381",
+            "opponent": "https://api.chess.com/pub/club/somalia",
+            "start_time": 1253250520,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Region 1 vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/18520",
+            "opponent": "https://api.chess.com/pub/club/region-1-team-philippines",
+            "start_time": 1254052023,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Mollies vs Aussies",
+            "@id": "https://api.chess.com/pub/match/18523",
+            "opponent": "https://api.chess.com/pub/club/team-australia",
+            "start_time": 1254284691,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team Malta <1400 vs Burning Pawns<1400",
+            "@id": "https://api.chess.com/pub/match/18842",
+            "opponent": "https://api.chess.com/pub/club/under-construction-1",
+            "start_time": 1253792131,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Team Malta <1400 vs. Burning Pawns <1400",
+            "@id": "https://api.chess.com/pub/match/19552",
+            "opponent": "https://api.chess.com/pub/club/burning-pawns",
+            "start_time": 1255247611,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "George Cross Island vs Georgia",
+            "@id": "https://api.chess.com/pub/match/19607",
+            "opponent": "https://api.chess.com/pub/club/team-georgia",
+            "start_time": 1256231930,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Team Albania vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/19727",
+            "opponent": "https://api.chess.com/pub/club/team-albania-not-official",
+            "start_time": 1256987567,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Team Mauritius v Team Malta",
+            "@id": "https://api.chess.com/pub/match/20979",
+            "opponent": "https://api.chess.com/pub/club/team-mauritius",
+            "start_time": 1257579319,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "World League 2010 Pre-match",
+            "@id": "https://api.chess.com/pub/match/21003",
+            "opponent": "https://api.chess.com/pub/club/team-mauritius",
+            "start_time": 1257580760,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "PreWL2010 Round 2: Colombia vs Malta",
+            "@id": "https://api.chess.com/pub/match/21828",
+            "opponent": "https://api.chess.com/pub/club/team-colombia",
+            "start_time": 1259262209,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "PreWL2010 Round 3: Malta vs Ukraine",
+            "@id": "https://api.chess.com/pub/match/22401",
+            "opponent": "https://api.chess.com/pub/club/team-ukraine",
+            "start_time": 1261991215,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "European League 2009 Round 3: Team Kosovo vs. Team Malta",
+            "@id": "https://api.chess.com/pub/match/22807",
+            "opponent": "https://api.chess.com/pub/club/team-kosovo",
+            "start_time": 1261591589,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "European League Round 3: Team Moldova vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/22808",
+            "opponent": "https://api.chess.com/pub/club/team-moldova",
+            "start_time": 1260980056,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "\"World League 2010 R1 Open:Team Cyprus vs. Team Malta",
+            "@id": "https://api.chess.com/pub/match/25148",
+            "opponent": "https://api.chess.com/pub/club/team-cyprus",
+            "start_time": 1264710475,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "\"World League 2010 R1 U1600:Team Cyprus vs. Team Malta",
+            "@id": "https://api.chess.com/pub/match/25149",
+            "opponent": "https://api.chess.com/pub/club/team-cyprus",
+            "start_time": 1264710474,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Friendship",
+            "@id": "https://api.chess.com/pub/match/28660",
+            "opponent": "https://api.chess.com/pub/club/the-power-of-chess",
+            "start_time": 1268257843,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "European League 2010",
+            "@id": "https://api.chess.com/pub/match/29309",
+            "opponent": "https://api.chess.com/pub/club/team-georgia",
+            "start_time": 1267985506,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "World League Under 1600",
+            "@id": "https://api.chess.com/pub/match/29310",
+            "opponent": "https://api.chess.com/pub/club/team-syria",
+            "start_time": 1269557074,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "World League",
+            "@id": "https://api.chess.com/pub/match/29311",
+            "opponent": "https://api.chess.com/pub/club/team-syria",
+            "start_time": 1268293088,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2010 R2: Team Belarus vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/31530",
+            "opponent": "https://api.chess.com/pub/club/team-belarus",
+            "start_time": 1271187787,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "World League 2010 R3: Denmark vs. Malta",
+            "@id": "https://api.chess.com/pub/match/32478",
+            "opponent": "https://api.chess.com/pub/club/team-denmark",
+            "start_time": 1271618292,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "World League 2010 R4: Team Malta vs. Team Singapore",
+            "@id": "https://api.chess.com/pub/match/34960",
+            "opponent": "https://api.chess.com/pub/club/team-singapore",
+            "start_time": 1277401046,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "World League 2010 R5: URUGUAY vs. MALTA",
+            "@id": "https://api.chess.com/pub/match/38628",
+            "opponent": "https://api.chess.com/pub/club/team-uruguay",
+            "start_time": 1280270642,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "EL2010 R5 Team Malta vs. Team Norway",
+            "@id": "https://api.chess.com/pub/match/41808",
+            "opponent": "https://api.chess.com/pub/club/team-norway",
+            "start_time": 1283083198,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Friendly Match",
+            "@id": "https://api.chess.com/pub/match/42383",
+            "opponent": "https://api.chess.com/pub/club/team-dorset",
+            "start_time": 1282232132,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "World League 2010 R6 Malta vs Myanmar",
+            "@id": "https://api.chess.com/pub/match/43741",
+            "opponent": "https://api.chess.com/pub/club/team-myanmar",
+            "start_time": 1285979247,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "World League 2010 R6: Ecuador vs. Team Malta.",
+            "@id": "https://api.chess.com/pub/match/46822",
+            "opponent": "https://api.chess.com/pub/club/ecuador",
+            "start_time": 1287520987,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "BIH vs Malta",
+            "@id": "https://api.chess.com/pub/match/48212",
+            "opponent": "https://api.chess.com/pub/club/bosnia-and-herzegovina",
+            "start_time": 1287563048,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "World League 2010 R8: Team Nepal vs. Team Malta.",
+            "@id": "https://api.chess.com/pub/match/51989",
+            "opponent": "https://api.chess.com/pub/club/nepal",
+            "start_time": 1294414298,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "World League 2011 R1: [Team Nigeria] vs. [Team Malta].",
+            "@id": "https://api.chess.com/pub/match/59868",
+            "opponent": "https://api.chess.com/pub/club/team-nigeria",
+            "start_time": 1297897397,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "world league mongolia vs malta",
+            "@id": "https://api.chess.com/pub/match/64967",
+            "opponent": "https://api.chess.com/pub/club/team-mongolia",
+            "start_time": 1301961091,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "World League 2011 R3:Team Estonia vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/70464",
+            "opponent": "https://api.chess.com/pub/club/team-estonia",
+            "start_time": 1306785090,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "World League 2011 R4: {Team Turkmenistan} vs. {Team Malta}",
+            "@id": "https://api.chess.com/pub/match/73517",
+            "opponent": "https://api.chess.com/pub/club/team-turkmenistan",
+            "start_time": 1309876292,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "World League 2011 R5: Team Malta vs. Team Myanmar",
+            "@id": "https://api.chess.com/pub/match/80077",
+            "opponent": "https://api.chess.com/pub/club/team-myanmar",
+            "start_time": 1314727210,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "World League 2011 R6: Team Georgia vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/87819",
+            "opponent": "https://api.chess.com/pub/club/team-georgia",
+            "start_time": 1319116316,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "World League 2011 R7: Team Malta vs. Team Uruguay",
+            "@id": "https://api.chess.com/pub/match/90322",
+            "opponent": "https://api.chess.com/pub/club/team-uruguay",
+            "start_time": 1321532637,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "World League 2011 R8: Team Pakistan vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/95994",
+            "opponent": "https://api.chess.com/pub/club/team-pakistan",
+            "start_time": 1324921975,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Internet tim BASK Beograd vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/96308",
+            "opponent": "https://api.chess.com/pub/club/internet-tim-bask-beograd",
+            "start_time": 1327176758,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "2nd time around",
+            "@id": "https://api.chess.com/pub/match/96579",
+            "opponent": "https://api.chess.com/pub/club/sfrj-once-brothers---nekad-braa",
+            "start_time": 1325488456,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "IRAN chess club vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/97269",
+            "opponent": "https://api.chess.com/pub/club/iran-chess-club",
+            "start_time": 1326563662,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "???????????????? / ?????????????????? / ???????????????? vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/106437",
+            "opponent": "https://api.chess.com/pub/club/chess-team-international-1",
+            "start_time": 1330881115,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "WL2012 R1 : El Salvador vs Malta",
+            "@id": "https://api.chess.com/pub/match/110013",
+            "opponent": "https://api.chess.com/pub/club/el-salvador",
+            "start_time": 1331538087,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "EL2012 R2: Team Malta v Northern Ireland",
+            "@id": "https://api.chess.com/pub/match/124138",
+            "opponent": "https://api.chess.com/pub/club/northern-ireland",
+            "start_time": 1335866417,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "???????????????? / ?????????????????? / ???????????????? vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/132794",
+            "opponent": "https://api.chess.com/pub/club/chess-team-international-1",
+            "start_time": 1338041550,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "World League 2012 R3: Malta vs Sri Lanka",
+            "@id": "https://api.chess.com/pub/match/132796",
+            "opponent": "https://api.chess.com/pub/club/sri-lankan-chess",
+            "start_time": 1338039627,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Team Malta vs ?????????",
+            "@id": "https://api.chess.com/pub/match/138976",
+            "opponent": "https://api.chess.com/pub/club/team-china",
+            "start_time": 1340021536,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "World League 2012 R4: Team Malta vs. Northern Ireland",
+            "@id": "https://api.chess.com/pub/match/140704",
+            "opponent": "https://api.chess.com/pub/club/northern-ireland",
+            "start_time": 1340368797,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team Michigan vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/142494",
+            "opponent": "https://api.chess.com/pub/club/team-michigan",
+            "start_time": 1343512108,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team Malta vs ?????????",
+            "@id": "https://api.chess.com/pub/match/150576",
+            "opponent": "https://api.chess.com/pub/club/team-china",
+            "start_time": 1342755205,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "World League 2012 R5: Mongolia vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/156228",
+            "opponent": "https://api.chess.com/pub/club/team-mongolia",
+            "start_time": 1344339168,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Respect vs  Team Malta",
+            "@id": "https://api.chess.com/pub/match/156494",
+            "opponent": "https://api.chess.com/pub/club/wrespectw",
+            "start_time": 1345707235,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Mediterranean Cruise Challenge '78!",
+            "@id": "https://api.chess.com/pub/match/166006",
+            "opponent": "https://api.chess.com/pub/club/the-jerk-club",
+            "start_time": 1346358367,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "EL2012 R4: Team Georgia vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/167716",
+            "opponent": "https://api.chess.com/pub/club/team-georgia",
+            "start_time": 1346788400,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2012 Round 6 Team Malta vs Team Venezuela",
+            "@id": "https://api.chess.com/pub/match/173358",
+            "opponent": "https://api.chess.com/pub/club/team-venezuela",
+            "start_time": 1348214077,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Windmill Fighters vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/176342",
+            "opponent": "https://api.chess.com/pub/club/windmill-fighters",
+            "start_time": 1348766189,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "??????---?????????",
+            "@id": "https://api.chess.com/pub/match/178262",
+            "opponent": "https://api.chess.com/pub/club/team-china",
+            "start_time": 1349434563,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "WL2012 R2 : Malta vs. North-Korea",
+            "@id": "https://api.chess.com/pub/match/179912",
+            "opponent": "https://api.chess.com/pub/club/north-korea2",
+            "start_time": 1349706768,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "European League 2012 R3: Team Denmark vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/181042",
+            "opponent": "https://api.chess.com/pub/club/team-denmark",
+            "start_time": 1350065350,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "World League 2012 R7 Team Palestine vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/184378",
+            "opponent": "https://api.chess.com/pub/club/team-palestine-retired",
+            "start_time": 1351098903,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2013 R1: Team Malta vs Northern Ireland",
+            "@id": "https://api.chess.com/pub/match/229562",
+            "opponent": "https://api.chess.com/pub/club/northern-ireland",
+            "start_time": 1362299649,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "World League 2013 Team Malta vs Team Austria",
+            "@id": "https://api.chess.com/pub/match/246942",
+            "opponent": "https://api.chess.com/pub/club/team-austria",
+            "start_time": 1364561946,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2013 R2: Team Myanmar vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/248478",
+            "opponent": "https://api.chess.com/pub/club/team-myanmar",
+            "start_time": 1364495243,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Egyptians And The Modern Chess vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/250982",
+            "opponent": "https://api.chess.com/pub/club/arabi",
+            "start_time": 1365340379,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Lone Wolves vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/252942",
+            "opponent": "https://api.chess.com/pub/club/lone-wolves",
+            "start_time": 1365337228,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "PFCC Blue Team Challenge",
+            "@id": "https://api.chess.com/pub/match/253224",
+            "opponent": "https://api.chess.com/pub/club/philippines-finest-chess-club",
+            "start_time": 1365492242,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "WL2013 R3: Equipo Ecuador vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/254690",
+            "opponent": "https://api.chess.com/pub/club/team-ecuador",
+            "start_time": 1366132300,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Open Challenge Team Malta",
+            "@id": "https://api.chess.com/pub/match/261598",
+            "opponent": "https://api.chess.com/pub/club/croatian-chess-temple",
+            "start_time": 1367932846,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "WL2013 R4: Team Malta vs Team Nepal",
+            "@id": "https://api.chess.com/pub/match/262654",
+            "opponent": "https://api.chess.com/pub/club/nepal",
+            "start_time": 1368640891,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "EL2013 Round 4: Team MonteNegro vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/265086",
+            "opponent": "https://api.chess.com/pub/club/crna-gora",
+            "start_time": 1368473843,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Open Challenge The Panda Chess Team",
+            "@id": "https://api.chess.com/pub/match/265482",
+            "opponent": "https://api.chess.com/pub/club/ultimate-chesskid-team",
+            "start_time": 1367966278,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Eurovision 2013 Chess Challenge!",
+            "@id": "https://api.chess.com/pub/match/269496",
+            "opponent": "https://api.chess.com/pub/club/college-of-cardinals",
+            "start_time": 1369139434,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2013 R5: Team Costa Rica vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/272598",
+            "opponent": "https://api.chess.com/pub/club/team-costa-rica",
+            "start_time": 1371309637,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "WL2013 R6: Team Saudi Arabia vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/284980",
+            "opponent": "https://api.chess.com/pub/club/team-saudi-arabia",
+            "start_time": 1373719870,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "WL2013: Team Malta vs Viet Nam",
+            "@id": "https://api.chess.com/pub/match/298278",
+            "opponent": "https://api.chess.com/pub/club/vit-nam",
+            "start_time": 1376315260,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "6th International",
+            "@id": "https://api.chess.com/pub/match/302432",
+            "opponent": "https://api.chess.com/pub/club/fc-persepolis",
+            "start_time": 1377181809,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "Open Challenge Team Malta",
+            "@id": "https://api.chess.com/pub/match/305324",
+            "opponent": "https://api.chess.com/pub/club/dacia-felix-chess",
+            "start_time": 1377718914,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Celtic FC vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/307174",
+            "opponent": "https://api.chess.com/pub/club/celtic-fc",
+            "start_time": 1379942946,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Geto-Daci vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/307178",
+            "opponent": "https://api.chess.com/pub/club/geto-daci",
+            "start_time": 1378493462,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2013 R8: Team Lebanon vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/308274",
+            "opponent": "https://api.chess.com/pub/club/team-lebanon",
+            "start_time": 1379947636,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "\"???????????????? / Belarus\" vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/310444",
+            "opponent": "https://api.chess.com/pub/club/belarus",
+            "start_time": 1378653127,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "European Tour 1 (Freedom for Catalonia now)",
+            "@id": "https://api.chess.com/pub/match/311440",
+            "opponent": "https://api.chess.com/pub/club/independencia",
+            "start_time": 1380201582,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "WL2013 R9: Team Malta vs Team Venezuela",
+            "@id": "https://api.chess.com/pub/match/319068",
+            "opponent": "https://api.chess.com/pub/club/team-venezuela",
+            "start_time": 1381931777,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "2nd try",
+            "@id": "https://api.chess.com/pub/match/333204",
+            "opponent": "https://api.chess.com/pub/club/carpe-diem",
+            "start_time": 1384439777,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "A Nagy Portya - The Grand Tour - Station 3/a: Malta",
+            "@id": "https://api.chess.com/pub/match/334050",
+            "opponent": "https://api.chess.com/pub/club/team-hungary---magyar-sakkegylet",
+            "start_time": 1384273144,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "I LUMBARD vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/335764",
+            "opponent": "https://api.chess.com/pub/club/i-lumbard",
+            "start_time": 1384887376,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team China ????????? vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/342714",
+            "opponent": "https://api.chess.com/pub/club/team-china",
+            "start_time": 1386113192,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "1499ers v Malta",
+            "@id": "https://api.chess.com/pub/match/349642",
+            "opponent": "https://api.chess.com/pub/club/the-1499ers",
+            "start_time": 1388592715,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "Merry Christmas Luke <1400",
+            "@id": "https://api.chess.com/pub/match/349656",
+            "opponent": "https://api.chess.com/pub/club/order-of-the-jedi",
+            "start_time": 1387898173,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team Malta vs Team Australia",
+            "@id": "https://api.chess.com/pub/match/349678",
+            "opponent": "https://api.chess.com/pub/club/team-australia",
+            "start_time": 1387636230,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2014 R1: BOLIVIA vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/355570",
+            "opponent": "https://api.chess.com/pub/club/bolivia",
+            "start_time": 1389848544,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EUROPE-BG vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/357458",
+            "opponent": "https://api.chess.com/pub/club/europe-bg",
+            "start_time": 1391978954,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "January Match",
+            "@id": "https://api.chess.com/pub/match/361614",
+            "opponent": "https://api.chess.com/pub/club/philippines-finest-chess-club",
+            "start_time": 1390377698,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Friendly",
+            "@id": "https://api.chess.com/pub/match/363472",
+            "opponent": "https://api.chess.com/pub/club/united-kingdom-juniors",
+            "start_time": 1392665644,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Open BKC",
+            "@id": "https://api.chess.com/pub/match/363474",
+            "opponent": "https://api.chess.com/pub/club/black-knight-chess",
+            "start_time": 1391978588,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Europe tour: UK vs Malta",
+            "@id": "https://api.chess.com/pub/match/366458",
+            "opponent": "https://api.chess.com/pub/club/team-united-kingdom-1",
+            "start_time": 1393799889,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2014 Rnd 2",
+            "@id": "https://api.chess.com/pub/match/369090",
+            "opponent": "https://api.chess.com/pub/club/cuba",
+            "start_time": 1392451332,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "WL2014 R3: Nepal Vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/380170",
+            "opponent": "https://api.chess.com/pub/club/nepal",
+            "start_time": 1394899332,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Open BKC",
+            "@id": "https://api.chess.com/pub/match/385546",
+            "opponent": "https://api.chess.com/pub/club/black-knight-chess",
+            "start_time": 1402599259,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Team Philippines United vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/389750",
+            "opponent": "https://api.chess.com/pub/club/team-philippines-united",
+            "start_time": 1405458427,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Team Philippines United Vs Team Malta: Friendly Match 2014 (Chess 960)",
+            "@id": "https://api.chess.com/pub/match/394234",
+            "opponent": "https://api.chess.com/pub/club/team-philippines-united",
+            "start_time": 1402650044,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "\"???????????????? / Belarus\" vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/402594",
+            "opponent": "https://api.chess.com/pub/club/belarus",
+            "start_time": 1399977283,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Open BKC",
+            "@id": "https://api.chess.com/pub/match/419658",
+            "opponent": "https://api.chess.com/pub/club/black-knight-chess",
+            "start_time": 1405011191,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "Team Siberia and Far East vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/432564",
+            "opponent": "https://api.chess.com/pub/club/team-siberia-and-far-east",
+            "start_time": 1407654140,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Team Australia vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/437924",
+            "opponent": "https://api.chess.com/pub/club/team-australia",
+            "start_time": 1408888882,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team Greenland vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/464484",
+            "opponent": "https://api.chess.com/pub/club/team-greenland",
+            "start_time": 1415649620,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "UCT Challenge (slow)",
+            "@id": "https://api.chess.com/pub/match/488024",
+            "opponent": "https://api.chess.com/pub/club/uyghur-chess-team",
+            "start_time": 1421795164,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Open Challenge Team Malta",
+            "@id": "https://api.chess.com/pub/match/490718",
+            "opponent": "https://api.chess.com/pub/club/the-legend-of-hamelin",
+            "start_time": 1422532548,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Rapid Challenge Team Malta vs Team Hellas",
+            "@id": "https://api.chess.com/pub/match/496368",
+            "opponent": "https://api.chess.com/pub/club/greece",
+            "start_time": 1424117259,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WORLD GAMES",
+            "@id": "https://api.chess.com/pub/match/510106",
+            "opponent": "https://api.chess.com/pub/club/marmara-university-chess-club",
+            "start_time": 1429174019,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "WL2015 R7: Team Iceland vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/519442",
+            "opponent": "https://api.chess.com/pub/club/team-iceland",
+            "start_time": 1430429999,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Team Bulgaria United vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/528116",
+            "opponent": "https://api.chess.com/pub/club/bulgaria",
+            "start_time": 1431500466,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Below 1599 : 11/6/2015",
+            "@id": "https://api.chess.com/pub/match/538114",
+            "opponent": "https://api.chess.com/pub/club/chess-school",
+            "start_time": 1434041444,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Team Hellas vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/538910",
+            "opponent": "https://api.chess.com/pub/club/greece",
+            "start_time": 1434783724,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Uyghur Chess Team vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/543322",
+            "opponent": "https://api.chess.com/pub/club/uyghur-chess-team",
+            "start_time": 1435622516,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "Unikat - Automat Team vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/550310",
+            "opponent": "https://api.chess.com/pub/club/unikat---automat-team",
+            "start_time": 1437375787,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team Malta vs Team Lebanon",
+            "@id": "https://api.chess.com/pub/match/558822",
+            "opponent": "https://api.chess.com/pub/club/team-lebanon",
+            "start_time": 1439017232,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Australia Hall, Malta",
+            "@id": "https://api.chess.com/pub/match/558996",
+            "opponent": "https://api.chess.com/pub/club/anzacs",
+            "start_time": 1439276496,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team Malta vs Team Bulgaria United",
+            "@id": "https://api.chess.com/pub/match/562108",
+            "opponent": "https://api.chess.com/pub/club/bulgaria",
+            "start_time": 1439510512,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Below 1350",
+            "@id": "https://api.chess.com/pub/match/562554",
+            "opponent": "https://api.chess.com/pub/club/still-got-the-blues",
+            "start_time": 1440054107,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "Below 1399 : 22/08/2015",
+            "@id": "https://api.chess.com/pub/match/564988",
+            "opponent": "https://api.chess.com/pub/club/chess-school",
+            "start_time": 1440259241,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team Malta vs Team  Algeria",
+            "@id": "https://api.chess.com/pub/match/564996",
+            "opponent": "https://api.chess.com/pub/club/team-algeria2",
+            "start_time": 1440745233,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team Malta vs Team Ghana",
+            "@id": "https://api.chess.com/pub/match/565004",
+            "opponent": "https://api.chess.com/pub/club/team-ghana",
+            "start_time": 1440918095,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Open Challenge \"Chess Fantasy Group\"",
+            "@id": "https://api.chess.com/pub/match/575590",
+            "opponent": "https://api.chess.com/pub/club/quotchess-fantasy-groupquot",
+            "start_time": 1445492442,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "The United States Chess Killers. vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/577080",
+            "opponent": "https://api.chess.com/pub/club/the-grey-wolf",
+            "start_time": 1444058664,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "BULGARIA vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/581434",
+            "opponent": "https://api.chess.com/pub/club/bulgaria",
+            "start_time": 1444194096,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Balkan Chess Unity vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/582928",
+            "opponent": "https://api.chess.com/pub/club/balkan-chess-unity",
+            "start_time": 1444834819,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team Malta vs Team Lebanon",
+            "@id": "https://api.chess.com/pub/match/589188",
+            "opponent": "https://api.chess.com/pub/club/team-lebanon",
+            "start_time": 1446274884,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "Malta and Lebanon :)",
+            "@id": "https://api.chess.com/pub/match/613310",
+            "opponent": "https://api.chess.com/pub/club/team-lebanon",
+            "start_time": 1451641566,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2016 R1: Team Malta vs Guatechess",
+            "@id": "https://api.chess.com/pub/match/617858",
+            "opponent": "https://api.chess.com/pub/club/guatechess",
+            "start_time": 1452877644,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "WL2016 R2: Algeria vs. Malta",
+            "@id": "https://api.chess.com/pub/match/629260",
+            "opponent": "https://api.chess.com/pub/club/team-algeria2",
+            "start_time": 1455555751,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL 2016 R3 Cuba vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/642632",
+            "opponent": "https://api.chess.com/pub/club/cuba",
+            "start_time": 1460386196,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2016 R4: Team Malta vs Team Syria",
+            "@id": "https://api.chess.com/pub/match/653260",
+            "opponent": "https://api.chess.com/pub/club/team-syria",
+            "start_time": 1460736373,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "Team Malta vs Team Myanmar",
+            "@id": "https://api.chess.com/pub/match/665940",
+            "opponent": "https://api.chess.com/pub/club/team-myanmar",
+            "start_time": 1464127301,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "24/5/16 : Below 1499",
+            "@id": "https://api.chess.com/pub/match/667682",
+            "opponent": "https://api.chess.com/pub/club/chess-school",
+            "start_time": 1464105649,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Caravaggio",
+            "@id": "https://api.chess.com/pub/match/670462",
+            "opponent": "https://api.chess.com/pub/club/deutsche-schachfreunde",
+            "start_time": 1464701290,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "WL2016 R6: Team Malta vs Team Taiwan??????",
+            "@id": "https://api.chess.com/pub/match/672450",
+            "opponent": "https://api.chess.com/pub/club/team-taiwan",
+            "start_time": 1466006444,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Harry Camilleri - Under 1650",
+            "@id": "https://api.chess.com/pub/match/676960",
+            "opponent": "https://api.chess.com/pub/club/kings-and-queens-strong-as-a-rock",
+            "start_time": 1466167449,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Chess Matrix Match #6",
+            "@id": "https://api.chess.com/pub/match/679240",
+            "opponent": "https://api.chess.com/pub/club/chess-matrix",
+            "start_time": 1466711564,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Paul Morphy - Under 1750",
+            "@id": "https://api.chess.com/pub/match/679546",
+            "opponent": "https://api.chess.com/pub/club/team-ecuador",
+            "start_time": 1466754441,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Siegbert Tarrasch",
+            "@id": "https://api.chess.com/pub/match/681062",
+            "opponent": "https://api.chess.com/pub/club/team-utopia",
+            "start_time": 1467143402,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "WL2016 R7:Team (Egypt) vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/683562",
+            "opponent": "https://api.chess.com/pub/club/team--egypt",
+            "start_time": 1468598556,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Jose Raul Capablanca - Under 1750",
+            "@id": "https://api.chess.com/pub/match/688694",
+            "opponent": "https://api.chess.com/pub/club/cuba",
+            "start_time": 1469019697,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Chess Team Monaco vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/692392",
+            "opponent": "https://api.chess.com/pub/club/chess-team-monaco",
+            "start_time": 1469900468,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "WL2016 R8: Team Malta vs Team Sudan",
+            "@id": "https://api.chess.com/pub/match/694860",
+            "opponent": "https://api.chess.com/pub/club/team-sudan",
+            "start_time": 1471276900,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "United, we stand!",
+            "@id": "https://api.chess.com/pub/match/699956",
+            "opponent": "https://api.chess.com/pub/club/team-philippines-united",
+            "start_time": 1471762989,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "8/24/16 : below 1499",
+            "@id": "https://api.chess.com/pub/match/701466",
+            "opponent": "https://api.chess.com/pub/club/chess-school",
+            "start_time": 1472022014,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "Frank Marshall",
+            "@id": "https://api.chess.com/pub/match/716212",
+            "opponent": "https://api.chess.com/pub/club/deutsche-schachfreunde",
+            "start_time": 1475668873,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Pre World League 2017 - First Challenge",
+            "@id": "https://api.chess.com/pub/match/728984",
+            "opponent": "https://api.chess.com/pub/club/northern-ireland",
+            "start_time": 1479072947,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Pre World League 2017 - Second Challenge",
+            "@id": "https://api.chess.com/pub/match/732454",
+            "opponent": "https://api.chess.com/pub/club/team-costa-rica",
+            "start_time": 1480525247,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2017 R1: Team Malta vs Guatechess",
+            "@id": "https://api.chess.com/pub/match/748890",
+            "opponent": "https://api.chess.com/pub/club/guatechess",
+            "start_time": 1484499720,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "EL2017 R1: Team Malta vs Team Estonia",
+            "@id": "https://api.chess.com/pub/match/754606",
+            "opponent": "https://api.chess.com/pub/club/team-estonia",
+            "start_time": 1486400427,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2017 R2: Team Malta vs Crna Gora, also EL2017",
+            "@id": "https://api.chess.com/pub/match/758042",
+            "opponent": "https://api.chess.com/pub/club/crna-gora",
+            "start_time": 1487178198,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "EL2017 R2: Team Malta vs Team Denmark",
+            "@id": "https://api.chess.com/pub/match/762243",
+            "opponent": "https://api.chess.com/pub/club/team-denmark",
+            "start_time": 1488301347,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2017 R3: Team Malta vs Team Myanmar",
+            "@id": "https://api.chess.com/pub/match/768227",
+            "opponent": "https://api.chess.com/pub/club/team-myanmar",
+            "start_time": 1489593667,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Mediterranean",
+            "@id": "https://api.chess.com/pub/match/775876",
+            "opponent": "https://api.chess.com/pub/club/team-bayern",
+            "start_time": 1491980467,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Bayern-Malta",
+            "@id": "https://api.chess.com/pub/match/776546",
+            "opponent": "https://api.chess.com/pub/club/team-bayern",
+            "start_time": 1493535674,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2017 R4: Team Uzbekistan vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/777734",
+            "opponent": "https://api.chess.com/pub/club/team-uzbekistan",
+            "start_time": 1492272141,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2017 R5: Team Taiwan vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/788782",
+            "opponent": "https://api.chess.com/pub/club/team-taiwan",
+            "start_time": 1494864318,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2017 R6:Team Macedonia vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/797916",
+            "opponent": "https://api.chess.com/pub/club/team-macedonia",
+            "start_time": 1497542839,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2017 R7:Team Malta vs Team Saudi Arabia",
+            "@id": "https://api.chess.com/pub/match/806564",
+            "opponent": "https://api.chess.com/pub/club/team-saudi-arabia",
+            "start_time": 1500134826,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "Hyper Bullet Chess Club vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/807020",
+            "opponent": "https://api.chess.com/pub/club/hyper-bullet-chess-club",
+            "start_time": 1499246301,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "Yugoslavia vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/807764",
+            "opponent": "https://api.chess.com/pub/club/yugoslavia",
+            "start_time": 1499886019,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2017 R9: Team Iceland vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/811398",
+            "opponent": "https://api.chess.com/pub/club/team-iceland",
+            "start_time": 1501186209,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Battle for the Castle",
+            "@id": "https://api.chess.com/pub/match/814496",
+            "opponent": "https://api.chess.com/pub/club/aa-a",
+            "start_time": 1501916423,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2017 R8: Team Malta vs Thailand",
+            "@id": "https://api.chess.com/pub/match/820574",
+            "opponent": "https://api.chess.com/pub/club/thailand",
+            "start_time": 1503067262,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2017 R5: Team Lithuania vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/821016",
+            "opponent": "https://api.chess.com/pub/club/team-lithuania",
+            "start_time": 1504162877,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2017 R3: Team Malta vs Team Macedonia",
+            "@id": "https://api.chess.com/pub/match/821514",
+            "opponent": "https://api.chess.com/pub/club/team-macedonia",
+            "start_time": 1505491514,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "EL2017 R6: Team Malta vs Vatican City",
+            "@id": "https://api.chess.com/pub/match/821796",
+            "opponent": "https://api.chess.com/pub/club/vatican-city",
+            "start_time": 1505484845,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "WL2017 R9: Team Algeria vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/826258",
+            "opponent": "https://api.chess.com/pub/club/team-algeria2",
+            "start_time": 1505491821,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2017 R7: Team Northern Ireland vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/826438",
+            "opponent": "https://api.chess.com/pub/club/northern-ireland",
+            "start_time": 1505459216,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "EL2017 R8: Team Malta vs Team Austria",
+            "@id": "https://api.chess.com/pub/match/826802",
+            "opponent": "https://api.chess.com/pub/club/team-austria",
+            "start_time": 1505491723,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "China Club vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/829204",
+            "opponent": "https://api.chess.com/pub/club/china-club",
+            "start_time": 1506425372,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "China Club vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/843010",
+            "opponent": "https://api.chess.com/pub/club/china-club",
+            "start_time": 1510544053,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2018 R1: Team Pakistan vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/863552",
+            "opponent": "https://api.chess.com/pub/club/team-pakistan",
+            "start_time": 1516036155,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "BULGARIA vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/865318",
+            "opponent": "https://api.chess.com/pub/club/bulgaria",
+            "start_time": 1516424650,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2018 R2: Team Malta vs Bolivia",
+            "@id": "https://api.chess.com/pub/match/871228",
+            "opponent": "https://api.chess.com/pub/club/bolivia",
+            "start_time": 1518715563,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2018 R3: Team Malta vs Team Peru",
+            "@id": "https://api.chess.com/pub/match/876874",
+            "opponent": "https://api.chess.com/pub/club/team-peru",
+            "start_time": 1521129923,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL 2018 R3 Crna Gora vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/877144",
+            "opponent": "https://api.chess.com/pub/club/crna-gora",
+            "start_time": 1521820999,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2018 R4: Team Iceland vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/878318",
+            "opponent": "https://api.chess.com/pub/club/team-iceland",
+            "start_time": 1521734624,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team Channel Islands (GB) vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/886630",
+            "opponent": "https://api.chess.com/pub/club/team-channel-islands",
+            "start_time": 1523135380,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "GM Miguel Najdorf International Chess Cup 2018",
+            "@id": "https://api.chess.com/pub/match/886632",
+            "opponent": "https://api.chess.com/pub/club/islas-malvinas",
+            "start_time": 1524429849,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2018 R4: Team Malta vs Team Egypt",
+            "@id": "https://api.chess.com/pub/match/889200",
+            "opponent": "https://api.chess.com/pub/club/team--egypt",
+            "start_time": 1523885967,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "EL2018 R7: Vatican City vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/893908",
+            "opponent": "https://api.chess.com/pub/club/vatican-city",
+            "start_time": 1526601831,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team Malta vs Team Macedonia",
+            "@id": "https://api.chess.com/pub/match/896002",
+            "opponent": "https://api.chess.com/pub/club/team-macedonia",
+            "start_time": 1526400330,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team Taiwan ?????? vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/902348",
+            "opponent": "https://api.chess.com/pub/club/team-taiwan",
+            "start_time": 1530088087,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2018 R6: Team Malta vs Team Estonia",
+            "@id": "https://api.chess.com/pub/match/906324",
+            "opponent": "https://api.chess.com/pub/club/team-estonia",
+            "start_time": 1529078657,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "BULGARIA vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/912914",
+            "opponent": "https://api.chess.com/pub/club/bulgaria",
+            "start_time": 1531195443,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2018 R7: Team Malta vs Team Zambia",
+            "@id": "https://api.chess.com/pub/match/913476",
+            "opponent": "https://api.chess.com/pub/club/team-zambia",
+            "start_time": 1531670619,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2019 R9: Team Schweiz-Suisse-Svizzera vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/914038",
+            "opponent": "https://api.chess.com/pub/club/team-schweiz-suisse-svizzera",
+            "start_time": 1532102644,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2018 R1: Team Malta vs Northern Ireland",
+            "@id": "https://api.chess.com/pub/match/914410",
+            "opponent": "https://api.chess.com/pub/club/northern-ireland",
+            "start_time": 1532243051,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2018 R5: Team Malta vs Team Macedonia",
+            "@id": "https://api.chess.com/pub/match/914436",
+            "opponent": "https://api.chess.com/pub/club/team-macedonia",
+            "start_time": 1532243051,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2018 R8: Team Malta vs Team Austria",
+            "@id": "https://api.chess.com/pub/match/914454",
+            "opponent": "https://api.chess.com/pub/club/team-austria",
+            "start_time": 1532243051,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2018 R2: Team Malta vs Team Estonia",
+            "@id": "https://api.chess.com/pub/match/914872",
+            "opponent": "https://api.chess.com/pub/club/team-estonia",
+            "start_time": 1532243051,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL 2018 R6:Team Latvia vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/918854",
+            "opponent": "https://api.chess.com/pub/club/team-latvia",
+            "start_time": 1532880211,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2018 R8: Team Malta vs Team Hong Kong",
+            "@id": "https://api.chess.com/pub/match/921866",
+            "opponent": "https://api.chess.com/pub/club/team-hong-kong",
+            "start_time": 1534349014,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "The Serai vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/926800",
+            "opponent": "https://api.chess.com/pub/club/the-serai",
+            "start_time": 1535267067,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "WL2018 R9: Team Malta vs Guatechess",
+            "@id": "https://api.chess.com/pub/match/931532",
+            "opponent": "https://api.chess.com/pub/club/guatechess",
+            "start_time": 1537027453,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "MACEDONIA TIMELESS vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/933296",
+            "opponent": "https://api.chess.com/pub/club/macedonia-forever",
+            "start_time": 1537239783,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "AFC Bournemouth vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/938322",
+            "opponent": "https://api.chess.com/pub/club/afc-bournemouth",
+            "start_time": 1540290243,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Team Malta vs Team Austria",
+            "@id": "https://api.chess.com/pub/match/948954",
+            "opponent": "https://api.chess.com/pub/club/team-austria",
+            "start_time": 1547211563,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team Malta vs Team United Kingdom!",
+            "@id": "https://api.chess.com/pub/match/959344",
+            "opponent": "https://api.chess.com/pub/club/team-united-kingdom-1",
+            "start_time": 1546268413,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "TEAM NORESTE DE MEXICO vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/963528",
+            "opponent": "https://api.chess.com/pub/club/team-noreste-de-mexico",
+            "start_time": 1546983121,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2019 R1: Team Pakistan vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/963856",
+            "opponent": "https://api.chess.com/pub/club/team-pakistan",
+            "start_time": 1547571941,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2019 R2: Team Hong Kong vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/973000",
+            "opponent": "https://api.chess.com/pub/club/team-hong-kong",
+            "start_time": 1550250254,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Hello Malta",
+            "@id": "https://api.chess.com/pub/match/973514",
+            "opponent": "https://api.chess.com/pub/club/isle-of-lewis",
+            "start_time": 1550217854,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2019 R3: Team Iceland vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/976122",
+            "opponent": "https://api.chess.com/pub/club/team-iceland",
+            "start_time": 1551114244,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL 2019 R2 Crna Gora vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/976910",
+            "opponent": "https://api.chess.com/pub/club/crna-gora",
+            "start_time": 1551373504,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2019 R3: Team Schweiz-Suisse-Svizzera vs Team Malta, also EL2019 R11",
+            "@id": "https://api.chess.com/pub/match/982770",
+            "opponent": "https://api.chess.com/pub/club/team-schweiz-suisse-svizzera",
+            "start_time": 1552665797,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "BULGARIA vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/991864",
+            "opponent": "https://api.chess.com/pub/club/bulgaria",
+            "start_time": 1553702642,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2019 R4: Team Macedonia vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/996040",
+            "opponent": "https://api.chess.com/pub/club/team-macedonia",
+            "start_time": 1555344359,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "Iraqi Kebab",
+            "@id": "https://api.chess.com/pub/match/1000520",
+            "opponent": "https://api.chess.com/pub/club/iraqi-chess-forum",
+            "start_time": 1556906511,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Moe's Tavern vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1000522",
+            "opponent": "https://api.chess.com/pub/club/moes-tavern",
+            "start_time": 1556475781,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2019 R6: Team Channel Islands vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1002658",
+            "opponent": "https://api.chess.com/pub/club/team-channel-islands",
+            "start_time": 1557489807,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2019 R5: Team Wales vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1003150",
+            "opponent": "https://api.chess.com/pub/club/team-wales",
+            "start_time": 1557677020,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2019 R5: Team  Ecuador vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1004855",
+            "opponent": "https://api.chess.com/pub/club/team-ecuador",
+            "start_time": 1557936326,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "EL2019R8: Team Ireland vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1014350",
+            "opponent": "https://api.chess.com/pub/club/team-ireland",
+            "start_time": 1561392301,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2019 R6: Team Malta vs Nepal",
+            "@id": "https://api.chess.com/pub/match/1014504",
+            "opponent": "https://api.chess.com/pub/club/nepal",
+            "start_time": 1560614688,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Powder Monkeys vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1017936",
+            "opponent": "https://api.chess.com/pub/club/powder-monkeys",
+            "start_time": 1561446252,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "WL2019 R7: Crna Gora vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1022764",
+            "opponent": "https://api.chess.com/pub/club/crna-gora",
+            "start_time": 1563206706,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2019 R10: Team Latvia vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1025216",
+            "opponent": "https://api.chess.com/pub/club/team-latvia",
+            "start_time": 1564444984,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2019 R8: Team Latvia vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1030954",
+            "opponent": "https://api.chess.com/pub/club/team-latvia",
+            "start_time": 1565885050,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2019 R9: Northern Ireland vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1036854",
+            "opponent": "https://api.chess.com/pub/club/northern-ireland",
+            "start_time": 1567440304,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "Team Malta vs Team Ghana",
+            "@id": "https://api.chess.com/pub/match/1041684",
+            "opponent": "https://api.chess.com/pub/club/team-ghana",
+            "start_time": 1568563546,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL 2019 R4:Team Macedonia vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1043330",
+            "opponent": "https://api.chess.com/pub/club/team-macedonia",
+            "start_time": 1568585049,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2019: Team Malta vs Team Estonia",
+            "@id": "https://api.chess.com/pub/match/1043832",
+            "opponent": "https://api.chess.com/pub/club/team-estonia",
+            "start_time": 1568563556,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team of MOSLEMS vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1054464",
+            "opponent": "https://api.chess.com/pub/club/team-of-muslims",
+            "start_time": 1571900648,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "25/10 Team Challenge - open to players of all levels!ll levels!",
+            "@id": "https://api.chess.com/pub/match/1059020",
+            "opponent": "https://api.chess.com/pub/club/baker-street-irregulars",
+            "start_time": 1575221377,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team Malta vs Team Austria",
+            "@id": "https://api.chess.com/pub/match/1059180",
+            "opponent": "https://api.chess.com/pub/club/team-austria",
+            "start_time": 1581591552,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team R\u00e9union vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1068274",
+            "opponent": "https://api.chess.com/pub/club/team-reunion",
+            "start_time": 1574944749,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Team Pakistan vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1075468",
+            "opponent": "https://api.chess.com/pub/club/team-pakistan",
+            "start_time": 1576310707,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "EL2020 R1 Team Channel Islands vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1082164",
+            "opponent": "https://api.chess.com/pub/club/team-channel-islands",
+            "start_time": 1579107847,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2020 R1: Team Malta vs Bolivia",
+            "@id": "https://api.chess.com/pub/match/1082898",
+            "opponent": "https://api.chess.com/pub/club/bolivia",
+            "start_time": 1579107849,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "TEAM REPUBLIKA DE TAMAULIPAS vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1084592",
+            "opponent": "https://api.chess.com/pub/club/team-republika-de-tamaulipas",
+            "start_time": 1578995048,
+            "time_class": "daily",
+            "result": "win"
+        },
+        {
+            "name": "WL2020 R2: Team Malta vs Team Estonia",
+            "@id": "https://api.chess.com/pub/match/1093854",
+            "opponent": "https://api.chess.com/pub/club/team-estonia",
+            "start_time": 1581786329,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2020 R3: Team Finland vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1094348",
+            "opponent": "https://api.chess.com/pub/club/team-finland",
+            "start_time": 1583004806,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2020 R3: Team Ecuador vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1100482",
+            "opponent": "https://api.chess.com/pub/club/team-ecuador",
+            "start_time": 1584288211,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Los Jinetes del Apocalipsis vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1100906",
+            "opponent": "https://api.chess.com/pub/club/los-jinetes-del-apocalipsis",
+            "start_time": 1584774188,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Ambassadors of Chess vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1102350",
+            "opponent": "https://api.chess.com/pub/club/ambassadors-of-chess",
+            "start_time": 1584428587,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "EL2020 R5: Team Turkey vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1108282",
+            "opponent": "https://api.chess.com/pub/club/team-turkey",
+            "start_time": 1587053103,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2020 R4: Team Palestine vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1108760",
+            "opponent": "https://api.chess.com/pub/club/team-palestine",
+            "start_time": 1586966590,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "Ambassadors of Chess vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1119954",
+            "opponent": "https://api.chess.com/pub/club/ambassadors-of-chess",
+            "start_time": 1590649449,
+            "time_class": "daily",
+            "result": "lose"
+        },
+        {
+            "name": "WL2020 R5: Team Malta vs Team Dominican Republic",
+            "@id": "https://api.chess.com/pub/match/1121223",
+            "opponent": "https://api.chess.com/pub/club/team-dominican-republic",
+            "start_time": 1589558649,
+            "time_class": "daily",
+            "result": "draw"
+        },
+        {
+            "name": "Live Friendly Challenge 5min Blitz",
+            "@id": "https://api.chess.com/pub/match/live/5354",
+            "opponent": "https://api.chess.com/pub/club/team-galicia",
+            "start_time": 1575057614,
+            "time_class": "blitz",
+            "result": "lose"
+        }
+    ],
+    "in_progress": [
+        {
+            "name": "EL2020 R6:  Team Ireland vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1119952",
+            "opponent": "https://api.chess.com/pub/club/team-ireland",
+            "start_time": 1589558642,
+            "time_class": "daily"
+        },
+        {
+            "name": "WL2020 R6: Team Costa Rica vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1132666",
+            "opponent": "https://api.chess.com/pub/club/team-costa-rica",
+            "start_time": 1592237107,
+            "time_class": "daily"
+        },
+        {
+            "name": "Hello Malta",
+            "@id": "https://api.chess.com/pub/match/1134394",
+            "opponent": "https://api.chess.com/pub/club/latter-day-saint-chess-friends",
+            "start_time": 1593226984,
+            "time_class": "daily"
+        },
+        {
+            "name": "On Her Majesty's Secret  Service - HMSS vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1135452",
+            "opponent": "https://api.chess.com/pub/club/on-her-majestys-secret-service-hmss",
+            "start_time": 1592750802,
+            "time_class": "daily"
+        },
+        {
+            "name": "WL2020 R7: Team Malta vs Team Zambia",
+            "@id": "https://api.chess.com/pub/match/1143316",
+            "opponent": "https://api.chess.com/pub/club/team-zambia",
+            "start_time": 1594829047,
+            "time_class": "daily"
+        },
+        {
+            "name": "Team Malta vs D A C I I",
+            "@id": "https://api.chess.com/pub/match/1143616",
+            "opponent": "https://api.chess.com/pub/club/d-a-c-i-i",
+            "start_time": 1595746347,
+            "time_class": "daily"
+        },
+        {
+            "name": "EL2020 R7: Team Schweiz-Suisse-Svizzera vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1144112",
+            "opponent": "https://api.chess.com/pub/club/team-schweiz-suisse-svizzera",
+            "start_time": 1594829050,
+            "time_class": "daily"
+        },
+        {
+            "name": "Team Cyprus vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1148008",
+            "opponent": "https://api.chess.com/pub/club/team-cyprus",
+            "start_time": 1595239249,
+            "time_class": "daily"
+        },
+        {
+            "name": "Team Malta vs Team Saudi Arabia",
+            "@id": "https://api.chess.com/pub/match/1148548",
+            "opponent": "https://api.chess.com/pub/club/team-saudi-arabia",
+            "start_time": 1595566866,
+            "time_class": "daily"
+        },
+        {
+            "name": "Team Malta vs Team Taiwan \u53f0\u7063",
+            "@id": "https://api.chess.com/pub/match/1148694",
+            "opponent": "https://api.chess.com/pub/club/team-taiwan",
+            "start_time": 1595465884,
+            "time_class": "daily"
+        },
+        {
+            "name": "Ambassadors of Chess vs Team Malta",
+            "@id": "https://api.chess.com/pub/match/1150766",
+            "opponent": "https://api.chess.com/pub/club/ambassadors-of-chess",
+            "start_time": 1595890682,
+            "time_class": "daily"
+        }
+    ],
+    "registered": [
+        {
+            "name": "Team Malta vs DUNE",
+            "@id": "https://api.chess.com/pub/match/1148568",
+            "opponent": "https://api.chess.com/pub/club/dune",
+            "time_class": "daily"
+        }
+    ]
+}

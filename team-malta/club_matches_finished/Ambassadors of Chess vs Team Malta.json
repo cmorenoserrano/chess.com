@@ -1,0 +1,120 @@
+{
+    "@id": "https://api.chess.com/pub/match/1119954",
+    "name": "Ambassadors of Chess vs Team Malta",
+    "url": "https://www.chess.com/club/matches/1119954",
+    "start_time": 1590649449,
+    "end_time": 1593810122,
+    "status": "finished",
+    "boards": 5,
+    "settings": {
+        "rules": "chess",
+        "time_class": "daily",
+        "time_control": "1/259200",
+        "min_team_players": 1,
+        "max_rating": 1750,
+        "min_required_games": 0,
+        "autostart": false
+    },
+    "teams": {
+        "team1": {
+            "@id": "https://api.chess.com/pub/club/ambassadors-of-chess",
+            "name": "Ambassadors of Chess",
+            "url": "https://www.chess.com/club/ambassadors-of-chess",
+            "score": 6.5,
+            "result": "win",
+            "players": [
+                {
+                    "username": "fiela",
+                    "stats": "https://api.chess.com/pub/player/fiela/stats",
+                    "status": "premium",
+                    "played_as_black": "agreed",
+                    "played_as_white": "repetition",
+                    "board": "https://api.chess.com/pub/match/1119954/4"
+                },
+                {
+                    "username": "joseperdomo",
+                    "stats": "https://api.chess.com/pub/player/joseperdomo/stats",
+                    "status": "basic",
+                    "played_as_white": "win",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1119954/5"
+                },
+                {
+                    "username": "markinmo",
+                    "stats": "https://api.chess.com/pub/player/markinmo/stats",
+                    "status": "premium",
+                    "played_as_black": "win",
+                    "played_as_white": "agreed",
+                    "board": "https://api.chess.com/pub/match/1119954/3"
+                },
+                {
+                    "username": "mar_des",
+                    "stats": "https://api.chess.com/pub/player/mar_des/stats",
+                    "status": "basic",
+                    "played_as_black": "resigned",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1119954/1"
+                },
+                {
+                    "username": "ofumble",
+                    "stats": "https://api.chess.com/pub/player/ofumble/stats",
+                    "status": "basic",
+                    "played_as_black": "timeout",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1119954/2"
+                }
+            ],
+            "fair_play_removals": []
+        },
+        "team2": {
+            "@id": "https://api.chess.com/pub/club/team-malta",
+            "name": "Team Malta",
+            "url": "https://www.chess.com/club/team-malta",
+            "score": 3.5,
+            "result": "lose",
+            "players": [
+                {
+                    "username": "davidgnomo",
+                    "stats": "https://api.chess.com/pub/player/davidgnomo/stats",
+                    "status": "basic",
+                    "played_as_white": "timeout",
+                    "played_as_black": "timeout",
+                    "board": "https://api.chess.com/pub/match/1119954/5"
+                },
+                {
+                    "username": "kavall",
+                    "stats": "https://api.chess.com/pub/player/kavall/stats",
+                    "status": "basic",
+                    "played_as_white": "win",
+                    "played_as_black": "resigned",
+                    "board": "https://api.chess.com/pub/match/1119954/2"
+                },
+                {
+                    "username": "maltamover",
+                    "stats": "https://api.chess.com/pub/player/maltamover/stats",
+                    "status": "basic",
+                    "played_as_white": "agreed",
+                    "played_as_black": "repetition",
+                    "board": "https://api.chess.com/pub/match/1119954/4"
+                },
+                {
+                    "username": "vitaliikalugin",
+                    "stats": "https://api.chess.com/pub/player/vitaliikalugin/stats",
+                    "status": "premium",
+                    "played_as_white": "win",
+                    "played_as_black": "checkmated",
+                    "board": "https://api.chess.com/pub/match/1119954/1"
+                },
+                {
+                    "username": "vvv227",
+                    "stats": "https://api.chess.com/pub/player/vvv227/stats",
+                    "status": "premium",
+                    "played_as_white": "resigned",
+                    "played_as_black": "agreed",
+                    "board": "https://api.chess.com/pub/match/1119954/3"
+                }
+            ],
+            "fair_play_removals": []
+        }
+    }
+}

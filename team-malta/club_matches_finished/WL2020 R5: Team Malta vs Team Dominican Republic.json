@@ -1,0 +1,135 @@
+{
+    "@id": "https://api.chess.com/pub/match/1121223",
+    "name": "WL2020 R5: Team Malta vs Team Dominican Republic",
+    "url": "https://www.chess.com/club/matches/1121223",
+    "start_time": 1589558649,
+    "end_time": 1593154268,
+    "status": "finished",
+    "boards": 6,
+    "settings": {
+        "rules": "chess",
+        "time_class": "daily",
+        "time_control": "1/259200",
+        "min_team_players": 3,
+        "min_required_games": 10,
+        "autostart": false
+    },
+    "teams": {
+        "team1": {
+            "@id": "https://api.chess.com/pub/club/team-malta",
+            "name": "Team Malta",
+            "url": "https://www.chess.com/club/team-malta",
+            "score": 6,
+            "result": "draw",
+            "players": [
+                {
+                    "username": "clashofchess07",
+                    "stats": "https://api.chess.com/pub/player/clashofchess07/stats",
+                    "status": "basic",
+                    "played_as_white": "win",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1121223/6"
+                },
+                {
+                    "username": "kavall",
+                    "stats": "https://api.chess.com/pub/player/kavall/stats",
+                    "status": "basic",
+                    "played_as_white": "resigned",
+                    "played_as_black": "resigned",
+                    "board": "https://api.chess.com/pub/match/1121223/4"
+                },
+                {
+                    "username": "sigarru",
+                    "stats": "https://api.chess.com/pub/player/sigarru/stats",
+                    "status": "premium",
+                    "played_as_white": "win",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1121223/1"
+                },
+                {
+                    "username": "vitaliikalugin",
+                    "stats": "https://api.chess.com/pub/player/vitaliikalugin/stats",
+                    "status": "premium",
+                    "played_as_black": "resigned",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1121223/3"
+                },
+                {
+                    "username": "vvv227",
+                    "stats": "https://api.chess.com/pub/player/vvv227/stats",
+                    "status": "premium",
+                    "played_as_black": "resigned",
+                    "played_as_white": "resigned",
+                    "board": "https://api.chess.com/pub/match/1121223/5"
+                },
+                {
+                    "username": "zarbianite",
+                    "stats": "https://api.chess.com/pub/player/zarbianite/stats",
+                    "status": "basic",
+                    "played_as_white": "win",
+                    "played_as_black": "resigned",
+                    "board": "https://api.chess.com/pub/match/1121223/2"
+                }
+            ],
+            "fair_play_removals": []
+        },
+        "team2": {
+            "@id": "https://api.chess.com/pub/club/team-dominican-republic",
+            "name": "Team Dominican Republic",
+            "url": "https://www.chess.com/club/team-dominican-republic",
+            "score": 6,
+            "result": "draw",
+            "players": [
+                {
+                    "username": "gmdetroya",
+                    "stats": "https://api.chess.com/pub/player/gmdetroya/stats",
+                    "status": "basic",
+                    "played_as_black": "timeout",
+                    "played_as_white": "timeout",
+                    "board": "https://api.chess.com/pub/match/1121223/1"
+                },
+                {
+                    "username": "hr107",
+                    "stats": "https://api.chess.com/pub/player/hr107/stats",
+                    "status": "basic",
+                    "played_as_white": "timeout",
+                    "played_as_black": "timeout",
+                    "board": "https://api.chess.com/pub/match/1121223/6"
+                },
+                {
+                    "username": "juliopayero",
+                    "stats": "https://api.chess.com/pub/player/juliopayero/stats",
+                    "status": "basic",
+                    "played_as_black": "resigned",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1121223/2"
+                },
+                {
+                    "username": "miggs",
+                    "stats": "https://api.chess.com/pub/player/miggs/stats",
+                    "status": "premium",
+                    "played_as_black": "win",
+                    "played_as_white": "win",
+                    "board": "https://api.chess.com/pub/match/1121223/4"
+                },
+                {
+                    "username": "rafaelbrt",
+                    "stats": "https://api.chess.com/pub/player/rafaelbrt/stats",
+                    "status": "premium",
+                    "played_as_white": "win",
+                    "played_as_black": "resigned",
+                    "board": "https://api.chess.com/pub/match/1121223/3"
+                },
+                {
+                    "username": "stephen5628",
+                    "stats": "https://api.chess.com/pub/player/stephen5628/stats",
+                    "status": "basic",
+                    "played_as_white": "win",
+                    "played_as_black": "win",
+                    "board": "https://api.chess.com/pub/match/1121223/5"
+                }
+            ],
+            "fair_play_removals": []
+        }
+    }
+}
