@@ -22,18 +22,22 @@ def getPlayerDetails(username):
     details = response.json()
     dumps(details,file_name=username+'/details.json')
 
-    avatar = details["avatar"]
-    filename = avatar.split(".")
-    extension = filename[-1]
+    if "avatar" in details:
+        avatar = details["avatar"]
+        filename = avatar.split(".")
+        extension = filename[-1]
 
-    r = requests.get(avatar,stream=True)
-    if r.status_code == 200:
-        r.raw.decode_content = True
-        avatar = username+"."+str(extension)
-        #print(logo)
-        with open(avatar,'wb') as f:
-            shutil.copyfileobj(r.raw,f)
-            details["avatar"] = avatar
+        r = requests.get(avatar,stream=True)
+        if r.status_code == 200:
+            r.raw.decode_content = True
+            avatar = username+"."+str(extension)
+            #print(logo)
+            with open(avatar,'wb') as f:
+                shutil.copyfileobj(r.raw,f)
+                details["avatar"] = avatar
+        else:
+            print("\nError downloading the user's avatar. Replacing it with default")
+            details["avatar"] = 'defaultLogo.jpeg'
     else:
         print("\nError downloading the user's avatar. Replacing it with default")
         details["avatar"] = 'defaultLogo.jpeg'
