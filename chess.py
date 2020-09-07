@@ -211,7 +211,7 @@ def printProgressBar (
 #---------------------------------
 
 def generateLeagueTable(clubname,results, start_date, end_date,logo):
-    t, graphNo = 0, len(results)+1
+    t, graphNo = 0, len(results)
     printProgressBar(t,graphNo)
     pdf = PDF()
     pdf.alias_nb_pages()
