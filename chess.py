@@ -21,6 +21,23 @@ def getPlayerDetails(username):
     response = session.get(baseUrl)
     details = response.json()
     dumps(details,file_name=username+'/details.json')
+
+    avatar = details["avatar"]
+    filename = avatar.split(".")
+    extension = filename[-1]
+
+    r = requests.get(avatar,stream=True)
+    if r.status_code == 200:
+        r.raw.decode_content = True
+        avatar = username+"."+str(extension)
+        #print(logo)
+        with open(avatar,'wb') as f:
+            shutil.copyfileobj(r.raw,f)
+            details["avatar"] = avatar
+    else:
+        print("\nError downloading the user's avatar. Replacing it with default")
+        details["avatar"] = 'defaultLogo.jpeg'
+    
     #print(stats)
     return details
 
@@ -248,7 +265,8 @@ def generateLeagueTable(clubname,results, start_date, end_date,logo):
     pdf.multi_cell(0,7,content1,0)
     pdf.ln(5)
     if "avatar" in details:
-        pdf.image(details["avatar"], 230, 50, 33, type='jpeg')
+        pdf.image(details["avatar"], 230, 50, 33)
+        #pdf.image(details["avatar"], 230, 50, 33, type='jpeg')
     else:
         pdf.image("defaultLogo.jpeg",230,50,33, type='jpeg')
     pdf.set_font('Times','B',18)
@@ -281,7 +299,10 @@ def generateLeagueTable(clubname,results, start_date, end_date,logo):
         pdf.multi_cell(0,7,content9,0)
         pdf.ln(5)
     if "chess_bullet" in stats:
-        content10 = "Bullet rating: "+str(stats["chess_bullet"]["last"]["rating"])+" (current), "+str(stats["chess_bullet"]["best"]["rating"])+ " (best)"
+        if "best" in stats["chess_bullet"]:
+            content10 = "Bullet rating: "+str(stats["chess_bullet"]["last"]["rating"])+" (current), "+str(stats["chess_bullet"]["best"]["rating"])+ " (best)"
+        else:
+            content10 = "Bullet rating: "+str(stats["chess_bullet"]["last"]["rating"])+" (current)"
         pdf.multi_cell(0,7,content10,0)
         pdf.ln(5)
     if "tactics" in stats:
@@ -289,7 +310,8 @@ def generateLeagueTable(clubname,results, start_date, end_date,logo):
         pdf.multi_cell(0,7,content11,0)
         pdf.ln(5)
     if "puzzle_rush" in stats:
-        content6 = "Puzzle Rush score: "+str(stats["puzzle_rush"]["best"]["score"])+" (record)"
+        if "best" in stats["puzzle_rush"]:
+            content6 = "Puzzle Rush score: "+str(stats["puzzle_rush"]["best"]["score"])+" (record)"
         pdf.multi_cell(0,7,content6,0)
         pdf.ln(5)
     
