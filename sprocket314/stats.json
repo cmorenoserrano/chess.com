@@ -1,20 +1,20 @@
 {
     "chess_daily": {
         "last": {
-            "rating": 1420,
-            "date": 1595881069,
-            "rd": 65
+            "rating": 1459,
+            "date": 1598291565,
+            "rd": 59
         },
         "best": {
-            "rating": 1427,
-            "date": 1594926812,
-            "game": "https://www.chess.com/daily/game/268001836"
+            "rating": 1469,
+            "date": 1597884694,
+            "game": "https://www.chess.com/daily/game/265276258"
         },
         "record": {
-            "win": 32,
-            "loss": 17,
-            "draw": 7,
-            "time_per_move": 22247,
+            "win": 39,
+            "loss": 25,
+            "draw": 11,
+            "time_per_move": 21640,
             "timeout_percent": 0
         },
         "tournament": {
@@ -34,7 +34,7 @@
             "win": 0,
             "loss": 2,
             "draw": 0,
-            "time_per_move": 22247,
+            "time_per_move": 21640,
             "timeout_percent": 0
         },
         "tournament": {
@@ -80,9 +80,9 @@
     },
     "chess_blitz": {
         "last": {
-            "rating": 999,
-            "date": 1594675865,
-            "rd": 65
+            "rating": 994,
+            "date": 1599164853,
+            "rd": 71
         },
         "best": {
             "rating": 1188,
@@ -90,15 +90,15 @@
             "game": "https://www.chess.com/live/game/5145396950"
         },
         "record": {
-            "win": 74,
-            "loss": 86,
+            "win": 77,
+            "loss": 90,
             "draw": 9
         }
     },
     "tactics": {
         "highest": {
-            "rating": 1329,
-            "date": 1591518110
+            "rating": 1367,
+            "date": 1599042792
         },
         "lowest": {
             "rating": 411,

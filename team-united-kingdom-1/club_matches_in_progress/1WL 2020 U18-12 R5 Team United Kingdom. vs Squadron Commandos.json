@@ -20,26 +20,30 @@
             "@id": "https://api.chess.com/pub/club/team-united-kingdom-1",
             "name": "Team United Kingdom.",
             "url": "https://www.chess.com/club/team-united-kingdom-1",
-            "score": 8.5,
+            "score": 11.5,
             "players": [
                 {
                     "username": "aj-read",
                     "stats": "https://api.chess.com/pub/player/aj-read/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_black": "win",
+                    "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1106370/12"
                 },
                 {
                     "username": "antoniobinoni",
                     "stats": "https://api.chess.com/pub/player/antoniobinoni/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 87.5,
                     "status": "premium",
+                    "played_as_black": "timeout",
+                    "played_as_white": "timeout",
                     "board": "https://api.chess.com/pub/match/1106370/2"
                 },
                 {
                     "username": "bioinformagician",
                     "stats": "https://api.chess.com/pub/player/bioinformagician/stats",
-                    "timeout_percent": 0.63,
+                    "timeout_percent": 0,
                     "status": "premium",
                     "played_as_black": "stalemate",
                     "played_as_white": "resigned",
@@ -48,7 +52,7 @@
                 {
                     "username": "counor",
                     "stats": "https://api.chess.com/pub/player/counor/stats",
-                    "timeout_percent": 17.39,
+                    "timeout_percent": 0,
                     "status": "premium",
                     "played_as_black": "resigned",
                     "played_as_white": "win",
@@ -77,6 +81,7 @@
                     "stats": "https://api.chess.com/pub/player/rash54/stats",
                     "timeout_percent": 0,
                     "status": "basic",
+                    "played_as_black": "win",
                     "played_as_white": "agreed",
                     "board": "https://api.chess.com/pub/match/1106370/4"
                 },
@@ -92,8 +97,8 @@
                 {
                     "username": "thehock",
                     "stats": "https://api.chess.com/pub/player/thehock/stats",
-                    "timeout_percent": 0,
-                    "status": "premium",
+                    "timeout_percent": 24.83,
+                    "status": "closed",
                     "played_as_black": "resigned",
                     "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1106370/5"
@@ -131,7 +136,7 @@
             "@id": "https://api.chess.com/pub/club/squadron-commandos",
             "name": "Squadron Commandos",
             "url": "https://www.chess.com/club/squadron-commandos",
-            "score": 9.5,
+            "score": 11.5,
             "players": [
                 {
                     "username": "bishoppair00",
@@ -154,8 +159,10 @@
                 {
                     "username": "dtmajesty",
                     "stats": "https://api.chess.com/pub/player/dtmajesty/stats",
-                    "timeout_percent": 48.72,
+                    "timeout_percent": 46.81,
                     "status": "premium",
+                    "played_as_white": "timeout",
+                    "played_as_black": "timeout",
                     "board": "https://api.chess.com/pub/match/1106370/12"
                 },
                 {
@@ -170,7 +177,7 @@
                 {
                     "username": "jager69",
                     "stats": "https://api.chess.com/pub/player/jager69/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 48.8,
                     "status": "premium",
                     "played_as_black": "resigned",
                     "played_as_white": "resigned",
@@ -190,6 +197,8 @@
                     "stats": "https://api.chess.com/pub/player/llthomasll/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_white": "win",
+                    "played_as_black": "win",
                     "board": "https://api.chess.com/pub/match/1106370/2"
                 },
                 {
@@ -204,7 +213,7 @@
                 {
                     "username": "onegr8r",
                     "stats": "https://api.chess.com/pub/player/onegr8r/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 33.33,
                     "status": "basic",
                     "played_as_white": "win",
                     "played_as_black": "checkmated",
@@ -213,7 +222,7 @@
                 {
                     "username": "pawnstormer2012",
                     "stats": "https://api.chess.com/pub/player/pawnstormer2012/stats",
-                    "timeout_percent": 3.68,
+                    "timeout_percent": 27.4,
                     "status": "premium",
                     "played_as_white": "resigned",
                     "board": "https://api.chess.com/pub/match/1106370/1"
@@ -221,15 +230,16 @@
                 {
                     "username": "sankoff_64",
                     "stats": "https://api.chess.com/pub/player/sankoff_64/stats",
-                    "timeout_percent": 1.21,
+                    "timeout_percent": 1.89,
                     "status": "premium",
+                    "played_as_white": "resigned",
                     "played_as_black": "agreed",
                     "board": "https://api.chess.com/pub/match/1106370/4"
                 },
                 {
                     "username": "vicente9999",
                     "stats": "https://api.chess.com/pub/player/vicente9999/stats",
-                    "timeout_percent": 4.55,
+                    "timeout_percent": 0,
                     "status": "premium",
                     "played_as_white": "win",
                     "played_as_black": "agreed",

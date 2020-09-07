@@ -19,19 +19,20 @@
             "@id": "https://api.chess.com/pub/club/team-united-kingdom-1",
             "name": "Team United Kingdom.",
             "url": "https://www.chess.com/club/team-united-kingdom-1",
-            "score": 18.5,
+            "score": 27,
             "players": [
                 {
                     "username": "antoniobinoni",
                     "stats": "https://api.chess.com/pub/player/antoniobinoni/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 87.5,
                     "status": "premium",
+                    "played_as_black": "timeout",
                     "board": "https://api.chess.com/pub/match/1129694/17"
                 },
                 {
                     "username": "bad-boy",
                     "stats": "https://api.chess.com/pub/player/bad-boy/stats",
-                    "timeout_percent": 0.71,
+                    "timeout_percent": 9.38,
                     "status": "basic",
                     "played_as_black": "win",
                     "played_as_white": "win",
@@ -78,6 +79,8 @@
                     "stats": "https://api.chess.com/pub/player/ferrarifan27/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_white": "win",
+                    "played_as_black": "win",
                     "board": "https://api.chess.com/pub/match/1129694/5"
                 },
                 {
@@ -85,6 +88,7 @@
                     "stats": "https://api.chess.com/pub/player/gedr59/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_black": "win",
                     "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1129694/12"
                 },
@@ -93,6 +97,8 @@
                     "stats": "https://api.chess.com/pub/player/greatrexr/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_black": "resigned",
+                    "played_as_white": "resigned",
                     "board": "https://api.chess.com/pub/match/1129694/8"
                 },
                 {
@@ -107,14 +113,16 @@
                     "stats": "https://api.chess.com/pub/player/hollywoodgwd/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_black": "win",
                     "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1129694/1"
                 },
                 {
                     "username": "horseychess",
                     "stats": "https://api.chess.com/pub/player/horseychess/stats",
-                    "timeout_percent": 1.09,
+                    "timeout_percent": 4,
                     "status": "premium",
+                    "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1129694/4"
                 },
                 {
@@ -156,6 +164,7 @@
                     "stats": "https://api.chess.com/pub/player/pannalman/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_black": "win",
                     "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1129694/3"
                 },
@@ -169,8 +178,9 @@
                 {
                     "username": "strangemover",
                     "stats": "https://api.chess.com/pub/player/strangemover/stats",
-                    "timeout_percent": 0.64,
+                    "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_black": "win",
                     "board": "https://api.chess.com/pub/match/1129694/7"
                 },
                 {
@@ -187,6 +197,7 @@
                     "stats": "https://api.chess.com/pub/player/tur9on/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_white": "agreed",
                     "played_as_black": "win",
                     "board": "https://api.chess.com/pub/match/1129694/6"
                 },
@@ -195,6 +206,7 @@
                     "stats": "https://api.chess.com/pub/player/uxb_steve/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_white": "win",
                     "played_as_black": "win",
                     "board": "https://api.chess.com/pub/match/1129694/13"
                 },
@@ -208,7 +220,7 @@
                 {
                     "username": "zeyrion1",
                     "stats": "https://api.chess.com/pub/player/zeyrion1/stats",
-                    "timeout_percent": 3.08,
+                    "timeout_percent": 2.7,
                     "status": "basic",
                     "played_as_white": "checkmated",
                     "played_as_black": "win",
@@ -230,19 +242,20 @@
             "@id": "https://api.chess.com/pub/club/team-italia-doc",
             "name": "Team Italia DOC",
             "url": "https://www.chess.com/club/team-italia-doc",
-            "score": 8.5,
+            "score": 12,
             "players": [
                 {
                     "username": "andrea71ra",
                     "stats": "https://api.chess.com/pub/player/andrea71ra/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_black": "resigned",
                     "board": "https://api.chess.com/pub/match/1129694/4"
                 },
                 {
                     "username": "barigello",
                     "stats": "https://api.chess.com/pub/player/barigello/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 1.11,
                     "status": "premium",
                     "played_as_black": "checkmated",
                     "played_as_white": "checkmated",
@@ -278,8 +291,10 @@
                 {
                     "username": "dirkflasche",
                     "stats": "https://api.chess.com/pub/player/dirkflasche/stats",
-                    "timeout_percent": 1.75,
+                    "timeout_percent": 1.71,
                     "status": "premium",
+                    "played_as_black": "resigned",
+                    "played_as_white": "resigned",
                     "board": "https://api.chess.com/pub/match/1129694/5"
                 },
                 {
@@ -287,6 +302,7 @@
                     "stats": "https://api.chess.com/pub/player/elmarba/stats",
                     "timeout_percent": 0,
                     "status": "basic",
+                    "played_as_black": "agreed",
                     "played_as_white": "resigned",
                     "board": "https://api.chess.com/pub/match/1129694/6"
                 },
@@ -302,7 +318,7 @@
                 {
                     "username": "gd1966",
                     "stats": "https://api.chess.com/pub/player/gd1966/stats",
-                    "timeout_percent": 0,
+                    "timeout_percent": 2.7,
                     "status": "premium",
                     "board": "https://api.chess.com/pub/match/1129694/2"
                 },
@@ -318,7 +334,7 @@
                 {
                     "username": "giosibo",
                     "stats": "https://api.chess.com/pub/player/giosibo/stats",
-                    "timeout_percent": 3.7,
+                    "timeout_percent": 14.71,
                     "status": "basic",
                     "board": "https://api.chess.com/pub/match/1129694/11"
                 },
@@ -327,6 +343,8 @@
                     "stats": "https://api.chess.com/pub/player/il_king/stats",
                     "timeout_percent": 0,
                     "status": "basic",
+                    "played_as_white": "win",
+                    "played_as_black": "win",
                     "board": "https://api.chess.com/pub/match/1129694/8"
                 },
                 {
@@ -357,12 +375,13 @@
                     "stats": "https://api.chess.com/pub/player/reflex56/stats",
                     "timeout_percent": 0,
                     "status": "basic",
+                    "played_as_white": "win",
                     "board": "https://api.chess.com/pub/match/1129694/17"
                 },
                 {
                     "username": "sashadan",
                     "stats": "https://api.chess.com/pub/player/sashadan/stats",
-                    "timeout_percent": 2.56,
+                    "timeout_percent": 6.98,
                     "status": "basic",
                     "played_as_white": "win",
                     "played_as_black": "agreed",
@@ -371,15 +390,17 @@
                 {
                     "username": "saurosol",
                     "stats": "https://api.chess.com/pub/player/saurosol/stats",
-                    "timeout_percent": 7.35,
+                    "timeout_percent": 46.67,
                     "status": "premium",
+                    "played_as_white": "timeout",
                     "board": "https://api.chess.com/pub/match/1129694/7"
                 },
                 {
                     "username": "savi-xa",
                     "stats": "https://api.chess.com/pub/player/savi-xa/stats",
-                    "timeout_percent": 0.99,
+                    "timeout_percent": 2.26,
                     "status": "basic",
+                    "played_as_black": "resigned",
                     "played_as_white": "resigned",
                     "board": "https://api.chess.com/pub/match/1129694/13"
                 },
@@ -388,6 +409,7 @@
                     "stats": "https://api.chess.com/pub/player/schiappone/stats",
                     "timeout_percent": 0,
                     "status": "basic",
+                    "played_as_white": "resigned",
                     "played_as_black": "resigned",
                     "board": "https://api.chess.com/pub/match/1129694/1"
                 },
@@ -405,6 +427,7 @@
                     "stats": "https://api.chess.com/pub/player/uranio1977/stats",
                     "timeout_percent": 0,
                     "status": "premium",
+                    "played_as_white": "resigned",
                     "played_as_black": "resigned",
                     "board": "https://api.chess.com/pub/match/1129694/12"
                 },
@@ -413,6 +436,7 @@
                     "stats": "https://api.chess.com/pub/player/van_bob/stats",
                     "timeout_percent": 0,
                     "status": "basic",
+                    "played_as_white": "resigned",
                     "played_as_black": "resigned",
                     "board": "https://api.chess.com/pub/match/1129694/3"
                 },

@@ -118,10 +118,16 @@ def getClubMatches(clubname):
 
 def getResults(clubname,members,scope_finished,scope_in_progress):
     #print(scope_finished)
+    t, graphNo = 0, len(scope_finished)
+    if len(scope_finished) != 0:
+        printProgressBar(t,graphNo)
     clubUrl = "https://api.chess.com/pub/club/" + clubname
     results = {}
     
     for match in scope_finished:
+        t+=1
+        if len(scope_finished) != 0:
+            printProgressBar(t,graphNo)
         baseUrl = match["@id"]
         response = session.get(baseUrl)
         team_match = response.json()
@@ -143,7 +149,13 @@ def getResults(clubname,members,scope_finished,scope_in_progress):
                             members[player["username"]] += 0.5
 
     #print(scope_in_progress)
+    t, graphNo = 0, len(scope_in_progress)
+    if len(scope_in_progress) != 0:
+        printProgressBar(t,graphNo)
     for match in scope_in_progress:
+        t+=1
+        if len(scope_in_progress) != 0:
+            printProgressBar(t,graphNo)
         baseUrl = match["@id"]
         response = session.get(baseUrl)
         team_match = response.json()
@@ -199,12 +211,16 @@ def printProgressBar (
 #---------------------------------
 
 def generateLeagueTable(clubname,results, start_date, end_date,logo):
+    t, graphNo = 0, len(results)+1
+    printProgressBar(t,graphNo)
     pdf = PDF()
     pdf.alias_nb_pages()
     #components = final
     header = ['Position','Member','Daily rating','Points']
     data = []
     for i in range(1,len(results)+1):
+        t+=1
+        printProgressBar(t,graphNo)
         if results[i-1][1] > 0:
             aux = [str(i),results[i-1][0],str(getPlayerStats(results[i-1][0])["chess_daily"]["last"]["rating"]),str(results[i-1][1])]
             data.append(aux)
@@ -442,8 +458,8 @@ def output_pdf(pages, filename):
 
 #-----------------------------------------------------------------------------
 def main():
-    t, graphNo = 0, 4
-    printProgressBar(t,graphNo)
+    #t, graphNo = 0, 4
+    #printProgressBar(t,graphNo)
     username = ""
     club = ""
     scope_finished = {}
@@ -458,8 +474,8 @@ def main():
         end_date = dateRange[1]
         end_epoch = round(datetime.datetime(int(last[2]),int(last[1]),int(last[0])).timestamp())
 
-    t +=1
-    printProgressBar(t,graphNo)
+    #t +=1
+    #printProgressBar(t,graphNo)
 
     
     if args["username"]:
@@ -470,15 +486,15 @@ def main():
         getPlayerMatches(username)
         getPlayerStats(username)
 
-    t +=1
-    printProgressBar(t,graphNo)
+    #t +=1
+    #printProgressBar(t,graphNo)
 
     if args["userGames"]:
         if args["username"]:
             getUserGames(username)
 
-    t +=1
-    printProgressBar(t,graphNo)
+    #t +=1
+    #printProgressBar(t,graphNo)
 
     if args["club"]:
         club = args["club"]
@@ -492,8 +508,8 @@ def main():
             scope_finished = list(filter(lambda match: (match["start_time"] >= start_epoch) and (match["start_time"] <= end_epoch), matches["finished"]))
             scope_in_progress = matches["in_progress"]
 
-    t +=1
-    printProgressBar(t,graphNo)
+    #t +=1
+    #printProgressBar(t,graphNo)
 
     if args["report"]:
         if args["club"]:
@@ -510,28 +526,28 @@ def main():
                     members.update({member["username"] : 0})
                 matches = getClubMatches(club)
 
-                t +=1
-                printProgressBar(t,graphNo)
+                #t +=1
+                #printProgressBar(t,graphNo)
 
                 scope_finished = list(filter(lambda match: (match["start_time"] >= start_epoch) and (match["start_time"] <= end_epoch), matches["finished"]))
 
-                t +=1
-                printProgressBar(t,graphNo)
+                #t +=1
+                #printProgressBar(t,graphNo)
                 
                 scope_in_progress = matches["in_progress"]
 
-                t +=1
-                printProgressBar(t,graphNo)
+                #t +=1
+                #printProgressBar(t,graphNo)
 
                 results = getResults(club,members,scope_finished,scope_in_progress)
 
-                t +=1
-                printProgressBar(t,graphNo)
+                #t +=1
+                #printProgressBar(t,graphNo)
                 
                 generateLeagueTable(club,results,start_date,end_date,getClubLogo(club))
 
-                t +=1
-                printProgressBar(t,graphNo)
+                #t +=1
+                #printProgressBar(t,graphNo)
 
 
   
